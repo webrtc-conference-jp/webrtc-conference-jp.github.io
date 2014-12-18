@@ -21,7 +21,7 @@
 
 #mainview {
 	clear: both;
-	height: 580px;
+	height: 790px;
 	background: #eef2f5 url(../img/mainview_bg.jpg) no-repeat center;
 }
 	#mainview_container {
@@ -84,20 +84,73 @@
 				font-weight: bold;
 			}
 		/* entry */
-		#mainview_btn {
-			clear: both;
-			display: block;
-			padding: 26px 0 0 152px;
+		#mainview_entry {
+			margin-left: -20px;
+			margin-top: 65px;
 		}
-			#mainview_btn a {
-				display: block;
-				width: 310px;
-				height: 50px;
-				background: url(../img/mainview_btn.png) no-repeat;
-				text-indent: 100%;
-				white-space: nowrap;
-				overflow: hidden;
+			.mainview_entry_item {
+				position: relative;
+				width: 420px;
+				height: 270px;
+				margin-left: 20px;
+				padding: 20px;
+				background: #fff;
+				float: left;
 			}
+			.mainview_entry_item#mainview_entry_general {
+				background: url(../img/mainview_romo.jpg) no-repeat;
+			}
+			.mainview_entry_item#mainview_entry_developer {
+				
+			}
+				.mainview_entry_item h3 {
+					display: block;
+					padding-top: 8px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid #f91031;
+					font-size: 129%;
+					line-height: 1.1;
+				}
+				.mainview_entry_item .txt {
+					padding-top: 20px;
+					font-size: 100%;
+					line-height: 1.64;
+				}
+				.mainview_entry_item#mainview_entry_general .txt {
+					width: 220px;
+				}
+				.mainview_entry_item .link {
+					padding-top: 16px;
+					font-size: 100%;
+					line-height: 1.64;
+                    text-decoration:underline;
+				}
+					.mainview_entry_item .link a {
+						padding-left: 14px;
+						background: url(../common/img/body/icon_link.png) no-repeat left;
+						color: #191919;
+						text-decoration: none;
+					}
+				.mainview_entry_item .btn {
+					position: absolute;
+					left: 20px;
+					bottom: 20px;
+				}
+					.mainview_entry_item .btn a,
+					.mainview_entry_item .btn span {
+						display: block;
+						width: 420px;
+						height: 50px;
+						text-indent: 100%;
+						white-space: nowrap;
+						overflow: hidden;
+					}
+					.mainview_entry_item#mainview_entry_general .btn a {
+						background: url(../img/btn_purchase.png) no-repeat;
+					}
+					.mainview_entry_item#mainview_entry_developer .btn span {
+						background: url(../img/btn_ready.png) no-repeat;
+					}
 
 
 /* --------------------------------------------------
