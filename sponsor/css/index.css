@@ -143,7 +143,9 @@
 		border-bottom: none;
 	}
 
-
+.clear-border-bottom {
+    border-bottom: initial;
+}
 
 
 
