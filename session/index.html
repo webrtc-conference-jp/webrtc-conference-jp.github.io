@@ -28,7 +28,16 @@
 	<script type="text/javascript" src="../common/js/lib/modernizr.min.js"></script>
 	<!--[if lte IE 6]><script type="text/javascript" src="common/js/lib/DD_belatedPNG_0.0.8a-min.js"></script><![endif]-->
 	<link rel="shortcut icon" href="/favicon.ico" >
-
+    <style>
+        /*
+            セッション内容中のリスト表示を可能に（リセットされちゃってるのを打ち消し）。
+            session/css/index.css を編集してもよいならそちらにこのスタイルを移動。
+        */
+        .detail_txt li {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 
 
@@ -105,11 +114,11 @@
 						<div class="session_time f_ossb">11:00 - 11:45</div>
 						<div class="session_context">
 							<a href="javascript:void(0);" data-id="session_02">
-								<p class="ttl"><span class="main">基調講演</span><span class="sub">（調整中）</span></p>
+								<p class="ttl"><span class="main">基調講演</span><span class="sub">WebRTCに於けるサーバーソリューションの決め手とは？</span></p>
 								<p class="name">Chad Hart</p>
 								<ul class="icon">
 									<li class="icon_tech">Tech</li>
-									<li class="icon_lv1">初級</li>
+									<li class="icon_lv2">中級</li>
 								</ul>
 							</a>
 						</div>
@@ -473,11 +482,11 @@ WebRTCが数多の企業や通信会社によって提供されるにあたっ�
 				<div id="session_02" class="detail_item">
 					<h3>
 						<span class="main">基調講演</span>
-						<span class="sub">（調整中）</span>
+						<span class="sub">WebRTCに於けるサーバーソリューションの決め手とは？</span>
 					</h3>
 					<ul class="icon">
 						<li class="icon_biz">Tech</li>
-						<li class="icon_lv1">初級</li>
+						<li class="icon_lv2">中級</li>
 					</ul>
 					<div class="detail_base cfx">
 						<div class="detail_base_item">
@@ -488,8 +497,8 @@ WebRTCが数多の企業や通信会社によって提供されるにあたっ�
 						</div>
 						<div class="detail_base_item">
 							<dl class="company cfx">
-								<dt>所属</dt>
-								<dd>Dialogic Inc.</dd>
+								<dt>所属・肩書</dt>
+								<dd>Senior Director, Product Marketing, Dialogic / Chief Editor, webrtcHacks</dd>
 							</dl>
 						</div>
 					</div>
@@ -503,7 +512,17 @@ WebRTCが数多の企業や通信会社によって提供されるにあたっ�
 						<dl class="txt cfx">
 							<dt>講演内容詳細</dt>
 							<dd>
-                                (調整中)
+                                <p>
+                                    WebRTCはブラウザ・ベースの技術ですが、多くのユースケースに於いて最高のパフォーマンスと機能を得る為には、サーバー・ソリューションが必要となります。本セッションはそれらのサーバー・ソリューションについてお話し致します。
+                                </p>
+                                <ul>
+                                    <li>Firewall及びNATトラバーサルに必要なSTUNサーバー、TURNサーバー</li>
+                                    <li>カンファレンスやレコーディング、トランスコーディング、ストリーミング、メディアプレーン・インターワーキング機能に必要なメディア・サーバー</li>
+                                    <li>既存の電話ネットワークと相互接続をする為のゲートウェイ</li>
+                                </ul>
+                                <p>
+                                このセッションはこれらの機能を実装する多くの方法や、サービス展開時のベスト・プラクティスについてもご説明致します。
+                                </p>
                             </dd>
 						</dl>
 					</div>
