@@ -21,7 +21,7 @@
 
 #mainview {
 	clear: both;
-	height: 790px;
+	height: 845px;
 	background: #eef2f5 url(../img/mainview_bg.jpg) no-repeat center;
 }
 	#mainview_container {
@@ -86,7 +86,7 @@
 		/* entry */
 		#mainview_entry {
 			margin-left: -20px;
-			margin-top: 65px;
+			margin-top: 29px;
 		}
 			.mainview_entry_item {
 				position: relative;
@@ -151,6 +151,18 @@
 					.mainview_entry_item#mainview_entry_developer .btn span {
 						background: url(../img/btn_ready.png) no-repeat;
 					}
+        /* News */
+        .mainview_news {
+            clear: both;
+            padding: 10px 40px 10px 40px;
+            margin-top: 50px;
+        }
+            .mainview_news_item {
+                background-color: rgba(249,16,49,0.55);
+                padding: 10px;
+                color: #fff;
+                font-weight: bold;
+            }
 
 
 /* --------------------------------------------------
