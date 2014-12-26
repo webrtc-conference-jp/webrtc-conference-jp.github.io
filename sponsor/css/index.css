@@ -148,12 +148,14 @@
 					
 				}
 		#coorporation ul > li > a,
-		#support ul > li > a {
+		#support ul > li > a,
+		#media ul > li > a {
 			display: block;
 			border: 1px solid #d2d2d2;
 		}
 			#coorporation ul > li > a > img,
-			#support ul > li > a > img {
+			#support ul > li > a > img,
+			#media ul > li > a > img {
 				padding: 8px;
 			}
 
