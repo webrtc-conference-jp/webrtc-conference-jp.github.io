@@ -47,6 +47,8 @@
 				}
 					.section_item .img {
 						float: left;
+						display: block;
+						border: 1px solid #d2d2d2;
 					}
 					.section_item .context {
 						float: left;
@@ -80,13 +82,16 @@
 			#platinum .section_item:first-child {
 				margin-top: 20px;
 			}
-					#platinum .section_item .img {
-						width: 200px;
-					}
-					#platinum .section_item .context {
-						width: 700px;
-						margin-left: 40px;
-					}
+				#platinum .section_item .img {
+					width: 218px;
+				}
+				#platinum .section_item .img img {
+					padding: 9px;
+				}
+				#platinum .section_item .context {
+					width: 680px;
+					margin-left: 40px;
+				}
 			
 		/* item : gold */
 		#gold .section_box {
@@ -97,13 +102,16 @@
 				margin-left: 20px;
 				float: left;
 			}
-					#gold .section_item .img {
-						width: 150px;
-					}
-					#gold .section_item .context {
-						width: 280px;
-						margin-left: 30px;
-					}
+				#gold .section_item .img {
+					width: 168px;
+				}
+				#gold .section_item .img img {
+					padding: 9px;
+				}
+				#gold .section_item .context {
+					width: 260px;
+					margin-left: 30px;
+				}
 			
 		/* item : silver */
 		#silver .section_box {
@@ -114,13 +122,16 @@
 				margin-left: 20px;
 				float: left;
 			}
-					#silver .section_item .img {
-						width: 100px;
-					}
-					#silver .section_item .context {
-						width: 180px;
-						margin-left: 20px;
-					}
+				#silver .section_item .img {
+					width: 116px;
+				}
+				#silver .section_item .img img {
+					padding: 8px;
+				}
+				#silver .section_item .context {
+					width: 162px;
+					margin-left: 20px;
+				}
 		
 		/* item : coorporation */
 		.section_box ul {
@@ -128,7 +139,7 @@
 		}
 			.section_box li {
 				display: block;
-				width: 100px;
+				width: 118px;
 				margin-left: 20px;
 				margin-top: 20px;
 				float: left;
@@ -136,7 +147,18 @@
 				.section_box li a {
 					
 				}
-		
+		#coorporation ul > li > a,
+		#support ul > li > a,
+		#media ul > li > a {
+			display: block;
+			border: 1px solid #d2d2d2;
+		}
+			#coorporation ul > li > a > img,
+			#support ul > li > a > img,
+			#media ul > li > a > img {
+				padding: 8px;
+			}
+
 	/* item : media */
 	#media .section_container {
 		padding-bottom: 30px;
