@@ -1,0 +1,220 @@
+{
+    "douglas_tait": {
+        "name": "Douglas Tait",
+        "title": "Oracleの通信マーケティング担当ディレクターであり、通信業界のビジネスと技術のエキスパート",
+        "background": "ダグラス タイトはOracleにおいて、通信業界向け戦略を担う次世代ネットワーク向けサービス/アプリケーション・インフラストラクチャの調査、開発を担当、オラクルコミュニケーションのグローバル・マーケティング・ディレクターとして、サービスを通信インフラ上で展開するプラットフォームや WebRTC技術の普及促進に務めています。<br>ダグラスはOracle以前、BEAではグローバル・テレコム・マーケット・ディレク ターを担当し、またサン・マイクロシステムズでは通信業界向け Java™テクノロジーであるJAINに関するイニシアチブを設立しています。<br>これらの活動に加え、通信市場向けに標準化されたインタフェース/プラットフォーム/プロトコルを推進するためのグローバルな標準化団体やコミュニティ、ユーザーグループの設立に深く関わっています。",
+        "image": "doug_tait.png"
+    },
+    "chad_hart": {
+        "name": "Chad Hart",
+        "title": "Senior Director, Product Marketing, Dialogic / Chief Editor, webrtcHacks",
+        "background": "DialogicのProduct Marketing部門Senior Directorを務め、PowerMedia製品ラインとWebRTCポートフォリオの戦略、エバンジェリスト活動、及びパートナーとのエコシステムの開発に責任を持つ。Dialogicに勤務する前にはOracle/Acme PacketにてWebRTC、OTT通信、及びNFV（Network Function Virtualization）の分野に注力。上記以外にもCTIやVoIP、IMSの分野にて常に最先端のソリューションに関わり、事業開発、プロダクト・マーケティング、プロダクト・マネジメントやアナリストとして、通信業界での経験を14年以上持つ。またWebRTC開発者向けのブログ、webrtcHacks.comのチーフ・エディターも務める。Worcester Polytechnic Institute大学にて電子通信工学部学士、及びMBAを取得。",
+        "image": "chad_hart.png"
+    },
+    "kensaku_komatsu": {
+        "name": "小松 健作",
+        "title": "NTTコミュニケーションズ株式会社",
+        "background": "1972年生まれ。NTTコミュニケーションズにてネットワークとWebとの関わりや、インタラクティブマルチデバイスWebサービスに関する研究開発・標準化活動に従事。Google API Expert（HTML5）、Microsoft Most Valuable Professional（Internet Explorer）",
+        "image": "kensaku_komatsu.png"
+
+    },
+    "ryosuke_nakai": {
+        "name": "中居 良介",
+        "title": "株式会社 時雨堂 ファウンダー",
+        "background": "<p>時雨堂を起業する前は、認証や課金で使用される RADIUS サーバの開発に従事。</p><p>現在は Erlang/OTP で <a href=\"http://akane.shiguredo.jp/\">MQTT ブローカー</a>や<a href=\"https://gist.github.com/voluntas/47c041e8644afa2fea8d\">TURN/STUNサーバ</a>の設計を主に担当している。</p><p>最近では Erlang VM 上で動く Lua を使い、ネットワークサーバと組込スクリプトの構成で実際に<a href=\"https://gist.github.com/voluntas/cae671638cd104d05719\">ゲーム用ボットシステム</a>を開発。</p><p>自動負荷試験システムに興味がある。直近では MQTT ブローカー向け日々自動で同時 100 万接続の負荷をかけられるシステムの構築を進めている。</p>",
+        "image": ""
+
+    },
+    "ryosuke_otsuya": {
+        "name": "大津谷 亮祐",
+        "title": "NTTコミュニケーションズ 技術開発部 Webコアテクニカルユニット ユニットリーダ／担当課長",
+        "background": "1975年生まれ、京都府出身。<br>自動車を作るのが夢だったが、1997年にWebブラウザ「Netscape」に出会い、Webの可能性に心を動かされ、Webを仕事にすることを選ぶ。<br>2001年NTTコミュニケーションズに入社。ブロードバンドの導入期・成長期に、映像配信サービスや音楽配信サービスを次々と立ち上げる。<br>2012年から、研究開発部門でHTML5チームのリーダを務める。WebRTCの開発者向けフレームワーク「<a href=\"http://nttcom.skyway.io/skyway/\" target=\"_blank\">SkyWay</a>」やHTML5の技術情報を発信するWebメディア「<a href=\"http://html5experts.jp/\" target=\"_blank\">HTML5 Experts.jp</a>」などに従事する。",
+        "image": "ryosuke_otsuya.jpg"
+    },
+    "masashi_ganeko": {
+        "name": "我如古 正志",
+        "title": "インフォコム株式会社 技術企画室 室長",
+        "background": "入社以来、企業向けの帳票/文書電子化のためのパッケージソフト開発に従事。<br>その後、コンシューマー向けの携帯Webサービスであるeコマースサイトや電子コミックサイトの運営に携わる。<br>2013年度よりWebの新しい技術に関する調査に着手。特にWebRTCに注目し、技術調査と社内での利用を推進中。<br>調査内容は<a href=\"http://html5experts.jp/mganeko/\" target=\"_blank\">HTML5Experts.jpの記事</a>などを通して発信中。",
+        "image": "masashi_ganeko.jpg"
+    },
+    "yu_kinjyo": {
+        "name": "金城 雄",
+        "title": "NTTアドバンステクノロジ株式会社 情報機器テクノロジセンタ",
+        "background": "パソコンに恋い焦がれ、はじめてのプログラミングは88BASIC。<br>最初に手に入れたパソコンは中古のMSX2。<br>Webテクノロジに関心を寄せるJavaScript好きのプログラマ。",
+        "image": "yu_kinjyo.jpg"
+
+    },
+    "takumi_minamoto": {
+        "name": "源 拓洋",
+        "title": "ソフトバンクモバイル株式会社　情報システム本部　システムサービス事業統括部　コミュニケーションサービス部",
+        "background": "1988年生まれ、2004年にWindowsMobileアプリケーション開発でプログラミングを始め、大学に通いつつ2010年よりAndroidアプリケーション開発業務に従事。業務用アプリケーションの開発を経て、2014年4月ソフトバンクモバイルに入社（新卒）。6月からWebRTC Androidネイティブアプリケーションの開発を担当。",
+        "image": "takumi_minamoto.jpg"
+
+    },
+    "tetsuya_hishiki": {
+        "name": "日紫喜 徹也",
+        "title": "NTT ネットワーク基盤技術研究所",
+        "background": "2011年より現職。WebRTCやその他Web関連技術に関する研究開発・標準化活動を行っている。",
+        "image": "tetsuya_hishiki.jpg"
+
+    },
+    "futomi_hatano": {
+        "name": "羽田野 太巳",
+        "title": "株式会社ニューフォリア<br>取締役 最高技術責任者",
+        "background": "1993年 名古屋大学理学部数学科卒、日本電信電話(株)（NTT）入社。伝送系エンジニアとして通信系インフラの保守運用を経て、通信系SIとして企業通信系システム設計に従事。1999年 NTTぷららに出向、インターネット接続サービスおよびサーバーのシステム運用、サービス企画に従事し、IPTVサービスの立ち上げに携わる。2004年独立後、(有)futomiを設立し、ウェブ・システム開発の傍ら、ウェブコンサルティングも手がける。<br>HTML5の気運が高まる以前からHTML5の探求を始め、HTML5専門サイト「HTML5.jp」を立ち上げ、HTML5の普及啓蒙に関わり、HTML5関連書籍や雑誌記事執筆も行う。2011年 (株)ニューフォリア取締役（最高技術責任者）に就任し、ウェブベースのアプリケーション開発やデジタルサイネージ・システムの研究開発の指揮を執る。<br>主な著書に『HTML5 Web標準API バイブル』（ソシム、）『HTMLとJavaScriptではじめるWindowsストアアプリ開発入門』、『徹底解説 HTML5 APIガイドブック ビジュアル系API編』、『徹底解説HTML5マークアップガイドブック 最終草案対応版』（秀和システム）、共著に『HTML5ガイドブック 増補改訂版 (Google Expert Series) 』（インプレスジャパン）など。",
+        "image": "futomi_hatano.jpg"
+
+    },
+    "yuuki_iwagishi": {
+        "name": "岩岸 優希",
+        "title": "シスコシステムズ合同会社ソリューションズシステムズエンジニアリング テクニカルソリューションズアーキテクト",
+        "background": "Cisco Unified Communications Manager および Cisco Jabber などのコラボレーション製品を担当するソリューション担当エンジニア。<br>シスコへは 2001年 4月に新卒として入社。日本市場向け製品開発を主としたアライアンスによる共同開発、VoIP 相互接続などに携わった後、現在は新規ソリューション開発を担当。<a href=\"http://gblogs.cisco.com/jp/2014/12/project-squared-101/\">Cisco Project Squared</a>、<a href=\"http://gblogs.cisco.com/jp/2014/01/jabber-guest-any-device-anytime-anywhere-anyone/\">Cisco Jabber Guest</a>などのWebRTC 技術を使ったソリューションを社内外に啓蒙中。<br>ブログ: <a href=\"http://cs.co/yiwagish\">http://cs.co/yiwagish</a>",
+        "image": "yuuki_iwagishi.png"
+
+    },
+    "masaki_yamamoto": {
+        "name": "山本 正喜",
+        "title": "ChatWork株式会社 専務取締役CTO",
+        "background": "大学在学中より兄の山本敏行とともに、兄弟で株式会社EC studioを2000年に創業。以来、製品開発担当として多数のサービス開発に携わり、2011年3月にクラウド型ビジネスチャットツール「チャットワーク」を開発。2012年には社名をChatWorkへと変更し、チャットワークをビジネスコミュニケーションにおける世界のスタンダードにすべく、全社を挙げて取り組んでいる。",
+        "image": "masaki_yamamoto.png"
+
+    },
+    "yukiji_kokuni": {
+        "name": "小国 幸司",
+        "title": "日本マイクロソフト株式会社 Officeビジネス本部 エンタープライズプラットフォームグループ エグゼクティブプロダクトマネージャー",
+        "background": "",
+        "image": ""
+
+    },
+    "hiroshige_kusumoto": {
+        "name": "楠本 博茂",
+        "title": "Vidyo Japan株式会社 代表取締役",
+        "background": "",
+        "image": ""
+
+    },
+    "shigenobu_ito": {
+        "name": "伊藤 滋伸",
+        "title": "ジェネシス・ジャパン株式会社 ソリューションエンジニアリング本部 本部長",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    }
+}
+
+
+/*
+    "": {
+        "name": "",
+        "title": "",
+        "background": "",
+        "image": ""
+
+    },
+
+*/
