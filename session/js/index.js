@@ -48,12 +48,19 @@ WEBRTC.Module = function() {
 		});
 		this._resize();
 	}
-	
-	
+	    
 	/* ------------------
 	 * dialogue
 	 */
 	this.dialogue = function() {
+        // ダイアログ以外の部分をクリックされた際に、ダイアログを閉じる
+        var closeDialogOnClick = function(e) {
+            // ダイアログ以外の部分かどうかを判定
+            if ($(e.target).parents('#detail_dialogue').length == 0) {
+                // 閉じるボタンを♂
+                $('#detail_close').click();
+            }
+        };
 		$('body').addClass('window');
 		$('#detail').stop().css({ display : 'block', opacity : 0 }).animate({ opacity : 1 }, 500, 'linear', function() {
 			$('#detail_close').off().on({
@@ -61,8 +68,10 @@ WEBRTC.Module = function() {
 					$('#' + _self.curr_id).css({ display : 'none' });
 					$('#detail').css({ display : 'none' });
 					$('body').removeClass('window');
+                    $(document).off('click', 'body.window', closeDialogOnClick);
 				}
 			}).css({ cursor : 'pointer' });
+	        $(document).on('click', 'body.window', closeDialogOnClick);
 		});
 		$('#' + this.curr_id).css({ display : 'block' });
 		this._resize();

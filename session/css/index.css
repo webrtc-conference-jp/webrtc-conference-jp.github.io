@@ -96,7 +96,7 @@
 						color: #f00;
 					}
 						.session_context .ttl {
-							
+							width: 260px;
 						}
 							.session_context .ttl .main {
 								display: block;
@@ -336,6 +336,7 @@
 									font-size: 100%;
 									line-height: 1.71;
 									float: left;
+                                    vertical-align: top;
 								}
 							/* info : company */
 							.detail_base .company {
