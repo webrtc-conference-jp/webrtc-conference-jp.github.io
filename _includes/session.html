@@ -1,0 +1,47 @@
+{% assign session = include.session %}
+
+{% if session.is_intermission %}
+<div class="rest_item cfx">
+  <div class="rest_time f_ossb">{{session.start}} - {{session.end}}</div>
+  <div class="rest_context">{{session.title}}</div>
+</div>
+{% else %}
+<div class="session_item cfx">
+  <div class="session_time f_ossb first">{{session.start}} - {{session.end}}</div>
+  <div class="session_context first">
+    <a href="javascript:void(0);" data-id="{{session.id}}">
+      <p class="ttl">
+        <span class="main">{{session.title}}</span>
+        {% if session.subtitle %}
+        <span class="sub">{{session.subtitle}}</span>
+        {% endif %}
+      </p>
+      <div class="speakers">
+        <div class="name">
+          {% for speaker in session.speakers %}
+            {{speakers[speaker].name}}{% if forloop.last != true %} / {% endif %}
+          {% endfor %}
+        </div>
+      </div>                                 
+      <ul class="icon">
+        {% case session.target %}
+        {% when 'all' %}
+        <li class="icon_all">All</li>
+        {% when 'tech' %}
+        <li class="icon_tech">Tech</li>
+        {% when 'biz' %}
+        <li class="icon_biz">Biz</li>
+        {% endcase %}
+        {% case session.level %}
+        {% when 1 %}
+        <li class="icon_lv1">初級</li>
+        {% when 2 %}
+        <li class="icon_lv2">中級</li>
+        {% when 3 %}
+        <li class="icon_lv3">上級</li>
+        {% endcase %}
+      </ul>
+    </a>
+  </div>
+</div>
+{% endif %}
