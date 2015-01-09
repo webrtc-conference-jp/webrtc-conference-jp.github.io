@@ -250,6 +250,8 @@
 				.detail_item {
 					position: relative;
 					display: none;
+                    max-height: 480px;
+                    overflow-y: scroll;
 				}
 					/* title */
 					.detail_item h3 {
