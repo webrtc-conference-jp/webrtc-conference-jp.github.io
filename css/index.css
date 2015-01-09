@@ -101,6 +101,7 @@
 				background: url(../img/mainview_romo.jpg) no-repeat;
 			}
 			.mainview_entry_item#mainview_entry_developer {
+				background: url(../img/mainview_codeiq.jpg) no-repeat;
 				
 			}
 				.mainview_entry_item h3 {
@@ -117,6 +118,9 @@
 					line-height: 1.64;
 				}
 				.mainview_entry_item#mainview_entry_general .txt {
+					width: 220px;
+				}
+				.mainview_entry_item#mainview_entry_developer .txt {
 					width: 220px;
 				}
 				.mainview_entry_item .link {
@@ -148,8 +152,8 @@
 					.mainview_entry_item#mainview_entry_general .btn a {
 						background: url(../img/btn_purchase.png) no-repeat;
 					}
-					.mainview_entry_item#mainview_entry_developer .btn span {
-						background: url(../img/btn_ready.png) no-repeat;
+					.mainview_entry_item#mainview_entry_developer .btn a {
+						background: url(../img/btn_challenge.png) no-repeat;
 					}
         /* News */
         .mainview_news {
