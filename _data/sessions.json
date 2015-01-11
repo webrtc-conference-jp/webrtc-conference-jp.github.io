@@ -37,7 +37,21 @@
         {
             "id": "session_03",
             "start": "13:00",
-            "end": "13:20",
+            "end": "13:45",
+            "title": "New Opportunities for Real Time Communications Created by WebRTC",
+            "subtitle": "",
+            "description": "",
+            "target": "biz",
+            "level": 2,
+            "speakers": [
+                "jean_derail"
+            ],
+            "is_intermission": false
+        },
+        {
+            "id": "session_04",
+            "start": "14:00",
+            "end": "14:20",
             "title": "エンタープライズ環境におけるWebRTC活用のポイント(仮)",
             "subtitle": "",
             "description": "",
@@ -48,9 +62,9 @@
             "is_intermission": false
         },
         {
-            "id": "session_04",
-            "start": "13:25",
-            "end": "13:45",
+            "id": "session_05",
+            "start": "14:25",
+            "end": "14:45",
             "title": "Web of Thingsの現状とWebRTC活用の可能性",
             "subtitle": "",
             "description": "モノのWebと呼ばれる Web of Things(WoT)。Webは人と人をつなげるプラットフォームから人とモノをもつなげるプラットフォームへと進化しようとしています。それを実現するにあたりWebRTCは大きな役割を果たすものとして期待されています。本セッションでは、そんなWoTへのWebRTCの活用例について紹介します。",
@@ -62,9 +76,9 @@
             "is_intermission": false
         },
         {
-            "id": "session_05",
-            "start": "14:00",
-            "end": "14:45",
+            "id": "session_06",
+            "start": "15:00",
+            "end": "15:45",
             "title": "WebRTCがビデオ会議システム市場に与えるインパクトを探る",
             "subtitle": "",
             "description": "<p>ビデオ会議システムは従来、非常に高い技術力が必要とされていた分野です。しかしWebRTCが登場した今、リアルタイムコミュニケーションに関する技術的障壁は限りなく低くなり、ビデオ会議システム市場に大きな変化が訪れようとしています。</p><p>このセッションではビデオ会議システム市場における主要なプレイヤーが集まり、市場の現状と今後、カスタマーが享受できる価値、そして今後起こるであろうイノベーションなどについて、広く深く語ります。</p>",
@@ -79,9 +93,9 @@
             "is_intermission": false
         },
         {
-            "id": "session_06",
-            "start": "15:00",
-            "end": "15:45",
+            "id": "session_07",
+            "start": "16:00",
+            "end": "16:45",
             "title": "WebRTCの裏側",
             "subtitle": "シグナリングと TURN/STUN のプロトコル解説",
             "description": "WebRTC は表向きは JavaScript を使う事がほとんどです。しかしその裏側ではシグナリングに WebSocket や XHR、NAT 越え用に TURN と STUN 、そして ICE が使われています。さらには SDP と SRTP といった SIP関連の技術が使われています。また WebRTC 自身は UDP から始まり DTLS その上で SCTP が使われています。</p><p>このセッションではそんな裏側から、「ピア同士が情報を交換するために必要なシグナリングサーバのバックエンド実装」の話と、「NAT越えで使われる STUN と TURN プロトコルがどのような動きをしているのか」という二つを中心に解説していきます。</p><p>実際に WebRTC を使ったサービスを提供する場合に避けられない技術を知りたい人向けのセッションです。</p>",
@@ -89,19 +103,6 @@
             "level": 3,
             "speakers": [
                 "ryosuke_nakai"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_07",
-            "start": "16:00",
-            "end": "16:45",
-            "title": "コンタクトセンターの未来(仮)",
-            "subtitle": "",
-            "description": "",
-            "target": "biz",
-            "level": 2,
-            "speakers": [
             ],
             "is_intermission": false
         },
