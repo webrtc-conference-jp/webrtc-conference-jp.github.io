@@ -315,7 +315,7 @@
 						padding: 26px 40px 0 40px;
 					}
 						.detail_base_item {
-							width: 420px;
+							width: 400px;
 							margin-left: 20px;
 							float: left;
 						}
@@ -334,7 +334,7 @@
 								}
 								.detail_base .name dd {
 									display: block;
-									width: 300px;
+									width: 280px;
 									font-size: 100%;
 									line-height: 1.71;
 									float: left;
@@ -355,7 +355,7 @@
 								}
 								.detail_base .company dd {
 									display: block;
-									width: 300px;
+									width: 280px;
 									font-size: 100%;
 									line-height: 1.71;
 									float: left;
@@ -381,7 +381,7 @@
 							}
 							.detail_history .history dd {
 								display: block;
-								width: 740px;
+								width: 720px;
 								font-size: 100%;
 								line-height: 1.71;
 								float: left;
