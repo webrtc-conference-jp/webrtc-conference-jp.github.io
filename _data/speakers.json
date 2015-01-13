@@ -102,9 +102,9 @@
     },
     "jean_derail": {
         "name": "Jean Derail",
-        "title": "Co-Founder, TeleStax / Mobicents SIP Servlets lead",
-        "background": "",
-        "image": ""
+        "title": "Co-Founder, TeleStax / General Manager EMEA",
+        "background": "オープンソースのクラウド・コミュニケーション企業であるTeleStax社の共同創業者。TeleStaxは既存のSS7通信キャリアネットワークの、IPベースのクラウド通信への移行を促進します。<br>彼は様々なオープンソース・プロジェクトに寄与し、開発者が音声・ビデオ・メッセージ機能をウェブ、もしくはモバイル・アプリケーションに最も容易に統合させる通信プラットフォームである、“Mobicents Communication Platform”を推進しています。",
+        "image": "jean_derail.jpg"
 
     },
     "": {
