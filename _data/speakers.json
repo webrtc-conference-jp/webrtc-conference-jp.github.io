@@ -100,18 +100,18 @@
         "image": "shigenobu_ito.png"
 
     },
-    "": {
-        "name": "",
-        "title": "",
-        "background": "",
-        "image": ""
+    "jean_derail": {
+        "name": "Jean Derail",
+        "title": "Co-Founder, TeleStax / General Manager EMEA",
+        "background": "オープンソースのクラウド・コミュニケーション企業であるTeleStax社の共同創業者。TeleStaxは既存のSS7通信キャリアネットワークの、IPベースのクラウド通信への移行を促進します。<br>彼は様々なオープンソース・プロジェクトに寄与し、開発者が音声・ビデオ・メッセージ機能をウェブ、もしくはモバイル・アプリケーションに最も容易に統合させる通信プラットフォームである、“Mobicents Communication Platform”を推進しています。",
+        "image": "jean_derail.jpg"
 
     },
-    "": {
-        "name": "",
-        "title": "",
-        "background": "",
-        "image": ""
+    "shintaro_tanaka": {
+        "name": "田中 晋太朗",
+        "title": "Mist Technologies株式会社",
+        "background": "1990年生まれ。現在大学院修士課程に在籍し、コンピュータネットワーク及びP2Pネットワーキングと計測を中心に研究中。<br>2013年7月に<a href=“http://www.mist-t.co.jp”>Mist Technologies株式会社</a>を立ち上げ、研究内容を活用したP2P型CDN「<a href=“http://www.mist-t.co.jp#demo”>MistCDN</a>」の開発を進める。",
+        "image": "shintaro_tanaka.png"
 
     },
     "": {
