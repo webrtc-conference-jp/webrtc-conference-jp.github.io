@@ -44,7 +44,7 @@
             "target": "biz",
             "level": 2,
             "speakers": [
-                "jean_derail"
+                "jean_deruelle"
             ],
             "is_intermission": false
         },
@@ -148,6 +148,7 @@
             "target": "biz",
             "level": 1,
             "speakers": [
+                "masashi_ganeko"
             ],
             "is_intermission": false
         },
