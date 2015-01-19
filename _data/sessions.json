@@ -149,7 +149,9 @@
             "target": "biz",
             "level": 1,
             "speakers": [
-                "masashi_ganeko"
+                "masashi_ganeko",
+                "yasuhiko_miyashita",
+                "hiroaki_tanji"
             ],
             "is_intermission": false
         },
