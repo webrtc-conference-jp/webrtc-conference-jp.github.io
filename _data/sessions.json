@@ -85,6 +85,7 @@
             "target": "biz",
             "level": 1,
             "speakers": [
+                "toshihiro_amemiya",
                 "masaki_yamamoto",
                 "yuuki_iwagishi",
                 "hiroshige_kusumoto",
@@ -148,7 +149,9 @@
             "target": "biz",
             "level": 1,
             "speakers": [
-                "masashi_ganeko"
+                "masashi_ganeko",
+                "yasuhiko_miyashita",
+                "hiroaki_tanji"
             ],
             "is_intermission": false
         },
@@ -204,11 +207,11 @@
             "id": "session_16",
             "start": "15:00",
             "end": "15:45",
-            "title": "(調整中)",
+            "title": "WebRTCステータスと2015年に期待すること",
             "subtitle": "",
-            "description": "",
-            "target": "tech",
-            "level": 2,
+            "description": "このセッションでは2014年終わりのWebRTCステータスの標準と業界の二つの視点から紹介させていただいております。<br>どのように安定した広告、どのようにWebRTCがサポートされているのか。IEやSafari,WebRTCブラウザは…などの質問についてはいくつか答えがあります。<br>またそれに加え、技術から何が期待できるか。2015年の産業に何が提示できるかをお教えしたいと思います。<br>screen,sharing.recording.codecsとSVC,ORTC,WebRTC2.0の暫定的な結果を説明致します。",
+            "target": "all",
+            "level": 1,
             "speakers": [
                 "alex_gouaillard"
             ],
