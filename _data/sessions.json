@@ -52,12 +52,13 @@
             "id": "session_04",
             "start": "14:00",
             "end": "14:20",
-            "title": "エンタープライズ環境におけるWebRTC活用のポイント(仮)",
+            "title": "エンタープライズ環境におけるWebRTC活用のポイント",
             "subtitle": "",
-            "description": "",
+            "description": "リアルタイムコミュニケーションをWebの世界に解き放つ技術として大きな注目を集めているWebRTC。その適用領域は、教育、ヘルスケア、コールセンタから、企業内コミュニケーション基盤にまで広がります。本セッションでは、エンタープライズ環境への適用といった一般的なユースケースから、ユニークな応用事例の紹介を通じ、WebRTCがエンタープライズユーザに提供する新たな価値創造の例示と今後取り組むべき課題についてご紹介します。",
             "target": "tech",
             "level": 2,
             "speakers": [
+                "keimei_yoritaka"
             ],
             "is_intermission": false
         },
@@ -152,7 +153,9 @@
                 "masashi_ganeko",
                 "yasuhiko_miyashita",
                 "hiroaki_tanji",
-                "yuuki_nakahara"
+                "yuuki_nakahara",
+                "takeo_kogure",
+                "tatsuro_yoshikawa"
             ],
             "is_intermission": false
         },
