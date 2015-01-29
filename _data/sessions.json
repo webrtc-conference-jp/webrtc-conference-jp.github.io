@@ -5,7 +5,7 @@
             "start": "10:00",
             "end": "10:45",
             "title": "基調講演",
-            "subtitle": "Real Time Communications (RTC) <br>on the Web <br>– use cases and deployments",
+            "subtitle": "The WebRTC Continuum - The Next Wave",
             "description": "今まさにアツい技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。<br>WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。<br>本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。",
             "target": "all",
             "level": 1,
