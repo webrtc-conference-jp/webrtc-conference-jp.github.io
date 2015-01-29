@@ -66,11 +66,11 @@
 					color: #838a8e;
 					float: left;
 				}
-				.session_time.first {
+				.session_item:nth-of-type(1) .session_time {
 					border-top: 1px solid #c1c6c9;
 				}
 				#session_day02 .session_time {
-					display: none;
+					/*display: none;*/
 				}
 				.session_context {
 					display: block;
@@ -78,14 +78,14 @@
 					border-bottom: 1px solid #c1c6c9;
 					float: left;
 				}
-				.session_context.first {
+				.session_item:nth-of-type(1) .session_context {
 					border-top: 1px solid #c1c6c9;
 				}
 					.session_context a,
 					.session_context .nolink {
 						position: relative;
 						display: block;
-						width: 390px;
+						/*width: 390px;*/
 						height: 154px;
 						padding-left: 10px;
 						padding-top: 14px;
@@ -97,6 +97,7 @@
 					}
 						.session_context .ttl {
 							width: 260px;
+                            padding-top: 20px;
 						}
 							.session_context .ttl .main {
 								display: block;
