@@ -127,6 +127,7 @@
             "description": "<p>WebRTCはビジネスに使えるだけじゃない！（当たり前）</p><p>WebRTCを使うと、あんなゲームや、こんな表現も実現できます！・・・と言った、WebRTCの可能性を感じさせるバラエティ豊かなデモを、ライトニングトーク（5分間のショートプレゼン）形式でお楽しみ頂けます。ライトニングトーク参加者、絶賛募集中！</p>",
             "target": "all",
             "level": 1,
+            "hasSlide": true,
             "speakers": [
                 {"id": "masakazu_watanabe", "slideUrl": "http://sascacci-blog.tumblr.com/post/111168902268/webrtc-conferencejapan"},
                 {"id": "tadao_munakata", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-44763757"},
