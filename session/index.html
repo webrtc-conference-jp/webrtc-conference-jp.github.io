@@ -252,7 +252,7 @@ title: WebRTC Conference Japan Session Table
                         <dd>
                           {% if speaker.image and speaker.image != "" %}<img src="/img/speakers/{{speaker.image}}" width="48" height="48">{% endif %}
                           {{speaker.name}}
-                          {% if speaker_id.slideUrl %}
+                          {% if speaker_id.slideUrl and speaker_id.slideUrl != "" %}
                             <br>
                             <span class="slide_link"><a target="_blank" href="{{speaker_id.slideUrl}}">講演資料</a></span>
                           {% endif %}
