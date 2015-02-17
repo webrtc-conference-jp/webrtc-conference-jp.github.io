@@ -203,6 +203,9 @@ title: WebRTC Conference Japan Session Table
                 {% if session.subtitle %}
                 <span class="sub">{{session.subtitle}}</span>
                 {% endif %}
+                {% if session.slideUrl %}
+                <span class="slide_link"><a target="_blank" href="{{session.slideUrl}}">講演資料</a></span>
+                {% endif %}
               </h3>
               <ul class="icon">
                 {% case session.target %}
@@ -236,7 +239,11 @@ title: WebRTC Conference Japan Session Table
               </div>
               <div class="speakers">
                 {% for speaker_id in session.speakers %}
-                {% assign speaker = speakers[speaker_id] %}
+                  {% if speaker_id.id %}
+                  {% assign speaker = speakers[speaker_id.id] %}
+                  {% else %}
+                  {% assign speaker = speakers[speaker_id] %}
+                  {% endif %}
                 <div class="speaker">
                   <div class="detail_base cfx">
                     <div class="detail_base_item">
@@ -245,6 +252,10 @@ title: WebRTC Conference Japan Session Table
                         <dd>
                           {% if speaker.image and speaker.image != "" %}<img src="/img/speakers/{{speaker.image}}" width="48" height="48">{% endif %}
                           {{speaker.name}}
+                          {% if speaker_id.slideUrl %}
+                            <br>
+                            <span class="slide_link"><a target="_blank" href="{{speaker_id.slideUrl}}">講演資料</a></span>
+                          {% endif %}
                         </dd>
                       </dl>
                     </div>
@@ -258,6 +269,7 @@ title: WebRTC Conference Japan Session Table
                     </div>
                   </div>
                 </div>
+                {% if speaker.background != "" %}
                 <div class="detail_history">
                   <dl class="history cfx">
                     <dt>略歴</dt>
@@ -266,6 +278,7 @@ title: WebRTC Conference Japan Session Table
                     </dd>
                   </dl>
                 </div>
+                {% endif %}
                 {% endfor %}
               </div>
             </div><!-- /.detail_item -->
