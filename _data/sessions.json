@@ -9,6 +9,8 @@
             "description": "今まさにアツい技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。<br>WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。<br>本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。",
             "target": "all",
             "level": 1,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/01-web-rtckeynotefebruary2015oracledouglas",
             "speakers": [
                 "douglas_tait"
             ],
@@ -57,6 +59,8 @@
             "description": "リアルタイムコミュニケーションをWebの世界に解き放つ技術として大きな注目を集めているWebRTC。その適用領域は、教育、ヘルスケア、コールセンタから、企業内コミュニケーション基盤にまで広がります。本セッションでは、エンタープライズ環境への適用といった一般的なユースケースから、ユニークな応用事例の紹介を通じ、WebRTCがエンタープライズユーザに提供する新たな価値創造の例示と今後取り組むべき課題についてご紹介します。",
             "target": "tech",
             "level": 2,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/04-web-rtcconfhp20150128",
             "speakers": [
                 "keimei_yoritaka"
             ],
@@ -71,6 +75,8 @@
             "description": "モノのWebと呼ばれる Web of Things(WoT)。Webは人と人をつなげるプラットフォームから人とモノをもつなげるプラットフォームへと進化しようとしています。それを実現するにあたりWebRTCは大きな役割を果たすものとして期待されています。本セッションでは、そんなWoTへのWebRTCの活用例について紹介します。",
             "target": "all",
             "level": 2,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/KensakuKOMATSU/web-rtc-conf2015",
             "speakers": [
                 "kensaku_komatsu"
             ],
@@ -85,6 +91,8 @@
             "description": "<p>ビデオ会議システムは従来、非常に高い技術力が必要とされていた分野です。しかしWebRTCが登場した今、リアルタイムコミュニケーションに関する技術的障壁は限りなく低くなり、ビデオ会議システム市場に大きな変化が訪れようとしています。</p><p>このセッションではビデオ会議システム市場における主要なプレイヤーが集まり、市場の現状と今後、カスタマーが享受できる価値、そして今後起こるであろうイノベーションなどについて、広く深く語ります。</p>",
             "target": "biz",
             "level": 1,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/shumpei/webrtc-44620966",
             "speakers": [
                 "toshihiro_amemiya",
                 "masaki_yamamoto",
@@ -103,6 +111,8 @@
             "description": "WebRTC は表向きは JavaScript を使う事がほとんどです。しかしその裏側ではシグナリングに WebSocket や XHR、NAT 越え用に TURN と STUN 、そして ICE が使われています。さらには SDP と SRTP といった SIP関連の技術が使われています。また WebRTC 自身は UDP から始まり DTLS その上で SCTP が使われています。</p><p>このセッションではそんな裏側から、「ピア同士が情報を交換するために必要なシグナリングサーバのバックエンド実装」の話と、「NAT越えで使われる STUN と TURN プロトコルがどのような動きをしているのか」という二つを中心に解説していきます。</p><p>実際に WebRTC を使ったサービスを提供する場合に避けられない技術を知りたい人向けのセッションです。</p>",
             "target": "tech",
             "level": 3,
+            "hasSlide": true,
+            "slideUrl": "https://gist.github.com/voluntas/975bfa230e513d146965",
             "speakers": [
                 "ryosuke_nakai"
             ],
@@ -118,6 +128,14 @@
             "target": "all",
             "level": 1,
             "speakers": [
+                {"id": "masakazu_watanabe", "slideUrl": "http://sascacci-blog.tumblr.com/post/111168902268/webrtc-conferencejapan"},
+                {"id": "tadao_munakata", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-44763757"},
+                {"id": "yoshiaki_sugimoto", "slideUrl": "http://www.slideshare.net/yoshiakisugimoto9/web-rtc-conferenceslide"},
+                {"id": "kyo_ago", "slideUrl": "http://0-9.sakura.ne.jp/pub/WebRTCConference/start.html"},
+                {"id": "hiroyuki_honda", "slideUrl": "http://www.slideshare.net/hondahiroyuki/web-rtc-con"},
+                {"id": "rahaman", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/it-44763729"},
+                {"id": "hideyuki_kodama", "slideUrl": "http://www.slideshare.net/tadfmac/romo-44305549"},
+                {"id": "takanori_kessoku"}
             ],
             "is_intermission": false
         }
@@ -132,6 +150,8 @@
             "description": "WebRTCのリアルタイム性とWeb技術との親和性、そしてオープン標準という強力な特徴は、今後のWeb、及びIT関連ビジネスを大きく変化させていくのは間違いありません。このパネルディスカッションでは、WebRTCを知り尽くした技術者4名が、WebRTCの可能性について縦横無尽に語ります。",
             "target": "all",
             "level": 1,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/rotsuya/webrtc-44581931",
             "speakers": [
                 "ryosuke_otsuya",
                 "masashi_ganeko",
@@ -149,13 +169,14 @@
             "description": "WebRTCは既に、様々なビジネスシーンでも活用されつつあり、様々な活用事例や製品が存在します。<br>このセッションではWebRTCのビジネスにおける活用に関心のある方々を対象に、そうした事例や製品を幅広く取り上げ、紹介するセッションです。<br>ライトニングトーク（5分間のショートプレゼン）形式で、楽しく、テンポよく知識を得ていただけること請け合いです。",
             "target": "biz",
             "level": 1,
+            "hasSlide": true,
             "speakers": [
-                "masashi_ganeko",
-                "yasuhiko_miyashita",
-                "hiroaki_tanji",
-                "yuuki_nakahara",
-                "takeo_kogure",
-                "tatsuro_yoshikawa"
+                {"id": "masashi_ganeko", "slideUrl": "http://www.slideshare.net/mganeko/infocom-webrtc-conference-japan"},
+                {"id": "yasuhiko_miyashita", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/12-genband-presentation-for-web-rtc-conference-tokyo-02052015-external-final"},
+                {"id": "hiroaki_tanji", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/12-oracle-producttanji"},
+                {"id": "yuuki_nakahara", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/html5-api-44763915"},
+                {"id": "takeo_kogure", "slideUrl": ""},
+                {"id": "tatsuro_yoshikawa", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/dialogic-powermedia-xmswebrtc"}
             ],
             "is_intermission": false
         },
@@ -174,6 +195,8 @@
             "description": "WebRTCはブラウザ間での映像/音声通話及びテキストチャットを実現する技術として利用されるケースが多いですが、DataChannelはテキストのみならずバイナリデータを送受信にも活用できます。<br>例えば、弊社ではDataChannelを活用したファイル送受信やコンテンツの配信をおこなうCDNサービスを開発していますが、このセッションではコンテンツデータ転送の観点から「DataChannelの利用と考慮しないといけない点」、「想定可能なアプリケーション」などについて紹介・議論します。",
             "target": "tech",
             "level": 2,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/shintarotanaka/data-channel-webrtc-conference-japan-26",
             "speakers": [
                 "shintaro_tanaka"
             ],
@@ -230,6 +253,8 @@
             "description": "<p>本セッションではWebRTCに関連する技術の標準化動向を紹介します。</p><p>WebRTCはIETFとW3Cという標準化団体で分業して検討が進められており、IETFではプロトコル仕様を、W3CではAPI仕様をそれぞれ検討しています。また、WebRTCと既存インフラの相互運用という観点から3GPPでも標準化作業が行われています。</p><p>本セッションではなぜWebRTCの標準化が開始されたのかという最初の一歩から、現在議論の焦点となっているホットトピックまでを紹介することでWebRTCの理解を深めることを狙います。</p>",
             "target": "tech",
             "level": 2,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-44763524",
             "speakers": [
                 "tetsuya_hishiki"
             ],

@@ -7,8 +7,8 @@
 </div>
 {% else %}
 <div class="session_item cfx">
-  <div class="session_time f_ossb first">{{session.start}} - {{session.end}}</div>
-  <div class="session_context first">
+  <div class="session_time f_ossb">{{session.start}} - {{session.end}}</div>
+  <div class="session_context">
     <a href="javascript:void(0);" data-id="{{session.id}}">
       <p class="ttl">
         <span class="main">{{session.title}}</span>
@@ -18,11 +18,20 @@
       </p>
       <div class="speakers">
         <div class="name">
-          {% for speaker in session.speakers %}
-            {{speakers[speaker].name}}{% if forloop.last != true %} / {% endif %}
+          {% for speakerId in session.speakers %}
+            {% if speakerId.id %}
+            {% assign speaker = speakers[speakerId.id] %}
+            {% else %}
+            {% assign speaker = speakers[speakerId] %}
+            {% endif %}
+            {{speaker.name}}
+            {% if forloop.last != true %} / {% endif %}
           {% endfor %}
         </div>
       </div>                                 
+      {% if session.hasSlide %}
+        <div class="slide_exists">(講演資料公開中)</div>
+      {% endif %}
       <ul class="icon">
         {% case session.target %}
         {% when 'all' %}
