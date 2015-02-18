@@ -135,9 +135,7 @@
                             position: absolute;
                             top: 10px;
                             display: block;
-                            padding-top: 3px;
-                            width: 120px;
-                            height: 17px;
+                            padding: 3px 8px;
                             font-size: 86%;
                             color: #fff;
                             line-height: 1.1;

@@ -212,6 +212,8 @@
             "description": "<p>WebRTCはGoogleよりネイティブライブラリが公開されていることから、ブラウザだけでなくiOS/Androidアプリケーションでも利用可能となっています。ネイティブライブラリを用いることでWebRTCを利用することが難しいiOSでの利用が可能になるほか、ブラウザの枠を超えることでOSが標準で備える機能を活用することが可能になります。</p><p>本セッションではネイティブライブラリの紹介をはじめ、アプリケーションでWebRTCを利用することによるメリットや考慮に入れるべき問題点、ネイティブライブラリならではの新しいWebRTCの活用法を示し、アプリケーションにWebRTCを組み込む上での必須要素を紹介します。</p>",
             "target": "tech",
             "level": 2,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/minamotot/webrtc-44772839",
             "speakers": [
                 "takumi_minamoto"
             ],
@@ -240,6 +242,8 @@
             "description": "このセッションでは2014年終わりのWebRTCステータスの標準と業界の二つの視点から紹介させていただいております。<br>どのように安定した広告、どのようにWebRTCがサポートされているのか。IEやSafari,WebRTCブラウザは…などの質問についてはいくつか答えがあります。<br>またそれに加え、技術から何が期待できるか。2015年の産業に何が提示できるかをお教えしたいと思います。<br>screen,sharing.recording.codecsとSVC,ORTC,WebRTC2.0の暫定的な結果を説明致します。",
             "target": "all",
             "level": 1,
+            "hasSlide": true,
+            "slideUrl": "http://www.slideshare.net/alexpiwi5/webrtc-status-and-what-to-expect-in-2015",
             "speakers": [
                 "alex_gouaillard"
             ],
