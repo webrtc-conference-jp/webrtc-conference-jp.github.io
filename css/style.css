@@ -20,7 +20,7 @@ body {
 	background-size: 100%;
 	padding: 60px 0 0 0;
 }
-h1 {
+header h1 {
 	padding: 0;
 	margin: 0 auto;
 	background: url(../images/logo.svg) center top no-repeat;
@@ -75,24 +75,66 @@ h2 {
 .concept p.copy {
 	margin: 15px 0;
 }
+
+section#session {
+	padding: 20px;
+	margin: 50px auto;
+	width: 480px;
+	text-align: center;
+	border-top: #e71635 solid 1px;
+	border-bottom: #e71635 solid 1px;
+}
+section#session h1 {
+	padding: 0;
+	margin: 0 auto 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #e71635;
+	line-height: 1.5em;
+}
+section#session p a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 90%;
+	text-decoration: none;
+	color: #fff;
+	background: #e71635;
+}
+section#session p a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+section#session p a:visited {
+	text-decoration: none;
+	color: #fff;
+}
 #link {
 	padding: 0;
-	margin: 50px auto;
+	margin: 40px auto;
 	width: 300px;
 }
 #link a:hover {
 	opacity: 0.8;
 }
 #link .webrtc a:link {
+	clear: both;
 	display: block;
-	padding: 15px;
-	margin: 0;
-	background: #D21619;
+	padding: 0;
+	margin: 0 auto 30px;
 	text-decoration: none;
 	font-size: 90%;
 	font-weight: bold;
-	color: #fff;
+	color: #e71635;
 	text-align: center;
+}
+#link .webrtc a:hover {
+	text-decoration: none;
+}
+#link .webrtc a:visited {
+	color: #e71635;
+	text-decoration: none;
 }
 #link ul {
 	padding: 0;
@@ -102,13 +144,13 @@ h2 {
 }
 #link ul li a:link {
 	padding: 0;
-	margin: 0;
+	margin: 0 0 20px 0;
 	float: left;
 	display: block;
 }
 #link ul li.fb a:link {
 	padding: 10px;
-	margin: 0 10px 0 0;
+	margin: 0 10px 20px 0;
 	background: url(../images/ico_fb.svg);
 	width: 25px;
 	height: 25px;
@@ -141,7 +183,7 @@ body {
 	background-size: auto;
 	padding: 50px 0 0 0;
 }
-h1 {
+header h1 {
 	padding: 0;
 	margin: 0 auto;
 	background: url(../images/logo.svg) center top no-repeat;
@@ -187,7 +229,7 @@ h2 {
 }
 .concept {
 	width: 85%;
-	padding: 0 0 50px 0;
+	padding: 0 0 30px 0;
 	margin: 0 auto 0;
 	text-align: left;
 	font-size: 80%;
@@ -195,6 +237,41 @@ h2 {
 }
 .concept p.copy {
 	margin: 15px 0;
+}
+
+section#session {
+	padding: 20px;
+	margin: 10px auto 0;
+	width: 480px;
+	text-align: center;
+	border-top: #e71635 solid 1px;
+	border-bottom: #e71635 solid 1px;
+}
+section#session h1 {
+	padding: 0;
+	margin: 0 auto 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #e71635;
+	line-height: 1.5em;
+}
+section#session p a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 90%;
+	text-decoration: none;
+	color: #fff;
+	background: #e71635;
+}
+section#session p a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+section#session p a:visited {
+	text-decoration: none;
+	color: #fff;
 }
 #link {
 	overflow: hidden;
@@ -206,19 +283,26 @@ h2 {
 	opacity: 0.8;
 }
 #link .webrtc a:link {
+	clear: both;
 	display: block;
-	padding: 15px;
-	margin: 0;
-	background: #D21619;
+	padding: 0;
+	margin: 0 auto 30px;
 	text-decoration: none;
 	font-size: 90%;
 	font-weight: bold;
-	color: #fff;
+	color: #e71635;
 	text-align: center;
+}
+#link .webrtc a:hover {
+	text-decoration: none;
+}
+#link .webrtc a:visited {
+	color: #e71635;
+	text-decoration: none;
 }
 #link ul {
 	padding: 0;
-	margin: 30px auto;
+	margin: 0 auto;
 	list-style: none;
 	width: 100px;
 }
@@ -230,7 +314,7 @@ h2 {
 }
 #link ul li.fb a:link {
 	padding: 10px;
-	margin: 0 10px 30px 0;
+	margin: 0 10px 20px 0;
 	background: url(../images/ico_fb.svg);
 	width: 25px;
 	height: 25px;
@@ -238,7 +322,7 @@ h2 {
 }
 #link ul li.tw a:link {
 	padding: 10px;
-	margin: 0 0 30px 0;
+	margin: 0 0 20px 0;
 	background: url(../images/ico_twi.svg);
 	width: 25px;
 	height: 25px;
@@ -263,7 +347,7 @@ body {
 	background-size: contain;
 	padding: 30px 0 0 0;
 }
-h1 {
+header h1 {
 	padding: 0;
 	margin: 0 0 0 30px;
 	background: url(../images/logo_sp.svg) left top no-repeat;
@@ -315,7 +399,7 @@ h2 {
 }
 .concept {
 	width: 85%;
-	padding: 0 0 20px 0;
+	padding: 0;
 	margin: 30px auto 0;
 	text-align: left;
 	font-size: 100%;
@@ -324,26 +408,63 @@ h2 {
 .concept p.copy {
 	margin: 15px 0;
 }
-#link {
-	overflow: hidden;
-	padding: 0;
-	margin: 50px auto 0;
-	width: 85%;
+
+section#session {
+	padding: 20px;
+	margin: 30px auto 0;
+	width:80%;
+	text-align: center;
+	border-top: #e71635 solid 1px;
+	border-bottom: #e71635 solid 1px;
 }
+section#session h1 {
+	padding: 0;
+	margin: 0 auto 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #e71635;
+	line-height: 1.5em;
+}
+section#session p a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 90%;
+	text-decoration: none;
+	color: #fff;
+	background: #e71635;
+}
+section#session p a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+section#session p a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+#link {	overflow: hidden;	padding: 0;	margin: 20px auto 0;	width: 85%;}
 #link a:hover {
 	opacity: 0.8;
 }
 #link .webrtc a:link {
+	clear: both;
 	display: block;
-	padding: 15px 0;
-	margin: 0;
-	width: 100%;
-	background: #D21619;
+	padding: 0;
+	margin: 0 auto 30px;
 	text-decoration: none;
 	font-size: 90%;
 	font-weight: bold;
-	color: #fff;
+	color: #e71635;
 	text-align: center;
+}
+#link .webrtc a:hover {
+	text-decoration: none;
+}
+#link .webrtc a:visited {
+	color: #e71635;
+	text-decoration: none;
 }
 #link ul {
 	padding: 0;
