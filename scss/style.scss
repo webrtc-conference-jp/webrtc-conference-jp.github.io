@@ -23,16 +23,20 @@ p {
 	margin: 0 0 .6em;
 	line-height: 1.6;
 }
+img {
+	vertical-align: middle;
+}
 
 body, html {
 	margin: 0;
 	height: 100%;
-	font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: Quicksand,'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
 body {
-	background: linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
+	background: url(../images/common/bg.png) center no-repeat fixed, linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
 	color: $black;
+	line-height: 1.6;
 }
 
 .btn {
@@ -56,12 +60,14 @@ body {
 	padding-top: 2em;
 	h1 {
 		width: 400px;
-		margin: auto;
+		margin: 0 auto .5em;
+		line-height: 1;
 	}
 	h2 {
 		width: 400px;
 		margin: auto;
-		margin-bottom: .2em;
+		margin-bottom: .7em;
+		line-height: 1;
 	}
 	.schedule {
 		text-align: center;
@@ -73,6 +79,9 @@ body {
 			color: $red;
 			margin-right: 1em;
 		}
+	}
+	a {
+		display: block;
 	}
 }
 
@@ -227,11 +236,11 @@ main {
 
 #concept {
 	.hero_img {
-		width: 50%;
+		width: 40%;
 		top: 0;
 	}
 	.concept_box {
-		width: 50%;
+		width: 60%;
 		float: right;
 		padding: 0 2em 0 0;
 
@@ -506,11 +515,13 @@ main {
 	#concept {
 		.hero_img {
 			width: 100%;
+			margin-bottom: .5em;
 		}
 		.concept_box {
 			width: 100%;
 			padding: 0;
 			float: none;
+			padding-bottom: 1em;
 		}
 	}
 	#recommend {
@@ -519,6 +530,7 @@ main {
 		}
 		.speaker_photo {
 			padding: 0;
+			margin-bottom: .6em	;
 		}
 	}
 	#contact {
