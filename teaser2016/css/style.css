@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+@media screen and (min-width: 769px) {
+/* PC用のスタイル記述 */
+
+html, body {
+	height: 100%;
+	font-size: 100% /* =16px */
+}
+body {
+	background: linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
+}
+#container {
+	width: 100%;
+	height: 115%;
+	background: url(../images/bg.png) left top no-repeat;
+	background-size: 100%;
+	padding: 60px 0 0 0;
+}
+header h1 {
+	padding: 0;
+	margin: 0 auto;
+	background: url(../images/logo.svg) center top no-repeat;
+	background-size: contain;
+	height: 104px;
+	width: 884px;
+	text-indent: -9999px;
+}
+#schedule {
+	width: 720px;
+	padding: 0;
+	margin: 30px auto;
+}
+#schedule p.date {
+	float: left;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 0;
+	margin: 0;
+}
+#schedule p.place {
+	float: right;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 0;
+	margin: 0;
+}
+#schedule p span {
+	font-weight: normal;
+	color: #e71635;
+	font-size: 80%;
+	font-style: italic;
+	margin-right: .5em;
+}
+h2 {
+	padding: 0;
+	margin: 120px auto 0;
+	background: url(../images/main.svg) center top no-repeat;
+	background-size: contain;
+	height: 100px;
+	width: 910px;
+	text-indent: -9999px;
+}
+.concept {
+	width: 900px;
+	padding: 0;
+	margin: 30px auto 0;
+	text-align: center;
+	font-size: 100%;
+	line-height: 1.6em;
+}
+.concept p.copy {
+	margin: 15px 0;
+}
+
+section#session {
+	padding: 20px;
+	margin: 50px auto;
+	width: 480px;
+	text-align: center;
+	border-top: #e71635 solid 1px;
+	border-bottom: #e71635 solid 1px;
+}
+section#session h1 {
+	padding: 0;
+	margin: 0 auto 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #e71635;
+	line-height: 1.5em;
+}
+section#session p a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 90%;
+	text-decoration: none;
+	color: #fff;
+	background: #e71635;
+}
+section#session p a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+section#session p a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+#link {
+	padding: 0;
+	margin: 40px auto;
+	width: 300px;
+}
+#link a:hover {
+	opacity: 0.8;
+}
+#link .webrtc a:link {
+	clear: both;
+	display: block;
+	padding: 0;
+	margin: 0 auto 30px;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+	color: #e71635;
+	text-align: center;
+}
+#link .webrtc a:hover {
+	text-decoration: none;
+}
+#link .webrtc a:visited {
+	color: #e71635;
+	text-decoration: none;
+}
+#link ul {
+	padding: 0;
+	margin: 30px auto;
+	list-style: none;
+	width: 100px;
+}
+#link ul li a:link {
+	padding: 0;
+	margin: 0 0 20px 0;
+	float: left;
+	display: block;
+}
+#link ul li.fb a:link {
+	padding: 10px;
+	margin: 0 10px 20px 0;
+	background: url(../images/ico_fb.svg);
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+#link ul li.tw a:link {
+	padding: 10px;
+	margin: 0;
+	background: url(../images/ico_twi.svg);
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+}
+
+@media screen and (max-width: 768px) {
+/* 768px以下用（タブレット／スマートフォン用）の記述 */
+
+html, body {
+	height: 100%;
+	font-size: 100% /* =16px */
+}
+body {
+	background: linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
+}
+#container {
+	width: 100%;
+	height: 115%;
+	background: url(../images/bg_tb.png) center top no-repeat;
+	background-size: auto;
+	padding: 50px 0 0 0;
+}
+header h1 {
+	padding: 0;
+	margin: 0 auto;
+	background: url(../images/logo.svg) center top no-repeat;
+	background-size: 100% 100%;
+	height: 120px;
+	width: 85%;
+	text-indent: -9999px;
+}
+#schedule {
+	width: 85%;
+	padding: 0;
+	margin: 20px auto 0;
+	text-align: center;
+}
+#schedule p.date {
+	float: none;
+	font-weight: bold;
+	font-size: 100%;
+	padding: 0;
+	margin: 0 0 20px;
+}
+#schedule p.place {
+	float: none;
+	font-weight: bold;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+#schedule p span {
+	font-weight: normal;
+	color: #e71635;
+	font-size: 90%;
+	font-style: italic;
+}
+h2 {
+	padding: 0;
+	margin: 50px auto 0;
+	background: url(../images/main.svg) center top no-repeat;
+	background-size: contain;
+	height: 80px;
+	width: 85%;
+	text-indent: -9999px;
+}
+.concept {
+	width: 85%;
+	padding: 0 0 30px 0;
+	margin: 0 auto 0;
+	text-align: left;
+	font-size: 80%;
+	line-height: 1.6em;
+}
+.concept p.copy {
+	margin: 15px 0;
+}
+
+section#session {
+	padding: 20px;
+	margin: 10px auto 0;
+	width: 480px;
+	text-align: center;
+	border-top: #e71635 solid 1px;
+	border-bottom: #e71635 solid 1px;
+}
+section#session h1 {
+	padding: 0;
+	margin: 0 auto 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #e71635;
+	line-height: 1.5em;
+}
+section#session p a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 90%;
+	text-decoration: none;
+	color: #fff;
+	background: #e71635;
+}
+section#session p a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+section#session p a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+#link {
+	overflow: hidden;
+	padding: 0;
+	margin: 50px auto 0;
+	width: 300px;
+}
+#link a:hover {
+	opacity: 0.8;
+}
+#link .webrtc a:link {
+	clear: both;
+	display: block;
+	padding: 0;
+	margin: 0 auto 30px;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+	color: #e71635;
+	text-align: center;
+}
+#link .webrtc a:hover {
+	text-decoration: none;
+}
+#link .webrtc a:visited {
+	color: #e71635;
+	text-decoration: none;
+}
+#link ul {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	width: 100px;
+}
+#link ul li a:link {
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+}
+#link ul li.fb a:link {
+	padding: 10px;
+	margin: 0 10px 20px 0;
+	background: url(../images/ico_fb.svg);
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+#link ul li.tw a:link {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	background: url(../images/ico_twi.svg);
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+}
+
+@media screen and (max-width: 567px) {
+/*567px以下用（スマートフォン用）の記述 */
+
+html, body {
+	height: 100%;
+	font-size: 100% /* =16px */
+}
+body {
+	background: linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
+}
+#container {
+	width: 100%;
+	height: 115%;
+	background: url(../images/bg_sp.png) left top no-repeat;
+	background-size: contain;
+	padding: 30px 0 0 0;
+}
+header h1 {
+	padding: 0;
+	margin: 0 0 0 30px;
+	background: url(../images/logo_sp.svg) left top no-repeat;
+	background-size: 100% 100%;
+	height: 0;
+	width: 70%;
+	padding-top: 85%;
+	text-indent: -9999px;
+}
+#schedule {
+	width: 85%;
+	padding: 0;
+	margin: 20px 0 0 30px;
+	text-align: left;
+}
+#schedule p.date {
+	float: none;
+	font-weight: bold;
+	font-size: 100%;
+	padding: 0;
+	margin: 0 0 10px;
+	line-height: 1.2em;
+}
+#schedule p.place {
+	float: none;
+	font-weight: bold;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 1.2em;
+}
+#schedule p span {
+	display: block;
+	padding-bottom: 5px;
+	font-weight: normal;
+	color: #e71635;
+	font-size: 90%;
+	font-style: italic;
+}
+h2 {
+	padding: 0;
+	margin: 50px auto 0;
+	background: url(../images/main_sp.svg) center top no-repeat;
+	background-size: contain;
+	height: 0;
+	padding-top: 30%;
+	width: 85%;
+	text-indent: -9999px;
+}
+.concept {
+	width: 85%;
+	padding: 0;
+	margin: 30px auto 0;
+	text-align: left;
+	font-size: 100%;
+	line-height: 1.8em;
+}
+.concept p.copy {
+	margin: 15px 0;
+}
+
+section#session {
+	padding: 20px;
+	margin: 30px auto 0;
+	width:80%;
+	text-align: center;
+	border-top: #e71635 solid 1px;
+	border-bottom: #e71635 solid 1px;
+}
+section#session h1 {
+	padding: 0;
+	margin: 0 auto 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #e71635;
+	line-height: 1.5em;
+}
+section#session p a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 90%;
+	text-decoration: none;
+	color: #fff;
+	background: #e71635;
+}
+section#session p a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+section#session p a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+#link {	overflow: hidden;	padding: 0;	margin: 20px auto 0;	width: 85%;}
+#link a:hover {
+	opacity: 0.8;
+}
+#link .webrtc a:link {
+	clear: both;
+	display: block;
+	padding: 0;
+	margin: 0 auto 30px;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+	color: #e71635;
+	text-align: center;
+}
+#link .webrtc a:hover {
+	text-decoration: none;
+}
+#link .webrtc a:visited {
+	color: #e71635;
+	text-decoration: none;
+}
+#link ul {
+	padding: 0;
+	margin: 30px auto;
+	list-style: none;
+	width: 100px;
+}
+#link ul li a:link {
+	float: left;
+}
+#link ul li.fb a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 10px 30px 0;
+	background: url(../images/ico_fb.svg);
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+#link ul li.tw a:link {
+	display: block;
+	padding: 10px;
+	margin: 0 0 30px 0;
+	background: url(../images/ico_twi.svg);
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+}

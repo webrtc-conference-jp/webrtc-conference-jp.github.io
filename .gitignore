@@ -4,3 +4,4 @@
 *.psd
 _site
 *.lock
+node_modules
