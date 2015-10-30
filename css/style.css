@@ -350,7 +350,8 @@ main > section {
     right: 1em; }
     #g_menu .menu_icon {
       top: .5em;
-      right: .5em; }
+      right: .5em;
+      -webkit-tap-highlight-color: transparent; }
       #g_menu .menu_icon.touched .fa {
         background-color: #f00;
         -webkit-transform: scale(1.4);

@@ -389,7 +389,7 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-
+	
 	.header_container {
 		padding: 2em 2em 0;
 		h1 {
@@ -416,6 +416,8 @@ main {
 		.menu_icon {
 			top: .5em;
 			right: .5em;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+
 			&.touched {
 				.fa {
 					background-color: #f00;

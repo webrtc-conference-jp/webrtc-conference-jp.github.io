@@ -12,10 +12,10 @@ var Nav = {
 			}
 			checkIcon ()
 		})*/
-		$(".menu_icon").on("touchstart", function () {
+		$(".menu_icon").on("touchstart, mousedown", function () {
 			$(this).addClass("touched")
 		})
-		$(".menu_icon").on("touchend", function () {
+		$(".menu_icon").on("touchend, mouseup", function () {
 			g_menu.toggleClass("open_menu");
 			$(this).removeClass("touched")
 			checkIcon ()
