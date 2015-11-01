@@ -1,0 +1,7 @@
+# Site settings
+title: jekyll-example
+url: "http://blog.cloudfoundry.gr.jp" # the base hostname & protocol for your site
+timezone: Asia/Tokyo
+
+# Build settings
+exclude: [vendor, Gemfile, Gemfile.lock, Procfile, config.ru]

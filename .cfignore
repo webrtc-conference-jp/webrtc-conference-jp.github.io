@@ -1,0 +1,7 @@
+_site
+/vendor/bundle/
+/.bundle/
+.idea
+README.md
+.gitignore
+.git
