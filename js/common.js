@@ -1,3 +1,5 @@
+
+
 var Nav = {
 	init: function () {
 		var g_menu = $("#g_menu"), g_ul = g_menu.find("ul");

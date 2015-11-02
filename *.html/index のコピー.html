@@ -20,14 +20,17 @@
 		<meta name="twitter:image:src" content="http://webrtcconference.jp/common/img/meta/OGP_logo.png">
 
 		<title>WebRTC Conference Japan</title>
+		<!-- <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/common.css"> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<!--[if lte IE 8]><script type="text/javascript" src="common/js/lib/html5shiv.js"></script><![endif]-->
 		<script type="text/javascript" src="common/js/lib/modernizr.min.js"></script>
 		<link rel="shortcut icon" href="./favicon.ico" >
 		<link rel="canonical" href="http://webrtcconference.jp/" />
 
 	</head>
-	<body class="global_top">
+	<body id="pagetop">
 		<div class="page_wrapper">
 			<header>
 				<div class="header_container">
@@ -42,15 +45,16 @@
 			<nav id="g_menu" class="">
 				<p class="menu_icon"><i class="fa fa-bars"></i></p>
 				<ul>
-					<li class="home"><a href="/"><i><img src="images/common/nav/nav_home.png" alt="icon: home"></i><span>Home</span></a></li>
-					<li class="session"><a href="/session/"><i><img src="images/common/nav/nav_session.png" alt="icon: session"></i><span>Session</span></a></li>
-					<li class="sponsor"><a href="/sponsor/"><i><img src="images/common/nav/nav_sponsor.png" alt="icon: sponsor"></i><span>Sponsor</span></a></li>
-					<li class="access"><a href="/access/index.html"><i><img src="images/common/nav/nav_access.png" alt="icon: access"></i><span>Access</span></a></li>
+					<li class="home"><a href="#"><i><img src="images/common/nav/nav_home.png" alt="icon: home"></i><span>Home</span></a></li>
+					<li class="session"><a href="#"><i><img src="images/common/nav/nav_session.png" alt="icon: session"></i><span>Session</span></a></li>
+					<li class="sponsor"><a href="#"><i><img src="images/common/nav/nav_sponsor.png" alt="icon: sponsor"></i><span>Sponsor</span></a></li>
+					<li class="access"><a href="#"><i><img src="images/common/nav/nav_access.png" alt="icon: access"></i><span>Access</span></a></li>
 					<li class="tickets"><a href="#"><i><img src="images/common/nav/nav_tickets.png" alt="icon: tickets"></i><span>Tickets</span></a></li>
 				</ul>
 			</nav>
 
 			<main>
+				
 				<section id="concept">
 					<div class="title">
 						<h1>コンセプト<span>concept</span></h1>
@@ -119,7 +123,7 @@
 							<a href="session/">
 								<div class="speaker_photo"><img src="images/index/dougtait_face.jpg" alt=""/></div>
 								<div class="context">
-									<h2>Real Time Communications (RTC) on the Web – use cases and deployments</h2>
+									<h3>Real Time Communications (RTC) on the Web – use cases and deployments</h3>
 									<p class="company">Director of Product Marketing, Oracle Communications</p>
 									<p class="name">Douglas Tait</p>
 									<p class="txt">今話題の技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。
@@ -131,7 +135,7 @@
 							<a href="session/">
 								<div class="speaker_photo"><img src="images/index/dougtait_face.jpg" alt=""/></div>
 								<div class="context">
-									<h2>Real Time Communications (RTC) on the Web – use cases and deployments</h2>
+									<h3>Real Time Communications (RTC) on the Web – use cases and deployments</h3>
 									<p class="company">Director of Product Marketing, Oracle Communications</p>
 									<p class="name">Douglas Tait</p>
 									<p class="txt">今話題の技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。
@@ -143,42 +147,6 @@
 					
 				</section>
 				<!-- recommend-->
-
-				<section id="xxxx">
-					<div class="title">
-						<h1>★★★★★★★★★何か追加コンテンツ★★★★★★★★★<span>added content</span></h1>
-						<figure>
-							<img src="images/index/title_img03.png">
-						</figure>
-					</div>
-					<!-- contact : item -->
-					<div class="content_inner">
-						<div class="box">
-							<h2>見出し2、新しい追加コンテンツが入ります</h2>
-							<p>p要素でマークアップ、Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic omnis consequuntur sit tempore cum quo necessitatibus odit laborum eaque adipisci natus optio facere nemo amet, fuga tenetur ad possimus quam.</p>
-							<p>p要素でマークアップ、Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic omnis consequuntur sit tempore cum quo necessitatibus odit laborum eaque adipisci natus optio facere nemo amet, fuga tenetur ad possimus quam.</p>
-							<div class="btn"><a href="#">div.btn &gt; a と書くとボタン</a></div>
-							<div class="btn"><a href="#"><i class="fa fa-check-circle"></i>font-awasomeアイコン</a></div>
-						</div>
-						<div class="box">
-							<h3>見出し3、新着情報</h3>
-							<ul>
-								<li>箇条書きリスト</li>
-								<li><a href="#">箇条書きリスト</a></li>
-							</ul>
-							<ol>
-								<li>番号リスト</li>
-								<li>番号リスト</li>
-								<li>番号リスト</li>
-							</ol>
-							<dl>
-								<dt>定義型リストdt</dt>
-								<dd>定義型リストdd</dd>
-							</dl>
-						</div>
-						
-					</div>
-				</section>
 				
 				<!-- Section : Contact -->
 				<section id="contact">

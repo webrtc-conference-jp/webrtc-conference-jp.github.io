@@ -1,5 +1,5 @@
 {
-  "name": "sakanatouch-gulp",
+  "name": "tuqulore-gulp",
   "version": "1.0.0",
   "description": "gulptest",
   "main": "index.js",
@@ -16,7 +16,6 @@
     "browser-sync": "latest",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "latest",
-    "gulp-jade": "latest",
     "gulp-plumber": "latest",
     "gulp-sass": "latest",
     "gulp-uglify": "latest"

@@ -2,7 +2,7 @@
 $red : #e71635;
 $black : #333;
 @mixin top_wrap {
-	padding: 2em 5em;
+	padding: 3em 5em;
 }
 @mixin cf {
 	&::after {
@@ -40,24 +40,43 @@ body {
 }
 
 .btn {
+	margin: 2px;
 	a {	
 		background-color: $red;
 		display: inline-block;
 		color: white;
 		line-height: 1;
-		padding: 1em 2.4em;
+		padding: 1em 2.1em;
 		font-weight: bold;
 		text-decoration: none;
 		&:hover {
 			background-color: darken($red, 10%);
 		}
 	}
+	i {
+		margin: 0 .5em;
+	}
 }
-.page_wrapper {
+
+/*
+common simple style
+*/
+.box {
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1.2em;
+	}
+	margin-bottom: 1em;
+}
+.content_inner {
+	max-width: 960px
 }
 
 .header_container {
 	padding-top: 2em;
+	margin-bottom: 1em;
 	h1 {
 		width: 400px;
 		margin: 0 auto .5em;
@@ -124,11 +143,16 @@ body {
 				transition: .2s;
 				text-decoration: none;
 				padding: 0 1em;
-				color: #333;
+				color: #666;
 				font-size: 1em;
 				text-align: center;
 				display: inline-block;
 				font-weight: bold;
+				
+					padding: .6em;
+					background-color: rgba(255, 255, 255, .9);
+					border-radius: 4px;
+					margin-bottom: .6em;
 				span {
 					display: inline-block;
 					line-height: 1;
@@ -169,14 +193,6 @@ body {
 	}
 }
 
-/* 
-.hero_img {
-	@include wrap;
-	img {
-		width: 600px;
-	}
-} */
-
 main {
 	.hero_img {
 		width: 50%;
@@ -189,7 +205,7 @@ main {
 		@include top_wrap;
 		figure {
 			position: relative;
-			top: -150px;
+			top: 0px;
 		}
 		&:nth-child(odd) {
 			background: url(../images/common/section_bg.svg) 0 0 no-repeat;
@@ -201,11 +217,12 @@ main {
 					width: 100%;
 				}
 			}
-			.content_inner {
+			.content_inner, h1 {
 				margin-right: 25%;
 			}
 		}
 		&:nth-child(even) {
+			padding-top: 2em;
 			figure {
 				float: left;
 				width: 20%;
@@ -213,7 +230,7 @@ main {
 					width: 100%;
 				}
 			}
-			.content_inner {
+			.content_inner, h1 {
 				margin-left: 25%;
 			}
 		}
@@ -224,7 +241,7 @@ main {
 		h1 {
 			font-size: 2.4em;
 			margin-top: 0;
-			text-align: center;
+			margin-bottom: .5em;
 			span {
 				margin: 0 1em;
 				font-size: .7em;
@@ -235,15 +252,22 @@ main {
 }
 
 #concept {
+	.content_inner {
+		margin: auto;
+	}
 	.hero_img {
-		width: 40%;
+		width: 50%;
 		top: 0;
 	}
 	.concept_box {
-		width: 60%;
+		width: 50%;
 		float: right;
 		padding: 0 2em 0 0;
 
+	}
+	h1 {
+		width: 960px;
+		margin: 1em auto .5em;
 	}
 	p {
 		margin: 0 0 .6em;
@@ -282,7 +306,7 @@ main {
 	}
 	h3, p {
 		margin: 0;
-		line-height: 1.3;
+		line-height: 1.6;
 		margin-bottom: .3em;
 	}
 	p {
@@ -304,7 +328,6 @@ main {
 		margin: 0;
 		line-height: 1.3;
 		margin-bottom: .3em;
-		font-size: 1.4em;
 	}
 	li {
 		list-style-type: none;
@@ -398,9 +421,9 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-	
 	.header_container {
 		padding: 2em 2em 0;
+		margin-bottom: 0;
 		h1 {
 			width: auto;
 			img {
@@ -437,10 +460,8 @@ main {
 		ul {
 			margin-top: 80px;
 			li {
-			padding: .6em;
-			background-color: rgba(255, 255, 255, .9);
-			border-radius: 4px;
-			margin-bottom: .6em;
+				a {
+				}
 			}
 		}
 		&.open_menu {
@@ -452,6 +473,7 @@ main {
 	@mixin figure_init {
 		float: none;
 		top: 0;
+		display: none;
 	}
 	main {
 		&>section {
@@ -460,21 +482,36 @@ main {
 				figure {
 					@include figure_init;
 				}
-				.content_inner {
+				.content_inner, h1 {
 					margin: 0;
+				}
+				h1 {
+					margin-bottom: .5em;
 				}
 			}
 			&:nth-child(even) {
 				figure {
 					@include figure_init;
 				}
-				.content_inner {
+				.content_inner, h1 {
 					margin: 0;
+				}
+				h1 {
+					margin-bottom: .5em;
 				}
 			}
 			h1 {
-				font-size: 100%;
+				font-size: 130%;
+				margin-bottom: .8em;
 				text-align: left;
+				span {
+					margin: 0 0 0 1em;
+				}
+			}
+			&:nth-child(1) {
+				figure {
+					display: block;
+				}
 			}
 		}
 	}
@@ -534,9 +571,7 @@ main {
 		}
 	}
 	#contact {
-		h3 {
-			font-size: 100%;
-		}
+		
 		.txt, .btn {
 			margin-left: 0;
 		}
@@ -549,7 +584,6 @@ main {
 			h1 {
 				margin-bottom: .5em;
 				span {
-					display: block;
 					line-height: 1;
 				}
 			}
@@ -585,7 +619,58 @@ main {
 	}
 }
 
+/*
+underpages
+*/
 
+.undertop {
+	.header_container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 960px;
+		margin: 1.5em auto;
+		padding: 0;
+		.logos {
+			width: 400px;
+			text-align: center;
+			h1, h2 {
+				text-align: center;
+				margin: 0 auto 0;
+				width: 100%;
+			}
+			h2 {
+				margin: 0 auto;
+				width: 200px;
+			}
+		}
+		.schedule {
+			text-align: right;
+			font-size: .8em;
+		}
+	}
+	main {
+		section {
+			background: none;
+			&:nth-child(even), &:nth-child(odd) {
+				.content_inner {
+					margin: 0 auto;
+				}
+			}
+			h1 {
+				width: 960px;
+				margin: 0 auto .5em;
+			}
+		}
+	}
+}
+
+#map {
+	iframe {
+		width: 100%;
+		height: 400px;
+	}
+}
 
 
 
