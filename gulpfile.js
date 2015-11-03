@@ -4,6 +4,7 @@ var autoprefixer = require("gulp-autoprefixer")
 var uglify = require("gulp-uglify");
 var browser = require("browser-sync");
 var plumber = require("gulp-plumber");
+var sourcemaps = require('gulp-sourcemaps');
 
 //　自動更新
 gulp.task("server", function() {
@@ -25,12 +26,14 @@ gulp.task('html',function(){
 // sass compile
 gulp.task("sass", function() {
     gulp.src("./scss/*.scss")
+        .pipe(sourcemaps.init())
         .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 2 versions', "ie 9"],
             cascade: false
         }))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest("./css"))
         .pipe(browser.reload({stream:true}))
 });

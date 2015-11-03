@@ -19,5 +19,8 @@
     "gulp-plumber": "latest",
     "gulp-sass": "latest",
     "gulp-uglify": "latest"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^1.6.0"
   }
 }
