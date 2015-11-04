@@ -1,6 +1,7 @@
 
-$red : #e71635;
+$red : rgba(231, 22, 53, 1);
 $black : #333;
+
 @mixin top_wrap {
 	padding: 2em 5em;
 }
@@ -409,8 +410,6 @@ main {
 }
 
 #sns {
-	/* background: url(../images/common/section_bg_3.svg) 0 0 no-repeat;
-	background-size: cover; */
 	color: white;
 	@include bgslope(#374648, 1deg);
 	@include top_wrap;
@@ -453,6 +452,143 @@ main {
 	text-align: center;
 }
 
+
+/*
+Desktop for underpages
+-----------------------------------------------------------------------
+*/
+
+/* sesstion */
+#session {
+	
+}
+.session_day_wrap {
+	display: flex;
+	justify-content: center;
+}
+@mixin text_icon {
+	padding: .3em 2em;
+	display: inline-block;
+	line-height: 1;
+	text-align: center;
+    color: #fff;
+    margin-left: 4px;
+}
+.session_day {
+	width: 50%;
+	font-size: 90%;
+	header {
+		margin: 0 .5em .7em;
+		padding-bottom: 26px;
+		background: url(../images/common/arrow_down.svg) center bottom no-repeat;
+		background-size: 37px 24px;
+		h2 {
+			text-align: center;
+			margin: .3em;
+			span {
+				font-size: small;
+				display: block;
+				margin-top: .3em;
+			}
+		}
+	}
+	.session_time {
+		background-color: rgba(231, 22, 53, .5);
+		padding: .4em;
+		text-align: center;
+		line-height: 1;
+		font-size: 1em;
+		color: white;
+		letter-spacing: .1em;
+		margin-bottom: .6em;
+		span {
+			margin: 0 .8em;
+		}
+	}
+	.session_item {
+		display: block;
+		border: 1px solid rgba(0,0,0,.3);
+		background-color: rgba(255,255,255,.3);
+		padding: .7em;
+		margin: 0 .5em .3em;
+		text-decoration: none;
+		color: #333;
+		transition: .2s;
+		h3 {
+			margin: 0 0 .8em;
+			span {
+				font-size: 80%;
+				font-weight: normal;
+				display: block;
+			}
+		}
+		&:hover {
+			box-shadow: 0 0 10px #666;
+			transform: scale(1.01);
+		}
+	}
+	.icon_wrap {
+		font-size: x-small;
+		margin-bottom: .3em;
+		@include cf;
+		.slide_exists {
+			float: left;
+			@include text_icon;
+			background-color: #e93753;
+			margin: 0;
+		}
+		.icon {
+			float: right;
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: flex-end;
+			li {
+				@include text_icon;
+				&.icon_all {
+					background: #838a8e;
+				}
+				&.icon_biz {
+					background: #ed5268;
+				}
+				&.icon_tech {
+					background: #6fa3d4;
+				}
+				&.icon_lv1 {
+    				background: #a7c431;
+				}
+				&.icon_lv2 {
+					background: #d69735;
+				}
+				&.icon_lv3 {
+					background: #be2638;
+				}
+			}
+		}
+	}
+	.speakers {
+		margin: 0;
+		padding: 0;
+		li {
+			margin: 2px 0 0;
+			padding: 0;
+			display: inline-block;
+		}
+		img {
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+		}
+	}
+}
+
+
+/*
+Mobile for top and common
+-----------------------------------------------------------------------
+*/
+
 @media screen and (max-width: 768px) {
 	.header_container {
 		padding: 2em 2em 0;
@@ -476,8 +612,8 @@ main {
 		}
 	}
 	#g_menu {
-		top: 1em;
-		right: 1em;
+		top: .2em;
+		right: .2em;
 		.menu_icon {
 			top: .5em;
 			right: .5em;
@@ -582,8 +718,6 @@ main {
 			margin-right: 0;
 		}
 	}
-
-
 	#sns_tweet {
 		margin-left: 0;
 		margin-top: 20px;
@@ -664,6 +798,7 @@ main {
 
 /*
 underpages
+-----------------------------------------------------------------------
 */
 
 .undertop {
@@ -718,13 +853,14 @@ underpages
 
 /*
 underpages for mobile
+-----------------------------------------------------------------------
 */
 
 @media screen and (max-width: 768px) {
 	.undertop {
 		.header_container {
 			display: block;
-			padding-left: .6em;
+			padding-left: 1em;
 			margin-top: 1em;
 			.logos {
 				width: 78%;
@@ -734,13 +870,13 @@ underpages for mobile
 					width: 100%;
 				}
 				h2 {
-					width: 80%;
-					text-align: center;
+					width: 95%;
+					margin-top: 5px;
 				}
 			}
 			.schedule {
 				width: 78%;
-				text-align: center;
+				text-align: left;
 				p {
 					font-size: 80%;
 				}
@@ -757,6 +893,58 @@ underpages for mobile
 			max-width: 100%;
 		}
 	}
+
+	/*
+		Mobile for session page
+	*/
+	#session {
+		padding: 2em 2px 2em;
+		.title {
+			margin-left: 1em;
+		}
+		.session_day {
+			h2 {
+				line-height: 1.1;
+			}
+			.session_item {
+				margin: 1px;
+				padding: .3em;
+			}
+			@mixin text_icon {
+				padding: .3em .4em;
+				margin: 1px;
+				font-size: x-small;
+			}
+			.icon_wrap {
+				margin-bottom: 0;
+				.icon {
+					display: inline-block;
+					float: none;
+					li {
+						@include text_icon;
+						float: left;
+					}
+				}
+				.slide_exists {
+					@include text_icon;
+				}
+			}
+			h3 {
+				font-size: 90%;
+				margin-bottom: 0;
+			}
+			.speakers {
+				li {
+					font-size: x-small;
+					img {
+						width: 20px;
+						height: 20px;
+					}
+				}
+			}
+		}
+	}
+
 }
 
 
