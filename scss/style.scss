@@ -131,30 +131,11 @@ common simple style
 	position: fixed;
 	top: 40px;
 	right: 20px;
-	.menu_icon {
-		top: 0;
-		right: 40px;
-		position: absolute;
-		transition: .3s;
-		.fa {
-			font-size: 1.4em;
-			width: 60px;
-			height: 60px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			background-color: rgba(0,0,0,.2);
-			border-radius: 50%;
-			color: white;
-			cursor: pointer;
-			&:hover {
-				transform: scale(1.1);
-			}
-		}
-	}
+	
 	ul {
 		margin: 0;
 		transition: .3s;
+		height: 0;
 		li {
 			list-style-type: none;
 			position: relative;
@@ -170,11 +151,10 @@ common simple style
 				text-align: center;
 				display: inline-block;
 				font-weight: bold;
-				
-					padding: .6em;
-					background-color: rgba(255, 255, 255, .9);
-					border-radius: 4px;
-					margin-bottom: .6em;
+				padding: .6em;
+				background-color: rgba(255, 255, 255, .9);
+				border-radius: 4px;
+				margin-bottom: .6em;
 				span {
 					display: inline-block;
 					line-height: 1;
@@ -208,9 +188,33 @@ common simple style
 		.menu_icon {
 			transform: translateX(-100px);
 		}
+		ul {
+			height: auto;
+		}
 		li {
 			transform: translateX(0px);
 			opacity: 1;
+		}
+	}
+}
+.menu_icon {
+	top: 0;
+	right: 40px;
+	position: absolute;
+	transition: .3s;
+	.fa {
+		font-size: 1.4em;
+		width: 60px;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(0,0,0,.2);
+		border-radius: 50%;
+		color: white;
+		cursor: pointer;
+		&:hover {
+			transform: scale(1.1);
 		}
 	}
 }
@@ -255,7 +259,7 @@ main {
 			}
 			.content_inner, h1 {
 				margin-left: 25%;
-			margin-top: 0;
+				margin-top: 0;
 			}
 		}
 		&:nth-child(3) {
@@ -459,9 +463,7 @@ Desktop for underpages
 */
 
 /* sesstion */
-#session {
-	
-}
+
 .session_day_wrap {
 	display: flex;
 	justify-content: center;
@@ -474,9 +476,33 @@ Desktop for underpages
     color: #fff;
     margin-left: 4px;
 }
-.session_day {
-	width: 50%;
-	font-size: 90%;
+
+#session, #session_modal {
+	.session_day {
+		width: 50%;
+		font-size: 90%;
+	}
+	li {
+		@include text_icon;
+		&.icon_all {
+			background: #838a8e;
+		}
+		&.icon_biz {
+			background: #ed5268;
+		}
+		&.icon_tech {
+			background: #6fa3d4;
+		}
+		&.icon_lv1 {
+			background: #a7c431;
+		}
+		&.icon_lv2 {
+			background: #d69735;
+		}
+		&.icon_lv3 {
+			background: #be2638;
+		}
+	}
 	header {
 		margin: 0 .5em .7em;
 		padding-bottom: 26px;
@@ -544,27 +570,7 @@ Desktop for underpages
 			margin: 0;
 			display: flex;
 			justify-content: flex-end;
-			li {
-				@include text_icon;
-				&.icon_all {
-					background: #838a8e;
-				}
-				&.icon_biz {
-					background: #ed5268;
-				}
-				&.icon_tech {
-					background: #6fa3d4;
-				}
-				&.icon_lv1 {
-    				background: #a7c431;
-				}
-				&.icon_lv2 {
-					background: #d69735;
-				}
-				&.icon_lv3 {
-					background: #be2638;
-				}
-			}
+			
 		}
 	}
 	.speakers {
@@ -574,6 +580,7 @@ Desktop for underpages
 			margin: 2px 0 0;
 			padding: 0;
 			display: inline-block;
+			color: #333;
 		}
 		img {
 			width: 30px;
@@ -583,6 +590,69 @@ Desktop for underpages
 	}
 }
 
+/* session overlay */
+
+#overlay {
+	position: fixed;
+	background-color: darken(rgba(231, 22, 53, .9), 40%);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	cursor: pointer;
+	transition: .6s;
+	&:hover {
+		background-color: darken(rgba(231, 22, 53, .8), 39%);
+	}
+}
+
+#modal_window {
+	width: 80%;
+	font-size: 80%;
+	background-color: #fff;
+	height: 80%;
+	position: absolute;
+	z-index: 5;
+	left: 10%;
+	top: 10%;
+	.menu_icon {
+		top: -30px;
+		right: -30px;
+		.fa {
+			background-color: darken(rgba(231, 22, 53, 1), 10%)
+		}
+	}
+	.speakers {
+		.speaker {
+			border-top: 1px dashed rgba(0,0,0,.2);
+		}
+	}
+	dt {
+		font-weight: bold;
+	}
+	.icon {
+		margin: 0;
+	}
+	.modal {
+		
+	}
+}
+
+#session_modal {
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	overflow: scroll;
+	-webkit-overflow-scrolling : touch;
+	h1 {
+		span {
+			font-size: 80%;
+			font-weight: normal;
+			display: block;
+		}
+	}
+}
 
 /*
 Mobile for top and common
@@ -909,6 +979,7 @@ underpages for mobile
 			.session_item {
 				margin: 1px;
 				padding: .3em;
+				display: block;
 			}
 			@mixin text_icon {
 				padding: .3em .4em;
@@ -944,7 +1015,19 @@ underpages for mobile
 			}
 		}
 	}
-
+	#modal_window {
+		width: 96%;
+		height: 90%;
+		left: 2%;
+		top: 10%;
+		.menu_icon {
+			top: -30px;
+			right: 15px;
+			.fa {
+				background-color: darken(rgba(231, 22, 53, 1), 10%)
+			}
+		}
+	}
 }
 
 

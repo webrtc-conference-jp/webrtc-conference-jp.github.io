@@ -14,10 +14,10 @@ var Nav = {
 			}
 			checkIcon ()
 		})*/
-		$(".menu_icon").on("touchstart, mousedown", function () {
+		g_menu.find(".menu_icon").on("touchstart, mousedown", function () {
 			$(this).addClass("touched")
 		})
-		$(".menu_icon").on("touchend, mouseup", function () {
+		g_menu.find(".menu_icon").on("touchend, mouseup", function () {
 			g_menu.toggleClass("open_menu");
 			$(this).removeClass("touched")
 			checkIcon ()
@@ -37,6 +37,31 @@ var Nav = {
 	}
 }
 
+var Modal = {
+	elements: {
+		overlay: $("#overlay"),
+		modal: $("#modal_window")
+	},
+	init : function () {
+		$(document).on("click", "#modal_window .menu_icon, #overlay", Modal.close);
+		$(document).on("click", "#session .session_item", Modal.open)
+	},
+	open : function (e) {
+		e.preventDefault()
+		console.log(this.id)//session_0xなどid参照が可能
+		var sct = $(window).scrollTop() + 40
+		Modal.elements.overlay.fadeIn(200, function () {
+			Modal.elements.modal.css({top: sct}).fadeIn(200)
+		})
+	},
+	close : function () {
+		Modal.elements.modal.fadeOut(200, function () {
+			Modal.elements.overlay.fadeOut(200)
+		})
+	}
+}
+
 window.onload = function () {
 	Nav.init()
+	Modal.init()
 }
