@@ -59,19 +59,28 @@
 			<main>
 				
 				<section id="session">
+					<div class="title">
+						<h1>セッション内容<span>session</span></h1>
+					</div>
+					
+					<div class="day_tab">
+						<ul>
+							<li class="active_tab"><a id="_day01" href="#tab_session_day01">2/16(火)
+<span>セッション1日目</span></a></li>
+							<li><a id="_day02" href="#tab_session_day02">2/17(水)
+<span>セッション1日目</span></a></li>
+						</ul>
+					</div>
+
 					<div class="bg_inner">
-						<div class="title">
-							<h1>セッション内容<span>session</span></h1>
-						</div>
-						<div class="content_inner session_day_wrap">
-
-							<!-- セッション内容ここから -->
-
-							<section id="session_day01" class="session_day">
+						<div id="tab_session_day01" class="content_inner active_session">
 								<!-- セッション1日目内容ここから -->
 								<header>
 									<h2>2/16(火)<span>セッション1日目</span></h2>
 								</header>
+							<div class="session_day_wrap">
+								<!-- セッション内容ここから -->
+								<section id="session_day01_a" class="session_day">
 								
 								<a href="#" class="session_item" id="session_17">
 									<div class="session_time">
@@ -151,63 +160,155 @@
 									</div>
 								</a>
 								<!-- セッション1日目内容ここまで -->
-							</section>
-
-
-							<section id="session_day02" class="session_day">
-								<!-- セッション2日目内容ここから -->
-								<header>
-									<h2>2/17(水)<span>セッション2日目</span></h2>
-								</header>
-								<a href="#" class="session_item" id="session_15">
-									<div class="session_time">
-										<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-									</div>
-									<div>
-										<div class="icon_wrap">
-											<p class="slide_exists">講演資料公開中</p>	
-											<ul class="icon">
-												<li class="icon_all">All</li>
-										    <li class="icon_lv3">上級</li>
-										  </ul>
-										</div>
-										<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
-										<ul class="speakers">
-											<li>
-											  <img src="../images/session/futomi_hatano.jpg" alt="講演者：羽田野 太巳さんの写真です">
-											  羽田野 太巳
-											</li>
-										</ul>
-									</div>
-								</a>
-
-								<a href="#" class="session_item" id="session_14">
-									<div class="session_time">
-										<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-									</div>
-									<div>
-										<div class="icon_wrap">
-											<!-- <p class="slide_exists">講演資料公開中</p>	 -->
-											<ul class="icon">
-												<li class="icon_all">All</li>
-										    <li class="icon_lv2">中級</li>
-										  </ul>
-										</div>
-										<h3>WebRTCの活用事例・製品事例<span>WebRTC Conferenceプラチナスポンサーによる事例紹介ライトニングトーク大会！</span></h3>
-										<ul class="speakers">
-											<li>
-											  <img src="../images/session/futomi_hatano.jpg" alt="講演者：羽田野 太巳さんの写真です">
-											  羽田野 太巳
-											</li>
-										</ul>
-									</div>
-								</a>
-								<!-- セッション2日目内容ここまで -->
-							</section>
-
-							<!-- セッション内容ここまで -->
-
+								</section><!-- session_day01 -->
+								<!-- セッション内容ここまで -->
+							</div>
 						</div><!-- /.content_inner -->
+						
+						
+						<div id="tab_session_day02" class="content_inner">
+							<header class="day_header">
+								<h2>2/17(水)<span>セッション2日目</span></h2>
+							</header>
+							<div class="session_day_wrap">
+							<!-- セッション内容ここから -->
+								<section id="session_day02_a" class="session_day">
+									<!-- セッション1日目内容ここから -->
+									<div class="track_name">Track A</div>
+									
+									<a href="#" class="session_item" id="session_17">
+										<div class="session_time">
+											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
+										</div>
+										<div id="session_16">
+											<div class="icon_wrap">
+												<!-- <p class="slide_exists">講演資料公開中</p> -->	
+												<ul class="icon">
+													<li class="icon_all">All</li>
+											    <li class="icon_lv1">初級</li>
+											  </ul>
+											</div>
+											<h3>基調講演<span>The WebRTC Continuum - The Next Wave</span></h3>
+											<ul class="speakers">
+											<li>
+											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
+											  Douglas Tait
+											</li>
+											</ul>
+										</div>
+									</a>
+
+									<a href="#" class="session_item" id="session_17">
+										<div class="session_time">
+											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
+										</div>
+										<div id="session_16">
+											<div class="icon_wrap">
+												<p class="slide_exists">講演資料公開中</p>	
+												<ul class="icon">
+													<li class="icon_all">All</li>
+											    <li class="icon_tech">TECH</li>
+											  </ul>
+											</div>
+											<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
+											<ul class="speakers">
+											<li>
+											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
+											  Douglas Tait
+											</li>
+											</ul>
+										</div>
+									</a>
+
+									<a href="#" class="session_item" id="session_18">
+										<div class="session_time">
+											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
+										</div>
+										<div>
+											<div class="icon_wrap">
+												<p class="slide_exists">講演資料公開中</p>	
+												<ul class="icon">
+													<li class="icon_all">All</li>
+											    <li class="icon_biz">BIZ</li>
+											  </ul>
+											</div>
+											<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
+											<ul class="speakers">
+												<li>
+												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
+												  Douglas Tait
+												</li>
+												<li>
+												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
+												  Douglas Tait
+												</li>
+												<li>
+												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
+												  Douglas Tait
+												</li>
+												<li>
+												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
+												  Douglas Tait
+												</li>
+											</ul>
+										</div>
+									</a>
+									<!-- セッション1日目内容ここまで -->
+								</section><!-- session_day01 -->
+								<section id="session_day02_b" class="session_day">
+									<!-- セッション2日目内容ここから -->
+									
+									<div class="track_name">Track B</div>
+
+									<a href="#" class="session_item" id="session_15">
+										<div class="session_time">
+											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
+										</div>
+										<div>
+											<div class="icon_wrap">
+												<p class="slide_exists">講演資料公開中</p>	
+												<ul class="icon">
+													<li class="icon_all">All</li>
+											    <li class="icon_lv3">上級</li>
+											  </ul>
+											</div>
+											<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
+											<ul class="speakers">
+												<li>
+												  <img src="../images/session/futomi_hatano.jpg" alt="講演者：羽田野 太巳さんの写真です">
+												  羽田野 太巳
+												</li>
+											</ul>
+										</div>
+									</a>
+
+									<a href="#" class="session_item" id="session_14">
+										<div class="session_time">
+											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
+										</div>
+										<div>
+											<div class="icon_wrap">
+												<!-- <p class="slide_exists">講演資料公開中</p>	 -->
+												<ul class="icon">
+													<li class="icon_all">All</li>
+											    <li class="icon_lv2">中級</li>
+											  </ul>
+											</div>
+											<h3>WebRTCの活用事例・製品事例<span>WebRTC Conferenceプラチナスポンサーによる事例紹介ライトニングトーク大会！</span></h3>
+											<ul class="speakers">
+												<li>
+												  <img src="../images/session/futomi_hatano.jpg" alt="講演者：羽田野 太巳さんの写真です">
+												  羽田野 太巳
+												</li>
+											</ul>
+										</div>
+									</a>
+									<!-- セッション2日目内容ここまで -->
+								</section><!-- session_day02 -->
+							<!-- セッション内容ここまで -->
+							</div>
+						</div><!-- /.content_inner -->
+
 					</div><!-- /.bg_inner -->
 				</section>
 

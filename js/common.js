@@ -61,7 +61,24 @@ var Modal = {
 	}
 }
 
+var SessionTab = {
+	content_inner : $(".content_inner"),
+	tabs : $(".day_tab li"),
+	init : function () {
+		$(document).on("click", ".day_tab a", SessionTab.change)
+	},
+	change : function (e) {
+		e.preventDefault();
+		var ids = "#tab_session"+this.id;
+		SessionTab.content_inner.removeClass("active_session")
+		$(ids).addClass("active_session")
+		SessionTab.tabs.removeClass("active_tab")
+		$(this).closest("li").addClass("active_tab")
+	}
+}
+
 window.onload = function () {
 	Nav.init()
 	Modal.init()
+	SessionTab.init()
 }
