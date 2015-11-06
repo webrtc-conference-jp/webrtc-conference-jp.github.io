@@ -61,4 +61,10 @@
         "logo": "/images/sponsor/logo/w3c.png",
         "link": "http://www.w3.org/"
     },
+    {
+        "name": "HTML5 Experts.jp***sample***",
+        "type": "media",
+        "logo": "/images/sponsor/logo/hx.png",
+        "link": "http://html5experts.jp/"
+    },
 ]
