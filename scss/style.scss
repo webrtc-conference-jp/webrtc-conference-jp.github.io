@@ -673,6 +673,9 @@ Desktop for underpages
 	.bg_inner {
 		max-width: 960px;
 	}
+	.cfx {
+		@include cf;
+	}
 	ul, li {
 		list-style-type: none;
 		margin: 0;
