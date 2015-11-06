@@ -1,0 +1,64 @@
+[
+    {
+        "name": "インフォコム",
+        "type": "platinum",
+        "description": "Webの新技術としてWebRTCに注目し、2013年度から研究に取り組んでいます。当社のB2B、B2E、B2Cのシステム/サービスでWebRTCを活用したより良いコミュニケーションの実現を目指しています。",
+        "logo": "/images/sponsor/logo/infocom.png",
+        "link": "http://www.infocom.co.jp/"
+    },
+    {
+        "name": "NTTコミュニケーションズ",
+        "type": "platinum",
+        "description": "NTTコミュニケーションズは、WebRTCを活用するために開発したプラットフォーム「SkyWay」の無償提供と、ソフトウェア開発支援サービスGitHub上における「SkyWay」のライブラリ・ソースコードの公開を行っています。国内初の公開トライアルを通して、日本でのWebRTCの普及促進を目指しています。",
+        "logo": "/images/sponsor/logo/nttcom.png",
+        "link": "http://www.ntt.com/"
+    },
+    {
+        "name": "HP***sample***",
+        "type": "gold",
+        "logo": "/images/sponsor/logo/hp.png",
+        "link": "http://www8.hp.com/jp/ja/home.html"
+    },
+    {
+        "name": "Mist Technologies***sample***",
+        "type": "gold",
+        "logo": "/images/sponsor/logo/mist.png",
+        "link": "http://www.mist-t.co.jp/"
+    },
+    {
+        "name": "Google Developers***sample***",
+        "type": "sil",
+        "logo": "/images/sponsor/logo/google.png",
+        "link": "https://developers.google.com/"
+    },
+    {
+        "name": "コムデザイン***sample***",
+        "type": "silver",
+        "logo": "/images/sponsor/logo/comdesign.png",
+        "link": "http://www.comdesign.co.jp/"
+    },
+    {
+        "name": "イーサイド***sample***",
+        "type": "corporation",
+        "logo": "/images/sponsor/logo/eside.png",
+        "link": "http://www.e-side.co.jp/"
+    },
+    {
+        "name": "NTTアドバンステクノロジ***sample***",
+        "type": "corporation",
+        "logo": "/images/sponsor/logo/nttat.png",
+        "link": "http://www.ntt-at.co.jp/"
+    },
+    {
+        "name": "html5j***sample***",
+        "type": "support",
+        "logo": "/images/sponsor/logo/html5j.png",
+        "link": "http://html5j.org/"
+    },
+    {
+        "name": "w3c***sample***",
+        "type": "support",
+        "logo": "/images/sponsor/logo/w3c.png",
+        "link": "http://www.w3.org/"
+    },
+]
