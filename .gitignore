@@ -5,3 +5,5 @@
 _site
 *.lock
 node_modules
+.jekyll-metadata
+*.html/index.html
