@@ -62,5 +62,5 @@ gulp.task("default",['server'], function() {
     gulp.watch(['*.html'],['html']);    //htmlファイルを監視
     gulp.watch(['./scss/*.scss'],['sass']); //scssファイルを監視
     gulp.watch(['./css/*.css'],['html']); //cssファイルを監視
-    gulp.watch(['./index.html', './session/*.html', './sponsor/*.html', './_data/*.json'],["jekyll"]);
+    gulp.watch(['./index.html', './session/*.html', './sponsor/*.html', './_data/*.json', './_includes/*.html'],["jekyll"]);
 });
