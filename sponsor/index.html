@@ -66,14 +66,13 @@ title: WebRTC Conference Japan Sponsor
 						<div class="title">
 							<h1>スポンサー紹介<span>sponsor</span></h1>
 						</div>
-{% assign sponsors = site.data.sponsors.platinum %}
-{% if sponsors.size > 0 %}
+{% if site.data.sponsors.platinum.size > 0 %}
 						<!-- Section : Platinum -->
 						<div id="platinum" class="section">
 							<div class="section_container">
 								<h2>プラチナスポンサー<span>Platinum Sponsor</span></h2>
 								<div class="section_box">
-	{% for sponsor in sponsors %}
+	{% for sponsor in site.data.sponsors.platinum %}
 									<div class="section_item">
 										<a href="{{ sponsor.link }}" target="_blank" class="cfx">
 											<div class="img"><img src="{{ sponsor.logo }}" width="200" height="200" alt="{{ sponsor.name }}"/></div>
@@ -91,15 +90,14 @@ title: WebRTC Conference Japan Sponsor
 						<!-- /#platinum -->
 {% endif %}
 
-{% assign sponsors = site.data.sponsors.gold %}
-{% if sponsors.size > 0 %}
+{% if site.data.sponsors.gold.size > 0 %}
 						<!-- Section : Gold -->
 						<div id="gold" class="section">
 							<div class="section_container">
 								<h2>ゴールドスポンサー<span>Gold Sponsor</span></h2>
 								<div class="section_box cfx">
 									<!-- section : item -->
-	{% for sponsor in sponsors %}
+	{% for sponsor in site.data.sponsors.gold %}
 									<div class="section_item">
 										<a href="{{ sponsor.link }}" target="_blank" class="cfx">
 											<div class="img"><img src="{{ sponsor.logo }}" width="150" height="150" alt="{{ sponsor.name }}"/></div>
@@ -116,15 +114,14 @@ title: WebRTC Conference Japan Sponsor
 						<!-- /#gold -->
 {% endif %}
 
-{% assign sponsors = site.data.sponsors.silver %}
-{% if sponsors.size > 0 %}
+{% if site.data.sponsors.silver.size > 0 %}
 						<!-- Section : Silver -->
 						<div id="silver" class="section">
 							<div class="section_container">
 								<h2>シルバースポンサー<span>Silver Sponsor</span></h2>
 								<div class="section_box cfx">
 									<!-- section : item -->
-	{% for sponsor in sponsors %}
+	{% for sponsor in site.data.sponsors.silver %}
 									<div class="section_item">
 										<a href="{{ sponsor.link }}" target="_blank" class="cfx">
 											<div class="img"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></div>
@@ -141,15 +138,14 @@ title: WebRTC Conference Japan Sponsor
 						<!-- /#silver -->
 {% endif %}
 
-{% assign sponsors = site.data.sponsors.support %}
-{% if sponsors.size > 0 %}
+{% if site.data.sponsors.support.size > 0 %}
 						<!-- Section : Support -->
 						<div id="support" class="section">
 							<div class="section_container">
 								<h2>協力／後援<span>Corporation / Support</span></h2>
 								<div class="section_box">
 									<ul class="cfx">
-	{% for sponsor in sponsors %}
+	{% for sponsor in site.data.sponsors.support %}
 										<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
 	{% endfor %}
 									</ul>
@@ -159,15 +155,14 @@ title: WebRTC Conference Japan Sponsor
 						<!-- /#support -->
 {% endif %}
 
-{% assign sponsors = site.data.sponsors.media %}
-{% if sponsors.size > 0 %}
+{% if site.data.sponsors.media.size > 0 %}
 						<!-- Section : Media -->
 						<div id="media" class="section">
 							<div class="section_container">
 								<h2>メディアスポンサー<span>Media Sponsor</span></h2>
 								<div class="section_box">
 									<ul class="cfx">
-	{% for sponsor in sponsors %}
+	{% for sponsor in site.data.sponsors.media %}
 										<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
 	{% endfor %}
 									</ul>
