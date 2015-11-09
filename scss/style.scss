@@ -464,11 +464,14 @@ Desktop for underpages
 -----------------------------------------------------------------------
 */
 
-/* sesstion */
+/* session */
 
 .session_day_wrap {
 	display: flex;
 	justify-content: center;
+}
+#session_day01_a {
+	max-width: 71%;
 }
 @mixin text_icon {
 	padding: .3em 2em;
@@ -482,7 +485,7 @@ Desktop for underpages
 #session, #session_modal {
 	.session_day {
 		font-size: 90%;
-		/* flex: 1 0 0; */
+		flex: 1 0 0;
 	}
 	.day_tab {
 		display: none;
@@ -672,6 +675,9 @@ Desktop for underpages
 #sponsors {
 	.bg_inner {
 		max-width: 960px;
+	}
+	.cfx {
+		@include cf;
 	}
 	ul, li {
 		list-style-type: none;

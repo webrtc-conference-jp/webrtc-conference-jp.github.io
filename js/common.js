@@ -48,7 +48,11 @@ var Modal = {
 	},
 	open : function (e) {
 		e.preventDefault()
-		console.log(this.id)//session_0xなどid参照が可能
+		console.log(this.id) //session_0xなどid参照が可能
+
+		$('#session_modal .session_detail_inner').hide();
+		$('#' + this.getAttribute('data-id')).show();
+
 		var sct = $(window).scrollTop() + 40
 		Modal.elements.overlay.fadeIn(200, function () {
 			Modal.elements.modal.css({top: sct}).fadeIn(200)
