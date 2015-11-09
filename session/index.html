@@ -1,3 +1,8 @@
+---
+title: WebRTC Conference Japan Session Table
+---
+{% assign sessions = site.data.sessions %}
+{% assign speakers = site.data.speakers %}
 <!DOCTYPE html>
 <html lang="ja">
 	<head prefix=”og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#”>
@@ -52,7 +57,7 @@
 					<li class="session"><a href="/session/"><i><img src="/images/common/nav/nav_session.png" alt="icon: session"></i><span>Session</span></a></li>
 					<li class="sponsor"><a href="/sponsor/"><i><img src="/images/common/nav/nav_sponsor.png" alt="icon: sponsor"></i><span>Sponsor</span></a></li>
 					<li class="access"><a href="/access/"><i><img src="/images/common/nav/nav_access.png" alt="icon: access"></i><span>Access</span></a></li>
-					<li class="tickets"><a href="#"><i><img src="/images/common/nav/nav_tickets.png" alt="icon: tickets"></i><span>Tickets</span></a></li>
+					<li class="tickets"><a href="http://webrtcconference2016.peatix.com/"><i><img src="/images/common/nav/nav_tickets.png" alt="icon: tickets"></i><span>Tickets</span></a></li>
 				</ul>
 			</nav>
 
@@ -66,9 +71,12 @@
 					<div class="day_tab">
 						<ul>
 							<li class="active_tab"><a id="_day01" href="#tab_session_day01">2/16(火)
-<span>セッション1日目</span></a></li>
-							<li><a id="_day02" href="#tab_session_day02">2/17(水)
-<span>セッション1日目</span></a></li>
+								<span>セッション1日目</span></a>
+							</li>
+							<li>
+								<a id="_day02" href="#tab_session_day02">2/17(水)
+								<span>セッション2日目</span></a>
+							</li>
 						</ul>
 					</div>
 
@@ -81,86 +89,12 @@
 							<div class="session_day_wrap">
 								<!-- セッション内容ここから -->
 								<section id="session_day01_a" class="session_day">
-
-								<a href="#" class="session_item" id="session_17">
-									<div class="session_time">
-										<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-									</div>
-									<div id="session_16">
-										<div class="icon_wrap">
-											<!-- <p class="slide_exists">講演資料公開中</p> -->
-											<ul class="icon">
-												<li class="icon_all">All</li>
-										    <li class="icon_lv1">初級</li>
-										  </ul>
-										</div>
-										<h3>基調講演<span>The WebRTC Continuum - The Next Wave</span></h3>
-										<ul class="speakers">
-										<li>
-										  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-										  Douglas Tait
-										</li>
-										</ul>
-									</div>
-								</a>
-
-								<a href="#" class="session_item" id="session_17">
-									<div class="session_time">
-										<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-									</div>
-									<div id="session_16">
-										<div class="icon_wrap">
-											<p class="slide_exists">講演資料公開中</p>
-											<ul class="icon">
-												<li class="icon_all">All</li>
-										    <li class="icon_tech">TECH</li>
-										  </ul>
-										</div>
-										<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
-										<ul class="speakers">
-										<li>
-										  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-										  Douglas Tait
-										</li>
-										</ul>
-									</div>
-								</a>
-
-								<a href="#" class="session_item" id="session_18">
-									<div class="session_time">
-										<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-									</div>
-									<div>
-										<div class="icon_wrap">
-											<p class="slide_exists">講演資料公開中</p>
-											<ul class="icon">
-												<li class="icon_all">All</li>
-										    <li class="icon_biz">BIZ</li>
-										  </ul>
-										</div>
-										<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
-										<ul class="speakers">
-											<li>
-											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-											  Douglas Tait
-											</li>
-											<li>
-											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-											  Douglas Tait
-											</li>
-											<li>
-											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-											  Douglas Tait
-											</li>
-											<li>
-											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-											  Douglas Tait
-											</li>
-										</ul>
-									</div>
-								</a>
+									{% for session in site.data.sessions.day1 %}
+										{% assign date = '2016-02-16' %}
+										{% include session.html session=session date=date %}
+									{% endfor %}
 								<!-- セッション1日目内容ここまで -->
-								</section><!-- session_day01 -->
+								</section><!-- session_day01_a -->
 								<!-- セッション内容ここまで -->
 							</div>
 						</div><!-- /.content_inner -->
@@ -173,138 +107,28 @@
 							<div class="session_day_wrap">
 							<!-- セッション内容ここから -->
 								<section id="session_day02_a" class="session_day">
-									<!-- セッション1日目内容ここから -->
+									<!-- セッション2日目内容ここから -->
+
 									<div class="track_name">Track A</div>
 
-									<a href="#" class="session_item" id="session_17">
-										<div class="session_time">
-											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-										</div>
-										<div id="session_16">
-											<div class="icon_wrap">
-												<!-- <p class="slide_exists">講演資料公開中</p> -->
-												<ul class="icon">
-													<li class="icon_all">All</li>
-											    <li class="icon_lv1">初級</li>
-											  </ul>
-											</div>
-											<h3>基調講演<span>The WebRTC Continuum - The Next Wave</span></h3>
-											<ul class="speakers">
-											<li>
-											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-											  Douglas Tait
-											</li>
-											</ul>
-										</div>
-									</a>
+									{% for session in site.data.sessions.day2.track1 %}
+										{% assign date = '2016-02-17' %}
+										{% include session.html session=session date=date %}
+									{% endfor %}
 
-									<a href="#" class="session_item" id="session_17">
-										<div class="session_time">
-											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-										</div>
-										<div id="session_16">
-											<div class="icon_wrap">
-												<p class="slide_exists">講演資料公開中</p>
-												<ul class="icon">
-													<li class="icon_all">All</li>
-											    <li class="icon_tech">TECH</li>
-											  </ul>
-											</div>
-											<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
-											<ul class="speakers">
-											<li>
-											  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-											  Douglas Tait
-											</li>
-											</ul>
-										</div>
-									</a>
-
-									<a href="#" class="session_item" id="session_18">
-										<div class="session_time">
-											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-										</div>
-										<div>
-											<div class="icon_wrap">
-												<p class="slide_exists">講演資料公開中</p>
-												<ul class="icon">
-													<li class="icon_all">All</li>
-											    <li class="icon_biz">BIZ</li>
-											  </ul>
-											</div>
-											<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
-											<ul class="speakers">
-												<li>
-												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-												  Douglas Tait
-												</li>
-												<li>
-												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-												  Douglas Tait
-												</li>
-												<li>
-												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-												  Douglas Tait
-												</li>
-												<li>
-												  <img src="../images/session/doug_tait.png" alt="講演者：Douglas Taitさんの写真です">
-												  Douglas Tait
-												</li>
-											</ul>
-										</div>
-									</a>
-									<!-- セッション1日目内容ここまで -->
-								</section><!-- session_day01 -->
+									<!-- セッション2日目内容ここまで -->
+								</section><!-- session_day02_a -->
 								<section id="session_day02_b" class="session_day">
 									<!-- セッション2日目内容ここから -->
 
 									<div class="track_name">Track B</div>
 
-									<a href="#" class="session_item" id="session_15">
-										<div class="session_time">
-											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-										</div>
-										<div>
-											<div class="icon_wrap">
-												<p class="slide_exists">講演資料公開中</p>
-												<ul class="icon">
-													<li class="icon_all">All</li>
-											    <li class="icon_lv3">上級</li>
-											  </ul>
-											</div>
-											<h3>WebRTCを使ったあんなことやこんなこと！WebRTCアプリだらけのライトニングトーク大会！</h3>
-											<ul class="speakers">
-												<li>
-												  <img src="../images/session/futomi_hatano.jpg" alt="講演者：羽田野 太巳さんの写真です">
-												  羽田野 太巳
-												</li>
-											</ul>
-										</div>
-									</a>
-
-									<a href="#" class="session_item" id="session_14">
-										<div class="session_time">
-											<time datetime="2016-2-17T10:00-10:45">10:00-10:45</time>
-										</div>
-										<div>
-											<div class="icon_wrap">
-												<!-- <p class="slide_exists">講演資料公開中</p>	 -->
-												<ul class="icon">
-													<li class="icon_all">All</li>
-											    <li class="icon_lv2">中級</li>
-											  </ul>
-											</div>
-											<h3>WebRTCの活用事例・製品事例<span>WebRTC Conferenceプラチナスポンサーによる事例紹介ライトニングトーク大会！</span></h3>
-											<ul class="speakers">
-												<li>
-												  <img src="../images/session/futomi_hatano.jpg" alt="講演者：羽田野 太巳さんの写真です">
-												  羽田野 太巳
-												</li>
-											</ul>
-										</div>
-									</a>
+									{% for session in site.data.sessions.day2.track2 %}
+										{% assign date = '2016-02-17' %}
+										{% include session.html session=session date=date %}
+									{% endfor %}
 									<!-- セッション2日目内容ここまで -->
-								</section><!-- session_day02 -->
+								</section><!-- session_day02_b -->
 							<!-- セッション内容ここまで -->
 							</div>
 						</div><!-- /.content_inner -->
@@ -371,151 +195,17 @@
 		<div id="overlay" style="display: none"></div>
 		<div id="modal_window" style="display: none">
 			<section id="session_modal" class="session_detail">
-				<h1>WebRTCの活用事例・製品事例<span>WebRTC Conferenceプラチナスポンサーによる事例紹介ライトニングトーク大会！</span></h1>
-				<div class="icon_wrap">
-					<p class="slide_exists">講演資料公開中</p>
-					<ul class="icon">
-						<li class="icon_all">All</li>
-				    	<li class="icon_lv2">中級</li>
-					</ul>
-				</div>
-				<div class="detail_txt">
-					<dl class="txt cfx">
-					  <dt>講演内容詳細</dt>
-					  <dd>
-					    WebRTCは既に、様々なビジネスシーンでも活用されつつあり、様々な活用事例や製品が存在します。<br>このセッションではWebRTCのビジネスにおける活用に関心のある方々を対象に、そうした事例や製品を幅広く取り上げ、紹介するセッションです。<br>ライトニングトーク（5分間のショートプレゼン）形式で、楽しく、テンポよく知識を得ていただけること請け合いです。</dd>
-					</dl>
-				</div>
-				<div class="speakers">
 
-					<div class="speaker">
-					  <div class="detail_base cfx">
-					    <div class="detail_base_item">
-					      <dl class="name cfx">
-					        <dt>講演者</dt>
-					        <dd>
-					          <img src="../images/session/doug_tait.png" alt="講演者：我如古 正志さんの写真です">
-					          我如古 正志
-					            <span class="slide_link"><a target="_blank" href="http://www.slideshare.net/mganeko/infocom-webrtc-conference-japan">講演資料</a></span>
+				{% for session in site.data.sessions.day1 %}
+					{% include session_detail.html session=session %}
+				{% endfor %}
+				{% for session in site.data.sessions.day2.track1 %}
+					{% include session_detail.html session=session %}
+				{% endfor %}
+				{% for session in site.data.sessions.day2.track2 %}
+					{% include session_detail.html session=session %}
+				{% endfor %}
 
-					        </dd>
-					      </dl>
-					    </div>
-					    <div class="detail_base_item">
-					      <dl class="company cfx">
-					        <dt>所属・肩書</dt>
-					        <dd>
-					          インフォコム株式会社 技術企画室 室長
-					        </dd>
-					      </dl>
-					    </div>
-					  </div>
-					  <div class="detail_history">
-						  <dl class="history cfx">
-						    <dt>略歴</dt>
-						    <dd>
-						      入社以来、企業向けの帳票/文書電子化のためのパッケージソフト開発に従事。<br>その後、コンシューマー向けの携帯Webサービスであるeコマースサイトや電子コミックサイトの運営に携わる。<br>2013年度よりWebの新しい技術に関する調査に着手。特にWebRTCに注目し、技術調査と社内での利用を推進中。<br>調査内容は<a href="http://html5experts.jp/mganeko/" target="_blank">HTML5Experts.jpの記事</a>などを通して発信中。
-						    </dd>
-						  </dl>
-						</div>
-					</div><!-- ./speaker -->
-
-					<div class="speaker">
-					  <div class="detail_base cfx">
-					    <div class="detail_base_item">
-					      <dl class="name cfx">
-					        <dt>講演者</dt>
-					        <dd>
-					          <img src="../images/session/doug_tait.png" alt="講演者：我如古 正志さんの写真です">
-					          我如古 正志
-					            <span class="slide_link"><a target="_blank" href="http://www.slideshare.net/mganeko/infocom-webrtc-conference-japan">講演資料</a></span>
-
-					        </dd>
-					      </dl>
-					    </div>
-					    <div class="detail_base_item">
-					      <dl class="company cfx">
-					        <dt>所属・肩書</dt>
-					        <dd>
-					          インフォコム株式会社 技術企画室 室長
-					        </dd>
-					      </dl>
-					    </div>
-					  </div>
-					  <div class="detail_history">
-						  <dl class="history cfx">
-						    <dt>略歴</dt>
-						    <dd>
-						      入社以来、企業向けの帳票/文書電子化のためのパッケージソフト開発に従事。<br>その後、コンシューマー向けの携帯Webサービスであるeコマースサイトや電子コミックサイトの運営に携わる。<br>2013年度よりWebの新しい技術に関する調査に着手。特にWebRTCに注目し、技術調査と社内での利用を推進中。<br>調査内容は<a href="http://html5experts.jp/mganeko/" target="_blank">HTML5Experts.jpの記事</a>などを通して発信中。
-						    </dd>
-						  </dl>
-						</div>
-					</div><!-- ./speaker -->
-
-					<div class="speaker">
-					  <div class="detail_base cfx">
-					    <div class="detail_base_item">
-					      <dl class="name cfx">
-					        <dt>講演者</dt>
-					        <dd>
-					          <img src="../images/session/doug_tait.png" alt="講演者：我如古 正志さんの写真です">
-					          我如古 正志
-					            <span class="slide_link"><a target="_blank" href="http://www.slideshare.net/mganeko/infocom-webrtc-conference-japan">講演資料</a></span>
-
-					        </dd>
-					      </dl>
-					    </div>
-					    <div class="detail_base_item">
-					      <dl class="company cfx">
-					        <dt>所属・肩書</dt>
-					        <dd>
-					          インフォコム株式会社 技術企画室 室長
-					        </dd>
-					      </dl>
-					    </div>
-					  </div>
-					  <div class="detail_history">
-						  <dl class="history cfx">
-						    <dt>略歴</dt>
-						    <dd>
-						      入社以来、企業向けの帳票/文書電子化のためのパッケージソフト開発に従事。<br>その後、コンシューマー向けの携帯Webサービスであるeコマースサイトや電子コミックサイトの運営に携わる。<br>2013年度よりWebの新しい技術に関する調査に着手。特にWebRTCに注目し、技術調査と社内での利用を推進中。<br>調査内容は<a href="http://html5experts.jp/mganeko/" target="_blank">HTML5Experts.jpの記事</a>などを通して発信中。
-						    </dd>
-						  </dl>
-						</div>
-					</div><!-- ./speaker -->
-
-					<div class="speaker">
-					  <div class="detail_base cfx">
-					    <div class="detail_base_item">
-					      <dl class="name cfx">
-					        <dt>講演者</dt>
-					        <dd>
-					          <img src="../images/session/doug_tait.png" alt="講演者：我如古 正志さんの写真です">
-					          我如古 正志
-					            <span class="slide_link"><a target="_blank" href="http://www.slideshare.net/mganeko/infocom-webrtc-conference-japan">講演資料</a></span>
-
-					        </dd>
-					      </dl>
-					    </div>
-					    <div class="detail_base_item">
-					      <dl class="company cfx">
-					        <dt>所属・肩書</dt>
-					        <dd>
-					          インフォコム株式会社 技術企画室 室長
-					        </dd>
-					      </dl>
-					    </div>
-					  </div>
-					  <div class="detail_history">
-						  <dl class="history cfx">
-						    <dt>略歴</dt>
-						    <dd>
-						      入社以来、企業向けの帳票/文書電子化のためのパッケージソフト開発に従事。<br>その後、コンシューマー向けの携帯Webサービスであるeコマースサイトや電子コミックサイトの運営に携わる。<br>2013年度よりWebの新しい技術に関する調査に着手。特にWebRTCに注目し、技術調査と社内での利用を推進中。<br>調査内容は<a href="http://html5experts.jp/mganeko/" target="_blank">HTML5Experts.jpの記事</a>などを通して発信中。
-						    </dd>
-						  </dl>
-						</div>
-					</div><!-- ./speaker -->
-				</div><!-- /.speakers -->
 			</section><!-- /.modal_inner -->
 			<div href="#" class="menu_icon"><i class="fa fa-close"></i></div>
 		</div>
