@@ -1201,9 +1201,14 @@ underpages for mobile
 	#sponsors {
 		.bg_inner {
 			max-width: 100%;
+			h1 {
+				text-align: center;
+				margin: 1.5em 0 2em;
+			}
 		}
 
 		h2 {
+			text-align: center;
 			span {
 				display: block;
 				margin-left: 0;
@@ -1255,9 +1260,11 @@ underpages for mobile
 		}
 		#silver {
 			.section_box {
-				display: flex;
+				display: block;
+				text-align: center;
+				/* display: flex;
 				flex-wrap: wrap;
-				justify-content: space-around;
+				justify-content: space-around */;
 			}
 			.section_item {
 				float: none;
@@ -1271,9 +1278,11 @@ underpages for mobile
 		#coorporation, #support, #media {
 			ul {
 				@include cf;
-				display: flex;
+				display: block;
+				text-align: center;
+				/* display: flex;
 				flex-wrap: wrap;
-				justify-content: flex-start;
+				justify-content: center; */
 			}
 			li {
 				float: none;
