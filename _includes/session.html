@@ -44,7 +44,7 @@
         {% endif %}
       </h3>
       {% if session.description != '' %}
-        <p>{{ session.description | slice : 0, 60 }}…</p>
+        <p class="temp-desc">{{session.description}}</p>
       {% endif %}
       <ul class="speakers">
         {% for speakerId in session.speakers %}

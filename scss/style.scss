@@ -558,7 +558,7 @@ Desktop for underpages
 		text-decoration: none;
 		color: #333;
 		transition: .2s;
-		min-height: 12em;
+		min-height: 13em;
 		&.intermission {
 			min-height: auto;
 		}
@@ -1167,7 +1167,10 @@ underpages for mobile
 				margin: 1px;
 				padding: .3em;
 				display: block;
-				min-height: 10em;
+				min-height: 12em;
+				&.intermission {
+					min-height: auto;
+				}
 			}
 			@mixin text_icon {
 				padding: .3em .4em;
@@ -1313,8 +1316,18 @@ underpages for mobile
 
 }
 
-
-
+.temp-desc {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 1.2em;
+}
+@media screen and (max-width: 768px) {
+	.temp-desc {
+		height: 1.5em;
+		font-size: 80%;
+	}
+}
 
 
 
