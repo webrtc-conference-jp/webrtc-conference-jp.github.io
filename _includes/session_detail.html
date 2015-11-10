@@ -1,0 +1,89 @@
+{% assign session = include.session %}
+
+{% if session.is_intermission != true %}
+<section id="{{session.id}}" class="session_detail_inner">
+  <h1>{{session.title}}
+    {% if session.subtitle %}
+      <span class="sub">{{session.subtitle}}</span>
+    {% endif %}
+    {% if session.slideUrl %}
+      <span class="slide_link"><a target="_blank" href="{{session.slideUrl}}">講演資料</a></span>
+    {% endif %}
+  </h1>
+  <div class="icon_wrap">
+    {% if session.hasSlide %}
+      <p class="slide_exists">講演資料公開中</p>
+    {% endif %}
+    <ul class="icon">
+      {% case session.target %}
+      {% when 'all' %}
+      <li class="icon_all">All</li>
+      {% when 'dev' %}
+      <li class="icon_tech">Dev</li>
+      {% when 'biz' %}
+      <li class="icon_biz">Biz</li>
+      {% endcase %}
+      {% case session.level %}
+      {% when 1 %}
+      <li class="icon_lv1">初級</li>
+      {% when 2 %}
+      <li class="icon_lv2">中級</li>
+      {% when 3 %}
+      <li class="icon_lv3">上級</li>
+      {% endcase %}
+    </ul>
+  </div>
+  <div class="detail_txt">
+    <dl class="txt cfx">
+      <dt>講演内容詳細</dt>
+      <dd>
+        {{session.description}}
+      </dd>
+    </dl>
+  </div>
+  <div class="speakers">
+    {% for speaker_id in session.speakers %}
+      {% if speaker_id.id %}
+        {% assign speaker = speakers[speaker_id.id] %}
+      {% else %}
+        {% assign speaker = speakers[speaker_id] %}
+      {% endif %}
+
+      <div class="speaker">
+        <div class="detail_base cfx">
+          <div class="detail_base_item">
+            <dl class="name cfx">
+              <dt>講演者</dt>
+              <dd>
+                {% if speaker.image and speaker.image != "" %}<img src="../images/session/{{speaker.image}}" alt="講演者：{{speaker.name}}さんの写真です">{% endif %}
+                {{speaker.name}}
+                {% if speaker_id.slideUrl and speaker_id.slideUrl != "" %}
+                  <span class="slide_link"><a target="_blank" href="{{speaker_id.slideUrl}}">講演資料</a></span>
+                {% endif %}
+              </dd>
+            </dl>
+          </div>
+          <div class="detail_base_item">
+            <dl class="company cfx">
+              <dt>所属・肩書</dt>
+              <dd>
+                {{speaker.title}}
+              </dd>
+            </dl>
+          </div>
+        </div>
+        {% if speaker.background != "" %}
+        <div class="detail_history">
+          <dl class="history cfx">
+            <dt>略歴</dt>
+            <dd>
+              {{speaker.background}}
+            </dd>
+          </dl>
+        </div>
+        {% endif %}
+      </div><!-- ./speaker -->
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

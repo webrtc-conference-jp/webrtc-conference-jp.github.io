@@ -1,7 +1,6 @@
 ---
 title: WebRTC Conference Japan Sponsor
 ---
-{% assign sponsors = site.data.sponsors %}
 <!DOCTYPE html>
 <html lang="ja">
 	<head prefix=”og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#”>
@@ -14,7 +13,7 @@ title: WebRTC Conference Japan Sponsor
 		<meta property="og:title" content="WebRTC Conference Japan">
 		<meta property="og:description" content="今、世界中のWeb技術者から注目を集めている技術「WebRTC」をテーマとした、日本初のカンファレンスです。">
 		<meta property="og:url" content="http://webrtcconference.jp/">
-		<meta property="og:image" content="http://webrtcconference.jp/common/img/meta/OGP_logo.png">
+    	<meta property="og:image" content="http://webrtcconference.jp/OGP_logo.png">
 		<meta property="og:image:width" content="1200">
 	    <meta property="og:image:height" content="630">
 
@@ -23,15 +22,13 @@ title: WebRTC Conference Japan Sponsor
 		<meta name="twitter:site" content="@WebRTC_Conf_jp">
 		<meta name="twitter:title" content="WebRTC Conference Japan">
 		<meta name="twitter:description" content="今、世界中のWeb技術者から注目を集めている技術「WebRTC」をテーマとした、日本初のカンファレンスです。">
-		<meta name="twitter:image:src" content="http://webrtcconference.jp/common/img/meta/OGP_logo.png">
+		<meta name="twitter:image:src" content="http://webrtcconference.jp/OGP_logo.png">
 
 		<title>WebRTC Conference Japan</title>
 		<!-- <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/common.css"> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/css/style.css">
-		<!--[if lte IE 8]><script type="text/javascript" src="common/js/lib/html5shiv.js"></script><![endif]-->
-		<script type="text/javascript" src="/common/js/lib/modernizr.min.js"></script>
 		<link rel="shortcut icon" href="/favicon.ico" >
 		<link rel="canonical" href="http://webrtcconference.jp/" />
 		<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
@@ -58,7 +55,7 @@ title: WebRTC Conference Japan Sponsor
 					<li class="session"><a href="/session/"><i><img src="/images/common/nav/nav_session.png" alt="icon: session"></i><span>Session</span></a></li>
 					<li class="sponsor"><a href="/sponsor/"><i><img src="/images/common/nav/nav_sponsor.png" alt="icon: sponsor"></i><span>Sponsor</span></a></li>
 					<li class="access"><a href="/access/"><i><img src="/images/common/nav/nav_access.png" alt="icon: access"></i><span>Access</span></a></li>
-					<li class="tickets"><a href="#"><i><img src="/images/common/nav/nav_tickets.png" alt="icon: tickets"></i><span>Tickets</span></a></li>
+					<li class="tickets"><a href="http://webrtcconference2016.peatix.com/" target="_blank"><i><img src="/images/common/nav/nav_tickets.png" alt="icon: tickets"></i><span>Tickets</span></a></li>
 				</ul>
 			</nav>
 
@@ -69,13 +66,13 @@ title: WebRTC Conference Japan Sponsor
 						<div class="title">
 							<h1>スポンサー紹介<span>sponsor</span></h1>
 						</div>
+{% if site.data.sponsors.platinum.size > 0 %}
 						<!-- Section : Platinum -->
 						<div id="platinum" class="section">
 							<div class="section_container">
 								<h2>プラチナスポンサー<span>Platinum Sponsor</span></h2>
 								<div class="section_box">
-{% for sponsor in sponsors %}
-	{% if sponsor.type == "platinum" %}
+	{% for sponsor in site.data.sponsors.platinum %}
 									<div class="section_item">
 										<a href="{{ sponsor.link }}" target="_blank" class="cfx">
 											<div class="img"><img src="{{ sponsor.logo }}" width="200" height="200" alt="{{ sponsor.name }}"/></div>
@@ -86,21 +83,21 @@ title: WebRTC Conference Japan Sponsor
 											</div>
 										</a>
 									</div>
-	{% endif %}
-{% endfor %}
+	{% endfor %}
 								</div>
 							</div>
 						</div>
 						<!-- /#platinum -->
+{% endif %}
 
+{% if site.data.sponsors.gold.size > 0 %}
 						<!-- Section : Gold -->
 						<div id="gold" class="section">
 							<div class="section_container">
 								<h2>ゴールドスポンサー<span>Gold Sponsor</span></h2>
 								<div class="section_box cfx">
 									<!-- section : item -->
-{% for sponsor in sponsors %}
-	{% if sponsor.type == "gold" %}
+	{% for sponsor in site.data.sponsors.gold %}
 									<div class="section_item">
 										<a href="{{ sponsor.link }}" target="_blank" class="cfx">
 											<div class="img"><img src="{{ sponsor.logo }}" width="150" height="150" alt="{{ sponsor.name }}"/></div>
@@ -110,21 +107,21 @@ title: WebRTC Conference Japan Sponsor
 											</div>
 										</a>
 									</div>
-	{% endif %}
-{% endfor %}
+	{% endfor %}
 								</div>
 							</div>
 						</div>
 						<!-- /#gold -->
+{% endif %}
 
+{% if site.data.sponsors.silver.size > 0 %}
 						<!-- Section : Silver -->
 						<div id="silver" class="section">
 							<div class="section_container">
 								<h2>シルバースポンサー<span>Silver Sponsor</span></h2>
 								<div class="section_box cfx">
 									<!-- section : item -->
-{% for sponsor in sponsors %}
-	{% if sponsor.type == "silver" %}
+	{% for sponsor in site.data.sponsors.silver %}
 									<div class="section_item">
 										<a href="{{ sponsor.link }}" target="_blank" class="cfx">
 											<div class="img"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></div>
@@ -134,63 +131,46 @@ title: WebRTC Conference Japan Sponsor
 											</div>
 										</a>
 									</div>
-	{% endif %}
-{% endfor %}
+	{% endfor %}
 								</div>
 							</div>
 						</div>
 						<!-- /#silver -->
+{% endif %}
 
-						<!-- Section : Coorporation -->
-						<div id="coorporation" class="section">
-							<div class="section_container">
-								<h2>協力<span>Corporation</span></h2>
-								<div class="section_box">
-									<ul class="cfx">
-{% for sponsor in sponsors %}
-	{% if sponsor.type == "corporation" %}
-										<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
-	{% endif %}
-{% endfor %}
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- /#coorporation -->
-
+{% if site.data.sponsors.support.size > 0 %}
 						<!-- Section : Support -->
 						<div id="support" class="section">
 							<div class="section_container">
-								<h2>後援<span>Support</span></h2>
+								<h2>協力／後援<span>Corporation / Support</span></h2>
 								<div class="section_box">
 									<ul class="cfx">
-{% for sponsor in sponsors %}
-	{% if sponsor.type == "support" %}
+	{% for sponsor in site.data.sponsors.support %}
 										<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
-	{% endif %}
-{% endfor %}
+	{% endfor %}
 									</ul>
 								</div>
 							</div>
 						</div>
 						<!-- /#support -->
+{% endif %}
 
+{% if site.data.sponsors.media.size > 0 %}
 						<!-- Section : Media -->
 						<div id="media" class="section">
 							<div class="section_container">
 								<h2>メディアスポンサー<span>Media Sponsor</span></h2>
 								<div class="section_box">
 									<ul class="cfx">
-{% for sponsor in sponsors %}
-	{% if sponsor.type == "media" %}
+	{% for sponsor in site.data.sponsors.media %}
 										<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
-	{% endif %}
-{% endfor %}
+	{% endfor %}
 									</ul>
 								</div>
 							</div>
 						</div>
 						<!-- /#media -->
+{% endif %}
 					</div>
 				</section>
 
