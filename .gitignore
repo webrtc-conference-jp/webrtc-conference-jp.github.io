@@ -4,3 +4,6 @@
 *.psd
 _site
 *.lock
+node_modules
+.jekyll-metadata
+*.html/index.html

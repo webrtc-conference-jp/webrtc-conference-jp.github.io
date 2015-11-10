@@ -1,0 +1,255 @@
+---
+title: WebRTC Conference Japan Session Table
+---
+{% assign sessions = site.data.sessions %}
+{% assign speakers = site.data.speakers %}
+<!DOCTYPE html>
+<html lang="ja">
+	<head prefix=”og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#”>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="WebRTC, Conference, カンファレンス, ビジネス">
+		<meta name="description" content="今、世界中のWeb技術者から注目を集めている技術「WebRTC」をテーマとした、日本初のカンファレンスです。">
+
+		<!-- FB -->
+		<meta property="og:title" content="WebRTC Conference Japan">
+		<meta property="og:description" content="今、世界中のWeb技術者から注目を集めている技術「WebRTC」をテーマとした、日本初のカンファレンスです。">
+		<meta property="og:url" content="http://webrtcconference.jp/">
+		<meta property="og:image" content="http://webrtcconference.jp/OGP_logo.png">
+		<meta property="og:image:width" content="1200">
+	    <meta property="og:image:height" content="630">
+
+		<!-- Tw -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@WebRTC_Conf_jp">
+		<meta name="twitter:title" content="WebRTC Conference Japan">
+		<meta name="twitter:description" content="今、世界中のWeb技術者から注目を集めている技術「WebRTC」をテーマとした、日本初のカンファレンスです。">
+		<meta name="twitter:image:src" content="http://webrtcconference.jp/OGP_logo.png">
+
+		<title>WebRTC Conference Japan</title>
+		<!-- <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/common.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="shortcut icon" href="/favicon.ico" >
+		<link rel="canonical" href="http://webrtcconference.jp/" />
+		<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+	</head>
+	<body class="undertop">
+		<div class="page_wrapper">
+			<header>
+				<div class="header_container">
+					<div class="logos">
+						<h1><a href="/"><img src="/images/common/logo.svg" alt="WebRTC Conference Japanのロゴマークです"></a></h1>
+						<h2><img src="/images/common/main.svg" alt="キャッチコピー「「知っている」の、その次へ。」のテキストです"></h2>
+					</div>
+					<div class="schedule">
+						<p class="date"><span>date</span>2016年 2月16日(火)・17日(水)</p>
+						<p class="place"><span>place</span>ソラシティ カンファレンスセンター 2F</p>
+					</div>
+				</div>
+			</header>
+			<nav id="g_menu" class="">
+				<p class="menu_icon"><i class="fa fa-bars"></i></p>
+				<ul>
+					<li class="home"><a href="/"><i><img src="/images/common/nav/nav_home.png" alt="icon: home"></i><span>Home</span></a></li>
+					<li class="session"><a href="/session/"><i><img src="/images/common/nav/nav_session.png" alt="icon: session"></i><span>Session</span></a></li>
+					<li class="sponsor"><a href="/sponsor/"><i><img src="/images/common/nav/nav_sponsor.png" alt="icon: sponsor"></i><span>Sponsor</span></a></li>
+					<li class="access"><a href="/access/"><i><img src="/images/common/nav/nav_access.png" alt="icon: access"></i><span>Access</span></a></li>
+					<li class="tickets"><a href="http://webrtcconference2016.peatix.com/" target="_blank"><i><img src="/images/common/nav/nav_tickets.png" alt="icon: tickets"></i><span>Tickets</span></a></li>
+				</ul>
+			</nav>
+
+			<main>
+
+				<section id="session">
+					<div class="title">
+						<h1>セッション内容<span>session</span></h1>
+						<samll style="
+						    display: block;
+						    max-width: 960px;
+						    margin: 0 auto;
+						    color: black;
+						">※ 一部のセッションプログラムは現在調整中のため変更になる可能性があります。
+						調整中のセッションについては詳細が決まり次第随時反映いたします。</samll>
+					</div>
+
+					<div class="day_tab">
+						<ul>
+							<li class="active_tab"><a id="_day01" href="#tab_session_day01">2/16(火)
+								<span>セッション1日目</span></a>
+							</li>
+							<li>
+								<a id="_day02" href="#tab_session_day02">2/17(水)
+								<span>セッション2日目</span></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="bg_inner">
+						<div id="tab_session_day01" class="content_inner active_session">
+								<!-- セッション1日目内容ここから -->
+								<header>
+									<h2>2/16(火)<span>セッション1日目</span></h2>
+								</header>
+							<div class="session_day_wrap">
+								<!-- セッション内容ここから -->
+								<section id="session_day01_a" class="session_day">
+									{% for session in site.data.sessions.day1 %}
+										{% assign date = '2016-02-16' %}
+										{% include session.html session=session date=date %}
+									{% endfor %}
+								<!-- セッション1日目内容ここまで -->
+								</section><!-- session_day01_a -->
+								<!-- セッション内容ここまで -->
+							</div>
+						</div><!-- /.content_inner -->
+
+
+						<div id="tab_session_day02" class="content_inner">
+							<header class="day_header">
+								<h2>2/17(水)<span>セッション2日目</span></h2>
+							</header>
+							<div class="session_day_wrap">
+							<!-- セッション内容ここから -->
+								<section id="session_day02_a" class="session_day">
+									<!-- セッション2日目内容ここから -->
+
+									<div class="track_name">Track A</div>
+
+									{% for session in site.data.sessions.day2.track1 %}
+										{% assign date = '2016-02-17' %}
+										{% include session.html session=session date=date %}
+									{% endfor %}
+
+									<!-- セッション2日目内容ここまで -->
+								</section><!-- session_day02_a -->
+								<section id="session_day02_b" class="session_day">
+									<!-- セッション2日目内容ここから -->
+
+									<div class="track_name">Track B</div>
+
+									{% for session in site.data.sessions.day2.track2 %}
+										{% assign date = '2016-02-17' %}
+										{% include session.html session=session date=date %}
+									{% endfor %}
+									<!-- セッション2日目内容ここまで -->
+								</section><!-- session_day02_b -->
+							<!-- セッション内容ここまで -->
+							</div>
+						</div><!-- /.content_inner -->
+
+					</div><!-- /.bg_inner -->
+				</section>
+
+				<!-- Section : Social Network -->
+				<div id="sns">
+					<div class="bg_inner">
+
+						<div class="sns_left_wrap">
+
+							<!-- Block : Share -->
+							<div id="sns_share">
+								<h2><span class="f_ossb">Share</span></h2>
+								<div class="sns_box cfx">
+									<div id="sns_tw_tweet">
+										<a href="https://twitter.com/share" class="twitter-share-button twitter-count-vertical" data-url="http://webrtcconference.jp/" data-text="WebRTC Conference Japan" data-lang="ja" data-count="vertical" data-hashtags="WebRTCConfJP" data-related="WebRTC_Conf_jp">Tweet</a>
+									</div>
+									<div id="sns_hatena">
+										<a href="http://b.hatena.ne.jp/entry/http://webrtcconference.jp" class="hatena-bookmark-button" data-hatena-bookmark-title="WebRTC Conference Japan" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+									</div>
+									<div id="sns_fb_like">
+										<div class="fb-like" data-href="http://webrtcconference.jp" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+									</div>
+								</div>
+							</div><!-- /#sns_share -->
+
+							<!-- Block : Follow -->
+							<div id="sns_follow">
+								<h2><span class="f_ossb">Follow</span></h2>
+								<div class="sns_box">
+									<div id="sns_fb_livebox">
+										<div class="fb-like-box" data-href="https://www.facebook.com/webRTCConfJapan"  data-height="298" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+									</div>
+									<div id="sns_tw_follow">
+										<p class="txt">WebRTC Conference Japan<br>公式Twitterアカウントをフォロー</p>
+										<p class="btn"><a href="https://twitter.com/WebRTC_Conf_jp" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @WebRTCConfJP</a></p>
+									</div>
+								</div>
+							</div><!-- /#sns_follow -->
+						</div>
+
+						<!-- Block : Twitter -->
+						<div id="sns_tweet">
+							<h2><span class="f_ossb">WebRTC Conference Japan</span>に関する<span class="f_ossb">tweet</span></h2>
+							<div class="sns_box">
+								<a class="twitter-timeline" href="https://twitter.com/hashtag/WebRTCConfJP" data-widget-id="542976841485529088" height="530">#WebRTCConfJP のツイート</a>
+							</div>
+						</div><!-- /#sns_tweet -->
+					</div>
+				</div><!-- /#social -->
+			</main>
+
+			<!-- Lyr : Footer -->
+			<footer id="footer">
+				<small>Copyright &copy; 2015 WebRTC Conference Japan 実行委員会</small>
+			</footer><!-- /#footer -->
+
+		</div>
+
+		<!-- モーダルここから -->
+		<div id="overlay" style="display: none"></div>
+		<div id="modal_window" style="display: none">
+			<section id="session_modal" class="session_detail">
+
+				{% for session in site.data.sessions.day1 %}
+					{% include session_detail.html session=session %}
+				{% endfor %}
+				{% for session in site.data.sessions.day2.track1 %}
+					{% include session_detail.html session=session %}
+				{% endfor %}
+				{% for session in site.data.sessions.day2.track2 %}
+					{% include session_detail.html session=session %}
+				{% endfor %}
+
+			</section><!-- /.modal_inner -->
+			<div href="#" class="menu_icon"><i class="fa fa-close"></i></div>
+		</div>
+		<!-- モーダルここまで -->
+
+		<!-- JavaScript : common -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="/js/common.js"></script>
+
+		<!-- JavaScript : Facebook -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=168596879871684&version=v2.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- JavaScript : Twitter -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+		<!-- JavaScript : Hatena -->
+		<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+		<!-- Google Analytics -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-56891675-2', 'auto');
+		ga('send', 'pageview');
+		</script>
+
+	</body>
+
+</html>

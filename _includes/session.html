@@ -1,0 +1,61 @@
+{% assign session = include.session %}
+{% assign date = include.date %}
+
+{% if session.is_intermission %}
+<a href="#" class="session_item" style="pointer-events:none;">
+  <div class="session_time">
+    <time datetime="{{date}}T{{session.start}}-{{session.end}}">{{session.start}} - {{session.end}}</time>
+  </div>
+  <p style="text-align:center;">{{session.title}}</p>
+</a>
+{% else %}
+  <a href="#" class="session_item" data-id="{{session.id}}" style="pointer-events:none;"><!-- TODO:詳細準備でき次第style属性を削除する -->
+    <div class="session_time">
+      <time datetime="{{date}}T{{session.start}}-{{session.end}}">{{session.start}} - {{session.end}}</time>
+    </div>
+    <div>
+      <div class="icon_wrap">
+        {% if session.hasSlide %}
+          <p class="slide_exists">講演資料公開中</p>
+        {% endif %}
+        <ul class="icon">
+          {% case session.target %}
+          {% when 'all' %}
+          <li class="icon_all">All</li>
+          {% when 'dev' %}
+          <li class="icon_tech">Dev</li>
+          {% when 'biz' %}
+          <li class="icon_biz">Biz</li>
+          {% endcase %}
+          {% case session.level %}
+          {% when 1 %}
+          <li class="icon_lv1">初級</li>
+          {% when 2 %}
+          <li class="icon_lv2">中級</li>
+          {% when 3 %}
+          <li class="icon_lv3">上級</li>
+          {% endcase %}
+        </ul>
+      </div>
+      <h3>
+        {{session.title}}
+        {% if session.subtitle %}
+        <span class="sub">{{session.subtitle}}</span>
+        {% endif %}
+      </h3>
+      <ul class="speakers">
+        {% for speakerId in session.speakers %}
+          {% if speakerId.id %}
+            {% assign speaker = speakers[speakerId.id] %}
+          {% else %}
+            {% assign speaker = speakers[speakerId] %}
+          {% endif %}
+          <li>
+            <img src="../images/session/{{speaker.image}}" alt="講演者：{{speaker.name}}さんの写真です">
+            {{speaker.name}}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </a>
+{% endif %}
