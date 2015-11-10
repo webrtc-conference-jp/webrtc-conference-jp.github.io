@@ -12,7 +12,7 @@
       "hasSlide": false,
       "slideUrl": "",
       "speakers": [],
-      "is_intermission": true
+      "is_intermission": false
     },
     {
       "id": "session_2",
@@ -127,7 +127,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "session_10",
@@ -141,7 +141,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "session_11",
@@ -155,7 +155,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "session_12",
@@ -169,7 +169,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "session_13",
@@ -183,7 +183,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "",
@@ -197,7 +197,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": false
+        "is_intermission": true
       },
       {
         "id": "session_14",
@@ -211,7 +211,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "session_15",
@@ -225,7 +225,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       }
     ],
     "track2": [
@@ -241,7 +241,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": false
+        "is_intermission": true
       },
       {
         "id": "session_16",
@@ -255,7 +255,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "",
@@ -269,7 +269,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "",
@@ -283,7 +283,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": false
+        "is_intermission": true
       },
       {
         "id": "session_17",
@@ -297,7 +297,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "",
@@ -311,7 +311,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": false
+        "is_intermission": true
       },
       {
         "id": "session_18",
@@ -325,7 +325,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       },
       {
         "id": "session_19",
@@ -339,7 +339,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": true
+        "is_intermission": false
       }
     ]
   }
