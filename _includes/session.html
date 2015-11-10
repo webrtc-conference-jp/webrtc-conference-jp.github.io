@@ -2,14 +2,14 @@
 {% assign date = include.date %}
 
 {% if session.is_intermission %}
-<a href="#" class="session_item" style="pointer-events:none;">
-  <div class="session_time">
-    <time datetime="{{date}}T{{session.start}}-{{session.end}}">{{session.start}} - {{session.end}}</time>
-  </div>
-  <p style="text-align:center;">{{session.title}}</p>
-</a>
+  <a href="#" class="session_item intermission" style="pointer-events:none;">
+    <div class="session_time">
+      <time datetime="{{date}}T{{session.start}}-{{session.end}}">{{session.start}} - {{session.end}}</time>
+    </div>
+    <p style="text-align:center;">{{session.title}}</p>
+  </a>
 {% else %}
-  <a href="#" class="session_item" data-id="{{session.id}}" style="pointer-events:none;"><!-- TODO:詳細準備でき次第style属性を削除する -->
+  <a href="#" class="session_item" data-id="{{session.id}}">
     <div class="session_time">
       <time datetime="{{date}}T{{session.start}}-{{session.end}}">{{session.start}} - {{session.end}}</time>
     </div>

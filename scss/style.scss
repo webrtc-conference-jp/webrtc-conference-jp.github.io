@@ -558,6 +558,7 @@ Desktop for underpages
 		text-decoration: none;
 		color: #333;
 		transition: .2s;
+		min-height: 12em;
 		h3 {
 			margin: 0 0 .8em;
 			span {
@@ -663,6 +664,7 @@ Desktop for underpages
 	padding: 2em;
 	overflow: scroll;
 	-webkit-overflow-scrolling : touch;
+	background: url(../images/common/bg.png) center no-repeat fixed, linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
 	h1 {
 		span {
 			font-size: 80%;
@@ -1153,6 +1155,7 @@ underpages for mobile
 				margin: 1px;
 				padding: .3em;
 				display: block;
+				min-height: 10em;
 			}
 			@mixin text_icon {
 				padding: .3em .4em;

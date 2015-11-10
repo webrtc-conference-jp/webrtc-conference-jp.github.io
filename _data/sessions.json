@@ -4,9 +4,9 @@
       "id": "session_1",
       "start": "10:00",
       "end": "11:00",
-      "title": "基調講演",
+      "title": "【基調講演】ユニファイド・コミュニケーションの未来(仮)",
       "subtitle": "調整中",
-      "description": "",
+      "description": "WebRTC/ORTCは、人々のコミュニケーションにどのような変化をもたらすのか？<br>かつてSkypeが世界を大きく変えたように、WebRTCは今後の世界に大きな影響を与えるであろうことは、もはや間違いありません。<br>本基調講演では、WebRTCが未来を変える道筋について、「ユニファイド」（統合された）という観点から戦略とビジョンを語ります。<br>（内容は変更される可能性があります）",
       "target": "biz",
       "level": 0,
       "hasSlide": false,
@@ -18,9 +18,9 @@
       "id": "session_2",
       "start": "11:15",
       "end": "12:15",
-      "title": "基調講演",
+      "title": "【基調講演】What’s next for WebRTC(仮)",
       "subtitle": "調整中",
-      "description": "",
+      "description": "もはやブラウザの枠を超え、リアルタイムコミュニケーションに欠かせない存在になりつつあるWebRTC。このセッションでは技術としてのWebRTCにフォーカスし、ブラウザ/ネイティブ上での実装状況や標準化の動向、そして目指すべきゴールについて語ります。<br>（内容は変更される可能性があります）",
       "target": "dev",
       "level": 0,
       "hasSlide": false,
@@ -40,15 +40,15 @@
       "hasSlide": false,
       "slideUrl": "",
       "speakers": [],
-      "is_intermission": false
+      "is_intermission": true
     },
     {
       "id": "session_4",
       "start": "13:15",
       "end": "14:15",
-      "title": "LT大会",
+      "title": "WebRTCライトニングトークス(仮)",
       "subtitle": "スポンサーセッション",
-      "description": "",
+      "description": "WebRTC Conferenceの協賛企業陣によるライトニングトーク大会！<br>WebRTCはもはや未来の技術ではありません！既に多くの製品や活用事例が出ています。<br>このセッションを聴けば、WebRTCの今がわかる！かも？<br>（内容は変更される可能性があります）",
       "target": "all",
       "level": 0,
       "hasSlide": false,
@@ -62,7 +62,7 @@
       "end": "15:15",
       "title": "WebRTC1.0からNextVersionへ（標準化動向）",
       "subtitle": "調整中",
-      "description": "",
+      "description": "WebRTC標準化の現場では、一体何が議論されているのか？WebRTC 1.0とORTC、今後どうなるの？コーデックの件はどうなった？<br>WebRTCの「Next Version」に向けた情報を凝縮しました。エキスパートによる大胆予想もあるかも！？<br>（内容は変更される可能性があります）",
       "target": "dev",
       "level": 0,
       "hasSlide": false,
@@ -89,7 +89,7 @@
       "start": "16:30",
       "end": "17:15",
       "title": "ショートセッション",
-      "subtitle": "調整中",
+      "subtitle": "現在、登壇者募集中です！",
       "description": "",
       "target": "all",
       "level": 0,
@@ -155,7 +155,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": false
+        "is_intermission": true
       },
       {
         "id": "session_12",
@@ -269,7 +269,7 @@
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
-        "is_intermission": false
+        "is_intermission": true
       },
       {
         "id": "",
@@ -303,7 +303,7 @@
         "id": "",
         "start": "14:45",
         "end": "15:15",
-        "title": "空き",
+        "title": "休憩",
         "subtitle": "",
         "description": "",
         "target": "",
