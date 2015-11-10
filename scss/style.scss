@@ -559,6 +559,9 @@ Desktop for underpages
 		color: #333;
 		transition: .2s;
 		min-height: 12em;
+		&.intermission {
+			min-height: auto;
+		}
 		h3 {
 			margin: 0 0 .8em;
 			span {
@@ -627,14 +630,14 @@ Desktop for underpages
 }
 
 #modal_window {
-	width: 80%;
+	width: 60%;
 	font-size: 80%;
 	background-color: #fff;
-	height: 80%;
+	height: 60%;
 	position: absolute;
 	z-index: 5;
-	left: 10%;
-	top: 10%;
+	left: 20%;
+	top: 20%;
 	.menu_icon {
 		top: -30px;
 		right: -30px;
@@ -966,8 +969,17 @@ Mobile for top and common
 			display: inline-block;
 		}
 	}
+	#modal_window {
+		width: 80%;
+		font-size: 80%;
+		background-color: #fff;
+		height: 80%;
+		position: absolute;
+		z-index: 5;
+		left: 10%;
+		top: 10%;
+	}
 }
-
 /*
 underpages
 -----------------------------------------------------------------------

@@ -43,6 +43,9 @@
         <span class="sub">{{session.subtitle}}</span>
         {% endif %}
       </h3>
+      {% if session.description != '' %}
+        <p>{{ session.description | slice : 0, 60 }}…</p>
+      {% endif %}
       <ul class="speakers">
         {% for speakerId in session.speakers %}
           {% if speakerId.id %}
