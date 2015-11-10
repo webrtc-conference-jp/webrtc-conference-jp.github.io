@@ -9,7 +9,7 @@
   <p style="text-align:center;">{{session.title}}</p>
 </a>
 {% else %}
-  <a href="#" class="session_item" data-id="{{session.id}}">
+  <a href="#" class="session_item" data-id="{{session.id}}" style="pointer-events:none;"><!-- TODO:詳細準備でき次第style属性を削除する -->
     <div class="session_time">
       <time datetime="{{date}}T{{session.start}}-{{session.end}}">{{session.start}} - {{session.end}}</time>
     </div>

@@ -82,7 +82,7 @@ var SessionTab = {
 }
 
 window.onload = function () {
-	Nav.init()
-	Modal.init()
-	SessionTab.init()
+	Nav.init();
+	// Modal.init() 一時的にモーダルダイアログを無効にする
+	SessionTab.init();
 }
