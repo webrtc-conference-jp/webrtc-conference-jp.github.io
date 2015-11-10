@@ -1,453 +1,346 @@
 {
-    "day1": [
-        {
-            "id": "session_01",
-            "start": "10:00",
-            "end": "10:45",
-            "title": "基調講演",
-            "subtitle": "The WebRTC Continuum - The Next Wave",
-            "description": "今まさにアツい技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。<br>WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。<br>本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。",
-            "target": "all",
-            "level": 1,
-            "hasSlide": true,
-            "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/01-web-rtckeynotefebruary2015oracledouglas",
-            "speakers": [
-                "douglas_tait"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_02",
-            "start": "11:00",
-            "end": "11:45",
-            "title": "基調講演",
-            "subtitle": "WebRTCに於けるサーバーソリューションの決め手とは？",
-            "description": "<p>WebRTCはブラウザ・ベースの技術ですが、多くのユースケースに於いて最高のパフォーマンスと機能を得る為には、サーバー・ソリューションが必要となります。本セッションはそれらのサーバー・ソリューションについてお話し致します。</p><ul><li>Firewall及びNATトラバーサルに必要なSTUNサーバー、TURNサーバー</li><li>カンファレンスやレコーディング、トランスコーディング、ストリーミング、メディアプレーン・インターワーキング機能に必要なメディア・サーバー</li><li>既存の電話ネットワークと相互接続をする為のゲートウェイ</li></ul><p>このセッションはこれらの機能を実装する多くの方法や、サービス展開時のベスト・プラクティスについてもご説明致します。</p>",
-            "target": "tech",
-            "level": 2,
-            "speakers": [
-                "chad_hart"
-            ],
-            "is_intermission": false
-        },
-        {
-            "start": "11:45",
-            "end": "13:00",
-            "title": "昼休憩",
-            "is_intermission": true
-        },
-        {
-            "id": "session_03",
-            "start": "13:00",
-            "end": "13:45",
-            "title": "New Opportunities for Real Time Communications Created by WebRTC",
-            "subtitle": "",
-            "description": "",
-            "target": "biz",
-            "level": 2,
-            "speakers": [
-                "jean_deruelle"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_04",
-            "start": "14:00",
-            "end": "14:20",
-            "title": "エンタープライズ環境におけるWebRTC活用のポイント",
-            "subtitle": "",
-            "description": "リアルタイムコミュニケーションをWebの世界に解き放つ技術として大きな注目を集めているWebRTC。その適用領域は、教育、ヘルスケア、コールセンタから、企業内コミュニケーション基盤にまで広がります。本セッションでは、エンタープライズ環境への適用といった一般的なユースケースから、ユニークな応用事例の紹介を通じ、WebRTCがエンタープライズユーザに提供する新たな価値創造の例示と今後取り組むべき課題についてご紹介します。",
-            "target": "tech",
-            "level": 2,
-            "hasSlide": true,
-            "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/04-web-rtcconfhp20150128",
-            "speakers": [
-                "keimei_yoritaka"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_05",
-            "start": "14:25",
-            "end": "14:45",
-            "title": "Web of Thingsの現状とWebRTC活用の可能性",
-            "subtitle": "",
-            "description": "モノのWebと呼ばれる Web of Things(WoT)。Webは人と人をつなげるプラットフォームから人とモノをもつなげるプラットフォームへと進化しようとしています。それを実現するにあたりWebRTCは大きな役割を果たすものとして期待されています。本セッションでは、そんなWoTへのWebRTCの活用例について紹介します。",
-            "target": "all",
-            "level": 2,
-            "hasSlide": true,
-            "slideUrl": "http://www.slideshare.net/KensakuKOMATSU/web-rtc-conf2015",
-            "speakers": [
-                "kensaku_komatsu"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_06",
-            "start": "15:00",
-            "end": "15:45",
-            "title": "WebRTCがビデオ会議システム市場に与えるインパクトを探る",
-            "subtitle": "",
-            "description": "<p>ビデオ会議システムは従来、非常に高い技術力が必要とされていた分野です。しかしWebRTCが登場した今、リアルタイムコミュニケーションに関する技術的障壁は限りなく低くなり、ビデオ会議システム市場に大きな変化が訪れようとしています。</p><p>このセッションではビデオ会議システム市場における主要なプレイヤーが集まり、市場の現状と今後、カスタマーが享受できる価値、そして今後起こるであろうイノベーションなどについて、広く深く語ります。</p>",
-            "target": "biz",
-            "level": 1,
-            "hasSlide": true,
-            "slideUrl": "http://www.slideshare.net/shumpei/webrtc-44620966",
-            "speakers": [
-                "toshihiro_amemiya",
-                "masaki_yamamoto",
-                "yuuki_iwagishi",
-                "hiroshige_kusumoto",
-                "kouji_okuni"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_07",
-            "start": "16:00",
-            "end": "16:45",
-            "title": "WebRTCの裏側",
-            "subtitle": "シグナリングと TURN/STUN のプロトコル解説",
-            "description": "WebRTC は表向きは JavaScript を使う事がほとんどです。しかしその裏側ではシグナリングに WebSocket や XHR、NAT 越え用に TURN と STUN 、そして ICE が使われています。さらには SDP と SRTP といった SIP関連の技術が使われています。また WebRTC 自身は UDP から始まり DTLS その上で SCTP が使われています。</p><p>このセッションではそんな裏側から、「ピア同士が情報を交換するために必要なシグナリングサーバのバックエンド実装」の話と、「NAT越えで使われる STUN と TURN プロトコルがどのような動きをしているのか」という二つを中心に解説していきます。</p><p>実際に WebRTC を使ったサービスを提供する場合に避けられない技術を知りたい人向けのセッションです。</p>",
-            "target": "tech",
-            "level": 3,
-            "hasSlide": true,
-            "slideUrl": "https://gist.github.com/voluntas/975bfa230e513d146965",
-            "speakers": [
-                "ryosuke_nakai"
-            ],
-            "is_intermission": false
-        },
-        {
-            "id": "session_08",
-            "start": "17:00",
-            "end": "17:45",
-            "title": "WebRTCを使った<br>あんなことやこんなこと！<br>WebRTCアプリだらけのライトニングトーク大会！",
-            "subtitle": "",
-            "description": "<p>WebRTCはビジネスに使えるだけじゃない！（当たり前）</p><p>WebRTCを使うと、あんなゲームや、こんな表現も実現できます！・・・と言った、WebRTCの可能性を感じさせるバラエティ豊かなデモを、ライトニングトーク（5分間のショートプレゼン）形式でお楽しみ頂けます。ライトニングトーク参加者、絶賛募集中！</p>",
-            "target": "all",
-            "level": 1,
-            "hasSlide": true,
-            "speakers": [
-                {"id": "masakazu_watanabe", "slideUrl": "http://sascacci-blog.tumblr.com/post/111168902268/webrtc-conferencejapan"},
-                {"id": "tadao_munakata", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-44763757"},
-                {"id": "yoshiaki_sugimoto", "slideUrl": "http://www.slideshare.net/yoshiakisugimoto9/web-rtc-conferenceslide"},
-                {"id": "kyo_ago", "slideUrl": "http://0-9.sakura.ne.jp/pub/WebRTCConference/start.html"},
-                {"id": "hiroyuki_honda", "slideUrl": "http://www.slideshare.net/hondahiroyuki/web-rtc-con"},
-                {"id": "rahaman", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/it-44763729"},
-                {"id": "hideyuki_kodama", "slideUrl": "http://www.slideshare.net/tadfmac/romo-44305549"},
-                {"id": "takanori_kessoku"}
-            ],
-            "is_intermission": false
-        }
-    ],
-    "day2": {
-        "track1": [
-            {
-                "id": "session_01",
-                "start": "10:00",
-                "end": "10:45",
-                "title": "基調講演",
-                "subtitle": "The WebRTC Continuum - The Next Wave",
-                "description": "今まさにアツい技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。<br>WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。<br>本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。",
-                "target": "all",
-                "level": 1,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/01-web-rtckeynotefebruary2015oracledouglas",
-                "speakers": [
-                    "douglas_tait"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_02",
-                "start": "11:00",
-                "end": "11:45",
-                "title": "基調講演",
-                "subtitle": "WebRTCに於けるサーバーソリューションの決め手とは？",
-                "description": "<p>WebRTCはブラウザ・ベースの技術ですが、多くのユースケースに於いて最高のパフォーマンスと機能を得る為には、サーバー・ソリューションが必要となります。本セッションはそれらのサーバー・ソリューションについてお話し致します。</p><ul><li>Firewall及びNATトラバーサルに必要なSTUNサーバー、TURNサーバー</li><li>カンファレンスやレコーディング、トランスコーディング、ストリーミング、メディアプレーン・インターワーキング機能に必要なメディア・サーバー</li><li>既存の電話ネットワークと相互接続をする為のゲートウェイ</li></ul><p>このセッションはこれらの機能を実装する多くの方法や、サービス展開時のベスト・プラクティスについてもご説明致します。</p>",
-                "target": "tech",
-                "level": 2,
-                "speakers": [
-                    "chad_hart"
-                ],
-                "is_intermission": false
-            },
-            {
-                "start": "11:45",
-                "end": "13:00",
-                "title": "昼休憩",
-                "is_intermission": true
-            },
-            {
-                "id": "session_03",
-                "start": "13:00",
-                "end": "13:45",
-                "title": "New Opportunities for Real Time Communications Created by WebRTC",
-                "subtitle": "",
-                "description": "",
-                "target": "biz",
-                "level": 2,
-                "speakers": [
-                    "jean_deruelle"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_04",
-                "start": "14:00",
-                "end": "14:20",
-                "title": "エンタープライズ環境におけるWebRTC活用のポイント",
-                "subtitle": "",
-                "description": "リアルタイムコミュニケーションをWebの世界に解き放つ技術として大きな注目を集めているWebRTC。その適用領域は、教育、ヘルスケア、コールセンタから、企業内コミュニケーション基盤にまで広がります。本セッションでは、エンタープライズ環境への適用といった一般的なユースケースから、ユニークな応用事例の紹介を通じ、WebRTCがエンタープライズユーザに提供する新たな価値創造の例示と今後取り組むべき課題についてご紹介します。",
-                "target": "tech",
-                "level": 2,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/04-web-rtcconfhp20150128",
-                "speakers": [
-                    "keimei_yoritaka"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_05",
-                "start": "14:25",
-                "end": "14:45",
-                "title": "Web of Thingsの現状とWebRTC活用の可能性",
-                "subtitle": "",
-                "description": "モノのWebと呼ばれる Web of Things(WoT)。Webは人と人をつなげるプラットフォームから人とモノをもつなげるプラットフォームへと進化しようとしています。それを実現するにあたりWebRTCは大きな役割を果たすものとして期待されています。本セッションでは、そんなWoTへのWebRTCの活用例について紹介します。",
-                "target": "all",
-                "level": 2,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/KensakuKOMATSU/web-rtc-conf2015",
-                "speakers": [
-                    "kensaku_komatsu"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_06",
-                "start": "15:00",
-                "end": "15:45",
-                "title": "WebRTCがビデオ会議システム市場に与えるインパクトを探る",
-                "subtitle": "",
-                "description": "<p>ビデオ会議システムは従来、非常に高い技術力が必要とされていた分野です。しかしWebRTCが登場した今、リアルタイムコミュニケーションに関する技術的障壁は限りなく低くなり、ビデオ会議システム市場に大きな変化が訪れようとしています。</p><p>このセッションではビデオ会議システム市場における主要なプレイヤーが集まり、市場の現状と今後、カスタマーが享受できる価値、そして今後起こるであろうイノベーションなどについて、広く深く語ります。</p>",
-                "target": "biz",
-                "level": 1,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/shumpei/webrtc-44620966",
-                "speakers": [
-                    "toshihiro_amemiya",
-                    "masaki_yamamoto",
-                    "yuuki_iwagishi",
-                    "hiroshige_kusumoto",
-                    "kouji_okuni"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_07",
-                "start": "16:00",
-                "end": "16:45",
-                "title": "WebRTCの裏側",
-                "subtitle": "シグナリングと TURN/STUN のプロトコル解説",
-                "description": "WebRTC は表向きは JavaScript を使う事がほとんどです。しかしその裏側ではシグナリングに WebSocket や XHR、NAT 越え用に TURN と STUN 、そして ICE が使われています。さらには SDP と SRTP といった SIP関連の技術が使われています。また WebRTC 自身は UDP から始まり DTLS その上で SCTP が使われています。</p><p>このセッションではそんな裏側から、「ピア同士が情報を交換するために必要なシグナリングサーバのバックエンド実装」の話と、「NAT越えで使われる STUN と TURN プロトコルがどのような動きをしているのか」という二つを中心に解説していきます。</p><p>実際に WebRTC を使ったサービスを提供する場合に避けられない技術を知りたい人向けのセッションです。</p>",
-                "target": "tech",
-                "level": 3,
-                "hasSlide": true,
-                "slideUrl": "https://gist.github.com/voluntas/975bfa230e513d146965",
-                "speakers": [
-                    "ryosuke_nakai"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_08",
-                "start": "17:00",
-                "end": "17:45",
-                "title": "WebRTCを使った<br>あんなことやこんなこと！<br>WebRTCアプリだらけのライトニングトーク大会！",
-                "subtitle": "",
-                "description": "<p>WebRTCはビジネスに使えるだけじゃない！（当たり前）</p><p>WebRTCを使うと、あんなゲームや、こんな表現も実現できます！・・・と言った、WebRTCの可能性を感じさせるバラエティ豊かなデモを、ライトニングトーク（5分間のショートプレゼン）形式でお楽しみ頂けます。ライトニングトーク参加者、絶賛募集中！</p>",
-                "target": "all",
-                "level": 1,
-                "hasSlide": true,
-                "speakers": [
-                    {"id": "masakazu_watanabe", "slideUrl": "http://sascacci-blog.tumblr.com/post/111168902268/webrtc-conferencejapan"},
-                    {"id": "tadao_munakata", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-44763757"},
-                    {"id": "yoshiaki_sugimoto", "slideUrl": "http://www.slideshare.net/yoshiakisugimoto9/web-rtc-conferenceslide"},
-                    {"id": "kyo_ago", "slideUrl": "http://0-9.sakura.ne.jp/pub/WebRTCConference/start.html"},
-                    {"id": "hiroyuki_honda", "slideUrl": "http://www.slideshare.net/hondahiroyuki/web-rtc-con"},
-                    {"id": "rahaman", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/it-44763729"},
-                    {"id": "hideyuki_kodama", "slideUrl": "http://www.slideshare.net/tadfmac/romo-44305549"},
-                    {"id": "takanori_kessoku"}
-                ],
-                "is_intermission": false
-            }
-        ],
-        "track2": [
-            {
-                "id": "session_11",
-                "start": "10:00",
-                "end": "10:45",
-                "title": "WebRTCエキスパート座談会",
-                "subtitle": "WebRTCが世界に与えるインパクトを探ろう",
-                "description": "WebRTCのリアルタイム性とWeb技術との親和性、そしてオープン標準という強力な特徴は、今後のWeb、及びIT関連ビジネスを大きく変化させていくのは間違いありません。このパネルディスカッションでは、WebRTCを知り尽くした技術者4名が、WebRTCの可能性について縦横無尽に語ります。",
-                "target": "all",
-                "level": 1,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/rotsuya/webrtc-44581931",
-                "speakers": [
-                    "ryosuke_otsuya",
-                    "masashi_ganeko",
-                    "yu_kinjyo",
-                    "ryosuke_nakai"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_12",
-                "start": "11:00",
-                "end": "12:00",
-                "title": "WebRTCの活用事例・製品事例",
-                "subtitle": "WebRTC Conferenceプラチナスポンサーによる事例紹介ライトニングトーク大会！",
-                "description": "WebRTCは既に、様々なビジネスシーンでも活用されつつあり、様々な活用事例や製品が存在します。<br>このセッションではWebRTCのビジネスにおける活用に関心のある方々を対象に、そうした事例や製品を幅広く取り上げ、紹介するセッションです。<br>ライトニングトーク（5分間のショートプレゼン）形式で、楽しく、テンポよく知識を得ていただけること請け合いです。",
-                "target": "biz",
-                "level": 1,
-                "hasSlide": true,
-                "speakers": [
-                    {"id": "masashi_ganeko", "slideUrl": "http://www.slideshare.net/mganeko/infocom-webrtc-conference-japan"},
-                    {"id": "yasuhiko_miyashita", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/12-genband-presentation-for-web-rtc-conference-tokyo-02052015-external-final"},
-                    {"id": "hiroaki_tanji", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/12-oracle-producttanji"},
-                    {"id": "yuuki_nakahara", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/201502-wrt-cconfj-doublever"},
-                    {"id": "takeo_kogure", "slideUrl": ""},
-                    {"id": "tatsuro_yoshikawa", "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/dialogic-powermedia-xmswebrtc"}
-                ],
-                "is_intermission": false
-            },
-            {
-                "start": "11:45",
-                "end": "13:00",
-                "title": "昼休憩",
-                "is_intermission": true
-            },
-            {
-                "id": "session_13",
-                "start": "13:00",
-                "end": "13:20",
-                "title": "WebRTC DataChannelの活用方法とその可能性",
-                "subtitle": "",
-                "description": "WebRTCはブラウザ間での映像/音声通話及びテキストチャットを実現する技術として利用されるケースが多いですが、DataChannelはテキストのみならずバイナリデータを送受信にも活用できます。<br>例えば、弊社ではDataChannelを活用したファイル送受信やコンテンツの配信をおこなうCDNサービスを開発していますが、このセッションではコンテンツデータ転送の観点から「DataChannelの利用と考慮しないといけない点」、「想定可能なアプリケーション」などについて紹介・議論します。",
-                "target": "tech",
-                "level": 2,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/shintarotanaka/data-channel-webrtc-conference-japan-26",
-                "speakers": [
-                    "shintaro_tanaka"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_14",
-                "start": "13:25",
-                "end": "13:45",
-                "title": "スマートフォンでのWebRTC活用",
-                "subtitle": "",
-                "description": "<p>WebRTCはGoogleよりネイティブライブラリが公開されていることから、ブラウザだけでなくiOS/Androidアプリケーションでも利用可能となっています。ネイティブライブラリを用いることでWebRTCを利用することが難しいiOSでの利用が可能になるほか、ブラウザの枠を超えることでOSが標準で備える機能を活用することが可能になります。</p><p>本セッションではネイティブライブラリの紹介をはじめ、アプリケーションでWebRTCを利用することによるメリットや考慮に入れるべき問題点、ネイティブライブラリならではの新しいWebRTCの活用法を示し、アプリケーションにWebRTCを組み込む上での必須要素を紹介します。</p>",
-                "target": "tech",
-                "level": 2,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/minamotot/webrtc-44772839",
-                "speakers": [
-                    "takumi_minamoto"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_15",
-                "start": "14:00",
-                "end": "14:45",
-                "title": "WebRTCはコンタクトセンターをどう変えるのか",
-                "subtitle": "",
-                "description": "コールセンターや店舗といった企業の顧客接点に、Web、ソーシャル、モバイルといったデジタル・チャネルが加わったことで、問い合わせの際、これまで以上に、チャネルの使い分けや同時利用が進むなど、顧客と企業とのコミュニケーションのあり方が大きく変わろうとしています。こうした、いわゆるオムニチャネル化が進むことで、企業側に求められることは、いかにチャネル間での会話をシームレスにつなぎ、利便性の高い顧客とのコミュニケーションを確立するか？ということになります。そして、WebRTCはWebをはじめとしたデジタル・チャネルと電話対応窓口となるコールセンターを有機的に結合し、オムニチャネル対応のキーとなるテクノロジーへと成長する可能性を秘めています。当セッションでは、WebRTCが単にコールセンターに新しい機能を追加するだけでなく、企業内におけるコールセンターやそこで働くエージェントの役割をどう変えていくかなど、将来の姿を考察していきます。",
-                "target": "biz",
-                "level": 2,
-                "speakers": [
-                    "shigenobu_ito"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_16",
-                "start": "15:00",
-                "end": "15:45",
-                "title": "WebRTCステータスと2015年に期待すること",
-                "subtitle": "",
-                "description": "このセッションでは2014年終わりのWebRTCステータスの標準と業界の二つの視点から紹介させていただいております。<br>どのように安定した広告、どのようにWebRTCがサポートされているのか。IEやSafari,WebRTCブラウザは…などの質問についてはいくつか答えがあります。<br>またそれに加え、技術から何が期待できるか。2015年の産業に何が提示できるかをお教えしたいと思います。<br>screen,sharing.recording.codecsとSVC,ORTC,WebRTC2.0の暫定的な結果を説明致します。",
-                "target": "all",
-                "level": 1,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/alexpiwi5/webrtc-status-and-what-to-expect-in-2015",
-                "speakers": [
-                    "alex_gouaillard"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_17",
-                "start": "16:00",
-                "end": "16:45",
-                "title": "WebRTC関連技術の標準化動向",
-                "subtitle": "",
-                "description": "<p>本セッションではWebRTCに関連する技術の標準化動向を紹介します。</p><p>WebRTCはIETFとW3Cという標準化団体で分業して検討が進められており、IETFではプロトコル仕様を、W3CではAPI仕様をそれぞれ検討しています。また、WebRTCと既存インフラの相互運用という観点から3GPPでも標準化作業が行われています。</p><p>本セッションではなぜWebRTCの標準化が開始されたのかという最初の一歩から、現在議論の焦点となっているホットトピックまでを紹介することでWebRTCの理解を深めることを狙います。</p>",
-                "target": "tech",
-                "level": 2,
-                "hasSlide": true,
-                "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-44763524",
-                "speakers": [
-                    "tetsuya_hishiki"
-                ],
-                "is_intermission": false
-            },
-            {
-                "id": "session_18",
-                "start": "17:00",
-                "end": "17:45",
-                "title": "ウェブの進化と未来",
-                "subtitle": "〜 Beyond HTML5 〜",
-                "description": "<p>HTML5仕様がW3Cにて勧告案になった。しかし、世間が叫ぶHTML5は、HTML5仕様を取り巻く関連のウェブ技術全体を指しており、それらは今後も進化し続ける。WebRTC を始め、これまでウェブ技術ではできなかったことができるようになった。しかし、見方を変えれば、これは他の技術ですでに可能であったことのキャッチアップにすぎないと捉えることもできるだろう。では、ウェブ技術でできるようになったことの意義とは何か、そして、将来的にウェブ技術はどこに向かうのだろうか。</p><p>本セッションでは、ウェブ技術の最新動向の紹介に加え、今後、ウェブ技術の標準化はどこへ向かうのか、そして、どのようなビジネス的なインパクトがあるのかについて考察する。</p>",
-                "target": "all",
-                "level": 1,
-                "speakers": [
-                    "futomi_hatano"
-                ],
-                "is_intermission": false
-            }
-        ]
+  "day1": [
+    {
+      "id": "session_1",
+      "start": "10:00",
+      "end": "11:00",
+      "title": "基調講演",
+      "subtitle": "ユニファイド・コミュニケーションの未来",
+      "description": "",
+      "target": "Biz",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_2",
+      "start": "11:15",
+      "end": "12:15",
+      "title": "基調講演",
+      "subtitle": "What’s next for WebRTC",
+      "description": "",
+      "target": "Dev",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_3",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "ランチセッション",
+      "subtitle": "",
+      "description": "",
+      "target": "",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_4",
+      "start": "13:15",
+      "end": "14:15",
+      "title": "LT大会",
+      "subtitle": "",
+      "description": "",
+      "target": "All",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_5",
+      "start": "14:30",
+      "end": "15:15",
+      "title": "WebRTC1.0からNextVersionへ（標準化動向）",
+      "subtitle": "調整中",
+      "description": "",
+      "target": "Dev",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_6",
+      "start": "15:30",
+      "end": "16:15",
+      "title": "IoTでも活躍するWebRTC",
+      "subtitle": "調整中",
+      "description": "",
+      "target": "All",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_7",
+      "start": "16:30",
+      "end": "17:15",
+      "title": "ショートセッション",
+      "subtitle": "",
+      "description": "",
+      "target": "All",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
+    },
+    {
+      "id": "session_8",
+      "start": "17:30",
+      "end": "18:30",
+      "title": "特別対談",
+      "subtitle": "",
+      "description": "",
+      "target": "All",
+      "level": 1,
+      "hasSlide": false,
+      "slideUrl": "",
+      "speakers": [],
+      "is_intermission": false
     }
+  ],
+  "day2": {
+    "track1": [
+      {
+        "id": "session_9",
+        "start": "10:00",
+        "end": "11:00",
+        "title": "WebRTC Bootcamp",
+        "subtitle": "",
+        "description": "",
+        "target": "Dev",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "session_10",
+        "start": "11:15",
+        "end": "12:00",
+        "title": "開発者向けiOS/AndroidのネイティブアプリでWebRTCを活用する",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Dev",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "session_11",
+        "start": "12:15",
+        "end": "12:45",
+        "title": "ランチセッション",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "session_12",
+        "start": "13:00",
+        "end": "13:45",
+        "title": "WebRTCを使ったサービス開発の落とし穴",
+        "subtitle": "",
+        "description": "",
+        "target": "Dev",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "session_13",
+        "start": "14:00",
+        "end": "14:45",
+        "title": "ロボティクス分野へのWebRTCの適用例",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Biz",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "",
+        "start": "14:45",
+        "end": "15:15",
+        "title": "休憩",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": true
+      },
+      {
+        "id": "session_14",
+        "start": "15:15",
+        "end": "16:00",
+        "title": "WebRTC SFUを実現するために必要な技術",
+        "subtitle": "",
+        "description": "",
+        "target": "Dev",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "session_15",
+        "start": "16:15",
+        "end": "17:00",
+        "title": "WebRTC Next Version時代のJavaScript開発",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Dev",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      }
+    ],
+    "track2": [
+      {
+        "id": "",
+        "start": "10:00",
+        "end": "11:00",
+        "title": "空き",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": true
+      },
+      {
+        "id": "session_16",
+        "start": "11:15",
+        "end": "12:00",
+        "title": "WebRTCはコールセンターを変える！",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Biz",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "",
+        "start": "12:15",
+        "end": "12:45",
+        "title": "ランチセッション",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "",
+        "start": "13:00",
+        "end": "13:45",
+        "title": "空き",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": true
+      },
+      {
+        "id": "session_17",
+        "start": "14:00",
+        "end": "14:45",
+        "title": "オンライン学習ビジネスを支えるWebRTC",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Biz",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "",
+        "start": "14:45",
+        "end": "15:15",
+        "title": "空き",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": true
+      },
+      {
+        "id": "session_18",
+        "start": "15:15",
+        "end": "16:00",
+        "title": "WebRTCで実現する社内コミュニケーション改革",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Biz",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "session_19",
+        "start": "16:15",
+        "end": "17:00",
+        "title": "WebRTCってぶっちゃけ儲かるの？",
+        "subtitle": "調整中",
+        "description": "",
+        "target": "Biz",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      }
+    ]
+  }
 }
-/*
-    "day1": [
-        {
-            "id": "session_01",
-            "start": "10:00",
-            "end": "10:45",
-            "title": "基調講演",
-            "subtitle": "The WebRTC Continuum - The Next Wave",
-            "description": "今まさにアツい技術であるWebRTCは、Webサービスに豊富な双方向通信機能を追加する新たなインタフェースをもたらします。<br>WebRTCが数多の企業や通信会社によって提供されるにあたっては、相互接続性や信頼性、セキュリティ等に関する課題の解決が不可欠です。<br>本セッションではこれらの課題を踏まえつつ、WebRTCの全体像と実際のビジネスについて言及します。",
-            "target": "all",
-            "level": 1,
-            "hasSlide": true,
-            "slideUrl": "http://www.slideshare.net/WebRTCConferenceJapan/01-web-rtckeynotefebruary2015oracledouglas",
-            "speakers": [
-                "douglas_tait"
-            ],
-            "is_intermission": false
-        }
-    ],
-    "day2": {
-        "track1": [
-        ],
-        "track2": [
-        ]
-    }
-*/
