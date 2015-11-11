@@ -29,5 +29,13 @@
         "name": "HTML5 Experts.jp",
         "logo": "/images/sponsor/logo/hx.png",
         "link": "http://html5experts.jp/"
+    },{
+        "name": "geechs magazine",
+        "logo": "/images/sponsor/logo/geechs.png",
+        "link": "http://geechs-magazine.com/"
+    },{
+        "name": "株式会社LIG",
+        "logo": "/images/sponsor/logo/lig.png",
+        "link": "http://liginc.co.jp/"
     }],
 }
