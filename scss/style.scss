@@ -567,6 +567,10 @@ Desktop for underpages
 		text-decoration: none;
 		color: #333;
 		transition: .2s;
+		min-height: 13em;
+		&.intermission {
+			min-height: auto;
+		}
 		h3 {
 			margin: 0 0 .8em;
 			span {
@@ -635,14 +639,14 @@ Desktop for underpages
 }
 
 #modal_window {
-	width: 80%;
+	width: 60%;
 	font-size: 80%;
 	background-color: #fff;
-	height: 80%;
+	height: 60%;
 	position: absolute;
 	z-index: 5;
-	left: 10%;
-	top: 10%;
+	left: 20%;
+	top: 20%;
 	.menu_icon {
 		top: -30px;
 		right: -30px;
@@ -672,6 +676,7 @@ Desktop for underpages
 	padding: 2em;
 	overflow: scroll;
 	-webkit-overflow-scrolling : touch;
+	background: url(../images/common/bg.png) center no-repeat fixed, linear-gradient(15deg, #facdce, #e4f2f6, #fdfae0) fixed;
 	h1 {
 		span {
 			font-size: 80%;
@@ -973,8 +978,17 @@ Mobile for top and common
 			display: inline-block;
 		}
 	}
+	#modal_window {
+		width: 80%;
+		font-size: 80%;
+		background-color: #fff;
+		height: 80%;
+		position: absolute;
+		z-index: 5;
+		left: 10%;
+		top: 10%;
+	}
 }
-
 /*
 underpages
 -----------------------------------------------------------------------
@@ -1162,6 +1176,10 @@ underpages for mobile
 				margin: 1px;
 				padding: .3em;
 				display: block;
+				min-height: 12em;
+				&.intermission {
+					min-height: auto;
+				}
 			}
 			@mixin text_icon {
 				padding: .3em .4em;
@@ -1307,8 +1325,18 @@ underpages for mobile
 
 }
 
-
-
+.temp-desc {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 1.2em;
+}
+@media screen and (max-width: 768px) {
+	.temp-desc {
+		height: 1.5em;
+		font-size: 80%;
+	}
+}
 
 
 

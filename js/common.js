@@ -53,10 +53,10 @@ var Modal = {
 		$('#session_modal .session_detail_inner').hide();
 		$('#' + this.getAttribute('data-id')).show();
 
-		var sct = $(window).scrollTop() + 40
+		var sct = $(window).scrollTop() + 40;
 		Modal.elements.overlay.fadeIn(200, function () {
 			Modal.elements.modal.css({top: sct}).fadeIn(200)
-		})
+		});
 	},
 	close : function () {
 		Modal.elements.modal.fadeOut(200, function () {
@@ -83,6 +83,6 @@ var SessionTab = {
 
 window.onload = function () {
 	Nav.init();
-	// Modal.init() 一時的にモーダルダイアログを無効にする
+	Modal.init();
 	SessionTab.init();
 }
