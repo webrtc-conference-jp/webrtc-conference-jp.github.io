@@ -456,6 +456,15 @@ main {
 #footer {
 	@include top_wrap;
 	text-align: center;
+	.webrtc2015ver {
+		font-size: small;
+		margin-bottom: .5em;
+	}
+	.fa {
+		margin-right: .4em;
+		color: #333;
+		text-decoration: none;
+	}
 }
 
 
