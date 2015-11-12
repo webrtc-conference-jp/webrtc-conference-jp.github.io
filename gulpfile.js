@@ -20,7 +20,7 @@ gulp.task("server", function() {
 gulp.task('html',function(){
   gulp.src('./*.html')          //実行するファイル
     .pipe(plumber())
-    .pipe(gulp.dest("./*.html"))
+    .pipe(gulp.dest("./html"))
     .pipe(browser.reload({stream:true}))
 });
 
