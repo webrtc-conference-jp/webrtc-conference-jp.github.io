@@ -24,6 +24,10 @@
         "name": "html5j",
         "logo": "/images/sponsor/logo/html5j.png",
         "link": "http://html5j.org/"
+    },{
+        "name": "W3C",
+        "logo": "/images/sponsor/logo/w3c.png",
+        "link": "http://www.w3.org/"
     }],
     "media": [{
         "name": "HTML5 Experts.jp",
