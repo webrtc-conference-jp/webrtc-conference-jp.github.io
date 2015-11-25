@@ -309,9 +309,32 @@ main {
 		color: $red;
 	}
 	dd {
+		margin-bottom: 1em;
+		
 		span {
 			font-weight: bold;
 			margin-right: 1em;
+		}
+		.sponsorship_list {
+			margin: 0;
+			padding: 0;
+			li {
+				list-style-type: none;
+				padding-left: 5em;
+				position: relative;
+				span {
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					font-weight: normal;
+				}
+				&.committee {
+					padding-left: 0;
+				}
+				&.unit {
+					margin-bottom: .5em;
+				}
+			}
 		}
 	}
 }

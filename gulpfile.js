@@ -19,8 +19,8 @@ gulp.task("server", function() {
 //htmlタスク
 gulp.task('html',function(){
   gulp.src('./*.html')          //実行するファイル
-    .pipe(plumber())
-    .pipe(gulp.dest("./html"))
+    // .pipe(plumber())
+    // .pipe(gulp.dest("./html"))
     .pipe(browser.reload({stream:true}))
 });
 
