@@ -33,6 +33,8 @@ var Nav = {
 
 		if(window.innerWidth < 480) {
 			g_menu.removeClass("open_menu");
+		}else{
+			g_menu.addClass("open_menu");
 		}
 	}
 }
