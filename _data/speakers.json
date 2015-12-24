@@ -1,12 +1,122 @@
 {
-  "douglas_tait": {
-    "name": "Douglas Tait",
-    "title": "Oracleの通信マーケティング担当ディレクターであり、通信業界のビジネスと技術のエキスパート",
-    "description": "ダグラス タイトはOracleにおいて、通信業界向け戦略を担う次世代ネットワーク向けサービス/アプリケーション・インフラストラクチャの調査、開発を担当、オラクルコミュニケーションのグローバル・マーケティング・ディレクターとして、サービスを通信インフラ上で展開するプラットフォームや WebRTC技術の普及促進に務めています。<br>ダグラスはOracle以前、BEAではグローバル・テレコム・マーケット・ディレク ターを担当し、またサン・マイクロシステムズでは通信業界向け Java™テクノロジーであるJAINに関するイニシアチブを設立しています。<br>これらの活動に加え、通信市場向けに標準化されたインタフェース/プラットフォーム/プロトコルを推進するためのグローバルな標準化団体やコミュニティ、ユーザーグループの設立に深く関わっています。"
+  "niklas_blum": {
+    "name": "Niklas Blum",
+    "title": "Product Manager WebRTC at Google",
+    "description": "Niklas is the Product Manager for WebRTC at Google. His interests range from networking to service layer technologies for Real-time Communications, product & innovation management and anything else that makes RTC greater and better. He has more then 10 years experience working in R&D for innovative communication services and platforms. Niklas holds a Ph.D. in service and software engineering and an MBA.",
+    "image": "transparent_120x120.png"
   },
-  "futomi_hatano": {
-    "name": "羽田野 太巳",
-    "title": "株式会社ニューフォリア<br>取締役 最高技術責任者",
-    "description": "1993年 名古屋大学理学部数学科卒、日本電信電話(株)（NTT）入社。伝送系エンジニアとして通信系インフラの保守運用を経て、通信系SIとして企業通信系システム設計に従事。1999年 NTTぷららに出向、インターネット接続サービスおよびサーバーのシステム運用、サービス企画に従事し、IPTVサービスの立ち上げに携わる。2004年独立後、(有)futomiを設立し、ウェブ・システム開発の傍ら、ウェブコンサルティングも手がける。<br>HTML5の気運が高まる以前からHTML5の探求を始め、HTML5専門サイト「HTML5.jp」を立ち上げ、HTML5の普及啓蒙に関わり、HTML5関連書籍や雑誌記事執筆も行う。2011年 (株)ニューフォリア取締役（最高技術責任者）に就任し、ウェブベースのアプリケーション開発やデジタルサイネージ・システムの研究開発の指揮を執る。<br>主な著書に『HTML5 Web標準API バイブル』（ソシム、）『HTMLとJavaScriptではじめるWindowsストアアプリ開発入門』、『徹底解説 HTML5 APIガイドブック ビジュアル系API編』、『徹底解説HTML5マークアップガイドブック 最終草案対応版』（秀和システム）、共著に『HTML5ガイドブック 増補改訂版 (Google Expert Series) 』（インプレスジャパン）など。"
+  "alex_gouaillard": {
+    "name": "Dr Alex Gouaillard",
+    "title": "Principal Architect, Citrix",
+    "description": "As a member of the W3C and IETF, as well as in his position of Principal Architect at Citrix, Dr. Alex Gouaillard is an active participant in the WebRTC community. He led or co-led several non-commercial projects to promote WebRTC technology. For example, WebRTC-in-Webkit is a project to fasten the adoption of webrtc by Apple. He maintains a blog 'WebRTC by Dr Alex', which should soon give birth to an university course and a Book, whose goal is to reduce the barrier of entry for students and individual developers.<br><br>Dr. Alex Gouaillard holds a Ph.D. in signal, image and video processing at the French National Institute of Applied Science (INSA). He has two decades of experience in R&D wether within the industry (SUN, Citrix), at top universities and public bodies (California Institute of Technology, Harvard University, the US National Institutes of Health, ...), or through the creation of start-up companies in Europe, North America and Asia Pacific.<br><br>When he is not hacking away webRTC stacks and tools, he keeps working on curing cancer with his previous students (Harvard Medical School, Pasteur Institute) and as a Scientific Adviser to start-up that develop in-silico modeling solutions to complement pre-clinical and clinical trial of (cancer) drugs.<br><br>Company:<br>Citrix' Mobility apps are most known for their 'GoTo' RTC products (GoToMeeting, GoToWebinar, ......), which have been pushing the boundaries of RTC for more than a decade now. Citrix, strong of its RTC experience, is now ramping up its web and mobile activity to better fit how people consume RTC today. All the GoTo products have a corresponding web app that connects o the existing RTC platform through a common layer called 'Instant Join'. Separately, a specific, full-webrtc solution with its own back end, called 'GoToMeeting Free' was also developed. Since April 2015, Citrix is a member of W3C and is also ramping up its activity in standard body and the ecosystem as large.",
+    "image": "alex_gouaillard.jpg"
+  },
+  "daginge_aas": {
+    "name": "Dag-Inge Aas",
+    "title": "Software Engineer at appear.in",
+    "description": "Dag-Inge has been with appear.in since the very beginning, writing code for almost all the components of the stack. In addition, he is passionate about product development and marketing. His secret weapon for the conference is a little note with common phrases, so don't be afraid to come over and talk, or perhaps help him learn new phrases?",
+    "image": "daginge_aas.jpg"
+  },
+  "yu_kinjyo": {
+    "name": "金城雄",
+    "title": "NTTアドバンステクノロジ コア技術ソリューションビジネスユニット",
+    "description": "パソコンに恋い焦がれ、はじめてのプログラミングは88BASIC。<br>最初に手に入れたパソコンは中古のMSX2。<br>Webテクノロジに関心を寄せるJavaScript好きのプログラマ。",
+    "image": "yu_kinjyo.jpg"
+  },
+  "masashi_ganeko": {
+    "name": "我如古 正志",
+    "title": "インフォコム株式会社 技術企画室 室長",
+    "description": "企業向けのシステム開発と、コンシューマー向けの携帯Webサービスの運営の両方に従事する。<br>2013年度よりWebの新しい技術に関する調査に着手。特にWebRTCに注目し、技術調査と社内での利用を推進中。<br>WebRTCはブラウザ側およびサーバー側を調査内容はHTML5Experts.jpの記事などを通して発信中。",
+    "image": "masashi_ganeko.jpg"
+  },
+  "yoshitake_hatada": {
+    "name": "畠田喜丈",
+    "title": "株式会社ニューフォリア",
+    "description": "",
+    "image": "transparent_120x120.png"
+  },
+  "takumi_minamoto": {
+    "name": "源 拓洋",
+    "title": "ソフトバンクモバイル株式会社　情報システム本部　システムサービス事業統括部　コミュニケーションサービス部",
+    "description": "1988年生まれ、2004年にWindowsMobileアプリケーション開発でプログラミングを始め、大学に通いつつ2010年よりAndroidアプリケーション開発業務に従事。業務用アプリケーションの開発を経て、2014年4月ソフトバンクモバイルに入社（新卒）。6月からWebRTC Androidネイティブアプリケーションの開発を担当。",
+    "image": "takumi_minamoto.jpg"
+  },
+  "kyo_ago": {
+    "name": "kyo_ago",
+    "title": "ChatWork株式会社",
+    "description": "主にJavaScriptとかTypeScriptとかを書く人",
+    "image": "kyo_ago.jpg"
+  },
+  "alan_iida": {
+    "name": "飯田 アレン真人",
+    "title": "NTTコミュニケーションズ株式会社 技術開発部 Webコアテクニカルユニット エンジニア",
+    "description": "何年もCやJavaを使ってきて初めてJavaScriptを触った時の印象はキモい！今はJSなしで生きていけない身になってしまい、バックエンドもJSで書くようになりました。NTTコミュニケーションズではSkyWayプラットフォームの開発を担当しつつ、SkyWayを利用したWebRTCアプリケーションの開発も行っています。",
+    "image": "alan_iida.jpg"
+  },
+  "yoshimasa_iwase": {
+    "name": "岩瀬義昌",
+    "title": "NTTコミュニケーションズ株式会社 技術開発部 Webコアテクニカルユニット エンジニア",
+    "description": "2009年に東日本電信電話株式会社に入社し、大規模IP電話の開発に携わる。2014年より現職であり、WebRTCの開発者向けフレームワークである「SkyWay」の開発・運用に従事。WebRTC Meetup Japan/Tokyo主催の1人。",
+    "image": "yoshimasa_iwase.jpg"
+  },
+  "akinori_takigawa": {
+    "name": "瀧川 顕謙",
+    "title": "株式会社ネフロック 最高技術責任者",
+    "description": "2008年よりIBM、2012年よりGREEにてエンジニアとして従事した後、2014年より現職。IP電話システムや動画配信システムなど幅広く開発。今回NTTコミュニケーションズと共同でWebRTCアプリケーションのテスティングプラットフォームを開発した。",
+    "image": "akinori_takigawa.jpg"
+  },
+  "ryosuke_nakai": {
+    "name": "中居良介",
+    "title": "時雨堂 ファウンダー",
+    "description": "MQTT ブローカーや TURN/STUN サーバや WebRTC SFU を Erlang/OTP で開発",
+    "image": "transparent_120x120.png"
+  },
+  "yusuke_naka": {
+    "name": "仲裕介",
+    "title": "NTTコミュニケーションズ株式会社 技術開発部 Webコアテクニカルユニット エンジニア",
+    "description": "2007年に西日本電信電話株式会社に入社し、社内システムの開発運用業務に携わる。2012年より現職であり、WebRTCの開発者向けフレームワークである「SkyWay」の開発・運用に従事している。また、技術者コミュニティの活動も活発に行なっており、WebRTCやPHP等の技術に関する勉強会を定期的に開催している。WebRTC Meetup Tokyo/Japanの主催者の一人でもある。",
+    "image": "yusuke_naka.jpg"
+  },
+  "michio_montgomery": {
+    "name": "モントゴメリー道緒",
+    "title": "株式会社GLOBAL EDUCATIONAL PARTNERS  代表取締役社長 兼 CEO",
+    "description": "バブソン大学卒。大学卒業後メリルリンチ日本証券で国内及び海外M&A業務に従事。30万人以上の生徒を持ち、4,000人以上のスタッフを抱える国内最大手の料教室会社ABC Cooking Studioの元代表取締役社長。Whiteknight Capital代表取締役であり、複数の会社への投資及び経営にも関わる。",
+    "image": "michio_montgomery.jpg"
+  },
+  "shohei_ameda": {
+    "name": "亀田祥平",
+    "title": "株式会社GLOBAL EDUCATIONAL PARTNERS  取締役 兼 CTO)",
+    "description": "東京工業大学大学院総合理工学研究科知能システム科学専攻卒。モルガンスタンレー証券情報技術部(IT部門)で8年勤続。複数のIT事業で経営に関わり、2015年1月に当社に参画。Global Step Academyのシステム戦略/開発全般の統括責任者。",
+    "image": "shohei_ameda.jpg"
+  },
+  "shunji_saitou": {
+    "name": "齋藤俊仁",
+    "title": "株式会社レアジョブ プロダクト企画部 部長",
+    "description": "通信会社大手企業にて、CRM活動や事業推進担当を経て、2011年にレアジョブに参画。カスタマーサポートのリーダーとして、業務設計による大規模なシステム化を実現。現在は、「レアジョブ英会話」の全てのプロダクト企画から、商品、販売戦略、CRMまで幅広く統括している。",
+    "image": "shunji_saitou.jpg"
+  },
+  "susumu_matsuyama": {
+    "name": "松山晋",
+    "title": "株式会社レアジョブ 執行役員 サービス開発部 部長",
+    "description": "ヤフー、楽天などを経て、2013年に株式会社レアジョブに参画。日本20名、フィリピンにて20名の開発スタッフを統括。お客様により効率的、効果的なプロダクトを提供するために、日々国境を超えたマネジメントに奮闘する。",
+    "image": "susumu_matsuyama.jpg"
+  },
+  "aki_kodama": {
+    "name": "児玉哲彦",
+    "title": "株式会社アトモスデザイン　代表",
+    "description": "慶應義塾大学にてモバイル／IoTの研究に従事。頓智ドット（現tab）株式会社にてARアプリ「セカイカメラ」「tab」の設計と開発に従事。フリービット株式会社にてモバイルキャリア「フリービットモバイル」の端末およびサービスの開発に従事。2014年に株式会社アトモスデザインを設立。モバイル／IoTにおけるUX／UI設計、技術設計、VR／ARのコンテンツ開発などを行っている。博士（政策・メディア）",
+    "image": "aki_kodama.jpg"
+  },
+  "daisuke_imai": {
+    "name": "今井大介",
+    "title": "アスラテック株式会社 技術普及推進部部長 ロボットエバンジェリスト",
+    "description": "慶應SFC在学中からマルチメディアオーサリングの事業などを手掛ける。卒業後通信教育大手にてインターネット講座のプロジェクトに従事。2000年にモバイルコンテンツの会社を起業しCTOに就任。その後会社をバイアウトし地方ISPの立ち上げに参加。2010年より再び東京にてインターネット関連の複数の新規事業の立ち上げと技術組織のマネジメントなどを行い、2015年より現職。",
+    "image": "daisuke_imai.jpg"
+  },
+  "noriyuki_koide": {
+    "name": "小出範幸",
+    "title": "株式会社KDDIウェブコミュニケーションズ　Twilio事業部　ゼネラルマネージャー ",
+    "description": "日本におけるTwilio事業の責任者。精密機器メーカーにて技術者、ＩＴ企業にて新規事業開発やコールセンターのデータ解析等、幅広い分野での経験を活かして2010年より現職。自社の電話API事業立ち上げに続き、米国Twilio社との契約交渉開始当初から現在に至るまで、５年にわたりAPI事業に従事。もっと便利で快適なコミュニケーションの実現に向けて、ビジネス分野で奔走中。筑波大学大学院にてMBA取得(2008年) ",
+    "image": "noriyuki_koide.jpg"
   }
 }
