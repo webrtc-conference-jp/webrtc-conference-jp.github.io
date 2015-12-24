@@ -1,6 +1,6 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
-var autoprefixer = require("gulp-autoprefixer")
+var autoprefixer = require("gulp-autoprefixer");
 var uglify = require("gulp-uglify");
 var browser = require("browser-sync");
 var plumber = require("gulp-plumber");

@@ -1353,6 +1353,7 @@ underpages for mobile
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	height: 1.2em;
+	max-width: 440px;
 }
 @media screen and (max-width: 768px) {
 	.temp-desc {
