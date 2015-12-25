@@ -138,11 +138,28 @@ title: WebRTC Conference Japan Sponsor
 						<!-- /#silver -->
 {% endif %}
 
+{% if site.data.sponsors.cooperation.size > 0 %}
+						<!-- Section : Support -->
+						<div id="support" class="section">
+							<div class="section_container">
+								<h2>協力<span>Cooperation</span></h2>
+								<div class="section_box">
+									<ul class="cfx">
+	{% for sponsor in site.data.sponsors.cooperation %}
+										<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
+	{% endfor %}
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /#support -->
+{% endif %}
+
 {% if site.data.sponsors.support.size > 0 %}
 						<!-- Section : Support -->
 						<div id="support" class="section">
 							<div class="section_container">
-								<h2>協力／後援<span>Cooperation / Support</span></h2>
+								<h2>後援<span>Support</span></h2>
 								<div class="section_box">
 									<ul class="cfx">
 	{% for sponsor in site.data.sponsors.support %}
