@@ -126,6 +126,8 @@ title: WebRTC Conference Japan 2016
 										<li>日本オラクル株式会社</li>
 										<li>日本ヒューレット・パッカード株式会社</li>
 										<li>株式会社ニューフォリア</li>
+										<li>株式会社オープンウェブ・テクノロジー</li>
+										<li>合同会社江口靖二事務所</li>
 									</ul>
 								</dd>
 							</dl>
@@ -259,9 +261,19 @@ title: WebRTC Conference Japan 2016
 							</ul>
 						</section>
 {% endif %}
+{% if site.data.sponsors.cooperation.size > 0 %}
+						<section class="sponsor_other">
+							<h1>協力<span>Cooperation</span></h1>
+							<ul class="cfx">
+	{% for sponsor in site.data.sponsors.cooperation %}
+								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
+	{% endfor %}
+							</ul>
+						</section>
+{% endif %}
 {% if site.data.sponsors.support.size > 0 %}
 						<section class="sponsor_other">
-							<h1>協力／後援<span>Cooperation / Support</span></h1>
+							<h1>後援<span>Support</span></h1>
 							<ul class="cfx">
 	{% for sponsor in site.data.sponsors.support %}
 								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" width="100" height="100" alt="{{ sponsor.name }}"/></a></li>
