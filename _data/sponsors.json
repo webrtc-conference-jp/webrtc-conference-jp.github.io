@@ -9,11 +9,6 @@
         "description": "NTTコミュニケーションズは、WebRTCを活用するために開発したプラットフォーム「SkyWay」の無償提供と、ソフトウェア開発支援サービスGitHub上における「SkyWay」のライブラリ・ソースコードの公開を行っています。国内初の公開トライアルを通して、日本でのWebRTCの普及促進を目指しています。",
         "logo": "/images/sponsor/logo/nttcom.png",
         "link": "http://www.ntt.com/"
-    }, {
-        "name": "Dialogic",
-        "description": "DialogicはWebRTC通信の機能をソフトウェア・メディア・サーバー製品であるPowerMedia XMSによって実現します。PowerMedia XMSはWebRTCオーディオ、ビデオ、及びメディア・プレーン技術を実装し、ネットワークサービス開発者や通信事業者が既存の通信系サービスをWebの世界へと拡張することを可能にします。PowerMedia XMSはWeb志向のAPI、及び仮想化環境に対応し、他のWeb系サービスと共に展開されることの多いクラウド環境に最適な製品です。",
-        "logo": "/images/sponsor/logo/dialogic.png",
-        "link": "http://www.dialogic.com/"
     }],
     "gold": [],
     "silver": [{
