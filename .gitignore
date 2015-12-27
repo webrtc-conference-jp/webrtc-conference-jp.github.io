@@ -7,3 +7,6 @@ _site
 node_modules
 .jekyll-metadata
 *.html/
+*.iml
+vendor
+.bundle

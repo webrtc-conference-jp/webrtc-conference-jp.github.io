@@ -15,12 +15,25 @@
         "name": "NTTアドバンステクノロジ",
         "logo": "/images/sponsor/logo/nttat.png",
         "link": "http://www.ntt-at.co.jp/"
+    },{
+        "name": "コムデザイン",
+        "logo": "/images/sponsor/logo/comdesign.png",
+        "link": "http://www.comdesign.co.jp/"
     }],
-    "support": [{
+    "cooperation": [{
         "name": "イーサイド",
         "logo": "/images/sponsor/logo/eside.png",
         "link": "http://www.e-side.co.jp/"
     },{
+        "name": "オープンウェブ・テクノロジー",
+        "logo": "/images/sponsor/logo/openweb.png",
+        "link": "http://openweb.co.jp/"
+    },{
+        "name": "江口靖二事務所",
+        "logo": "/images/sponsor/logo/eguchi.png",
+        "link": "http://yasujieguchi.com/"
+    }],
+    "support": [{
         "name": "html5j",
         "logo": "/images/sponsor/logo/html5j.png",
         "link": "http://html5j.org/"
