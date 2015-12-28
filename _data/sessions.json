@@ -144,7 +144,7 @@
         "end": "12:00",
         "title": "WebRTC on Native App (iOS/Android) ",
         "subtitle": "",
-        "description": "WebRTCを iOS/Android のネイティブアプリから活用する作例紹介と、その際のコツをお話してみたいと考えております。",
+        "description": "WebRTCを iOS/Android のネイティブアプリから活用する作例紹介と、その際のコツをお話ししてみたいと考えております。",
         "target": "dev",
         "level": 2,
         "hasSlide": false,
