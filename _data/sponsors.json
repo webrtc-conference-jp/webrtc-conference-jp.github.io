@@ -12,6 +12,10 @@
     }],
     "gold": [],
     "silver": [{
+        "name": "伊藤忠テクノソリューションズ",
+        "logo": "/images/sponsor/logo/ctc.png",
+        "link": "http://www.ctc-g.co.jp/"
+    },{
         "name": "NTTアドバンステクノロジ",
         "logo": "/images/sponsor/logo/nttat.png",
         "link": "http://www.ntt-at.co.jp/"
