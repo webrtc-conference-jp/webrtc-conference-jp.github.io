@@ -58,5 +58,13 @@
         "name": "LIG Inc.",
         "logo": "/images/sponsor/logo/lig.jpg",
         "link": "http://liginc.co.jp/"
+    },{
+        "name": "callcenter-japan.com",
+        "logo": "/images/sponsor/logo/callcenter.png",
+        "link": "http://www.callcenter-japan.com/"
+    },{
+        "name": "TELECOM",
+        "logo": "/images/sponsor/logo/telecom.png",
+        "link": "http://www.telecomi.biz/"
     }],
 }
