@@ -4,7 +4,7 @@
       "id": "session_1",
       "start": "10:00",
       "end": "11:00",
-      "title": "Comming Soon",
+      "title": "Coming Soon",
       "subtitle": "基調講演",
       "description": "セッション情報近日公開！",
       "target": "biz",
@@ -32,8 +32,8 @@
     },
     {
       "id": "session_3",
-      "start": "12:30",
-      "end": "13:00",
+      "start": "12:15",
+      "end": "13:15",
       "title": "ランチ",
       "subtitle": "",
       "description": "",
@@ -94,28 +94,34 @@
       "id": "session_7",
       "start": "16:30",
       "end": "17:15",
-      "title": "Comming Soon",
+      "title": "The missing signalling layer for WebRTC",
       "subtitle": "",
-      "description": "セッション情報近日公開！",
-      "target": "all",
-      "level": 1,
+      "description": "Online team collaboration and communication tools are getting an incredible amount attention lately. In addition to proprietary solutions, there are several open source options as well. WebRTC is the natural choice for the voice and video needs of these tools. However, these collaboration tools do not interoperate with each other.<br>We believe that this lack of interoperability leaves real-time communication fundamentally broken on today's internet - be it for VoIP, IM or IoT services. Some initiatives like XMPP and SIP have tried to solve this but they have not become ubiquitous. This leaves the internet dominated by closed proprietary islands of communication like WhatsApp, Facebook and Hangouts for human communication, and a myriad different vendor silos for IoT device communication. <br>This talk provides a general review of ways of fixing this problem and introduces Matrix: an open standard for decentralised communication - which may provide a new hope.<br>Matrix is an open standard defining a distributed persistent messaging fabric using RESTful HTTP APIs and open source, Apache-licensed reference client and server implementations for exchanging and persisting arbitrary JSON data. Communication history is a first class citizen in Matrix, and just like email, you can either run your own Matrix homeserver - which means you own and control your own communications and history - or you can use one hosted by someone else (e.g. matrix.org). There is no single point of control or mandatory service provider in Matrix: you get the control of your communications back.  <br>Matrix has been received very positively by the WebRTC community by providing a much-needed pragmatic standardized HTTP JSON API for WebRTC call setup - winning the Audience Award at WebRTC Expo 2014 and Best of Show at WebRTC World 2015! ",
+      "target": "dev",
+      "level": 2,
       "hasSlide": false,
       "slideUrl": "",
-      "speakers": [],
+      "speakers": [
+        "kegan_dougal"
+      ],
       "is_intermission": false
     },
     {
       "id": "session_8",
       "start": "17:30",
       "end": "18:30",
-      "title": "スペシャルゲストによる特別対談！",
-      "subtitle": "【無料聴講可能】特別セッション",
-      "description": "WebRTC Conference初日のラストを飾る特別対談！現在極秘で調整中、発表できる日を私どもも楽しみにしております。乞うご期待！<br>【本セッションは無料聴講可能な特別セッションです】",
+      "title": "【無料聴講可】特別対談: WebRTCが切り拓く2020年のIoT",
+      "subtitle": "〜リアルタイムコミュニケーションがもたらす破壊的イノベーション〜",
+      "description": "WebRTCは、「誰でもリアルタイムコミュニケーションを扱える時代」という破壊的な変化を世界にもたらしました。<br>しかし、その変化のもたらす意味や中長期的な可能性は、深く論じられてきたとは言えません。<br>本セッションでは3人の著名な論客が、「2020年」と「IoT」という2つのキーワードを軸に、「リアルタイムコミュニケーションの民主化」が世界にもたらすインパクトについて縦横無尽に語ります。<br>夏野剛<br>及川卓也<br>モデレーター: 白石俊平",
       "target": "all",
       "level": 1,
       "hasSlide": false,
       "slideUrl": "",
-      "speakers": [],
+      "speakers": [
+        "tnatsu",
+        "takoratta",
+        "shumpei"
+      ],
       "is_intermission": false
     }
   ],
@@ -156,8 +162,8 @@
       },
       {
         "id": "session_11",
-        "start": "12:15",
-        "end": "12:45",
+        "start": "12:00",
+        "end": "13:00",
         "title": "ランチ",
         "subtitle": "",
         "description": "",
@@ -249,6 +255,23 @@
           "yusuke_naka"
         ],
         "is_intermission": false
+      },
+      {
+        "id": "session_16",
+        "start": "17:15",
+        "end": "18:15",
+        "title": "WebRTCショートセッション３本勝負！",
+        "subtitle": "３名のゲストスピーカーによるショートセッション",
+        "description": "【スマホチャットアプリにおけるWebRTC通話アプリ開発事例】<br>WebRTCと言えばブラウザというイメージが強いですが、スマホアプリに入れ込むことも可能です。<br>その中で、自社アプリにてWebRTCを使った通話機能をiOS/Androidで実装したノウハウなどの紹介になります。<br><br>【WebRTCアプリを個人で開発・運営してみた話】<br>好きなゲームをもっと楽しく遊ぶためにボイスチャットアプリを作って公開してみたところ、ありがたいことに多くの方に使っていただけるようになりました。<br>WebRTCアプリをひとりで開発・運営してみて感じたことについてお話しします。<br><br>※３本目のセッション情報はまもなく公開！<br>※講演内容と講演者情報は上からペアになっています。",
+        "target": "all",
+        "level": 1,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [
+          "natsuki_yamanaka",
+          "mzsm"
+        ],
+        "is_intermission": false
       }
     ],
     "track2": [
@@ -267,26 +290,23 @@
         "is_intermission": false
       },
       {
-        "id": "session_16",
+        "id": "session_17",
         "start": "11:15",
-        "end": "12:15",
-        "title": "WebRTCショートセッション３本勝負！",
-        "subtitle": "３名のゲストスピーカーによるショートセッション",
-        "description": "【スマホチャットアプリにおけるWebRTC通話アプリ開発事例】<br>WebRTCと言えばブラウザというイメージが強いですが、スマホアプリに入れ込むことも可能です。<br>その中で、自社アプリにてWebRTCを使った通話機能をiOS/Androidで実装したノウハウなどの紹介になります。<br><br>【WebRTCアプリを個人で開発・運営してみた話】<br>好きなゲームをもっと楽しく遊ぶためにボイスチャットアプリを作って公開してみたところ、ありがたいことに多くの方に使っていただけるようになりました。<br>WebRTCアプリをひとりで開発・運営してみて感じたことについてお話しします。<br><br>※３本目のセッション情報はまもなく公開！<br>※講演内容と講演者情報は上からペアになっています。",
-        "target": "all",
+        "end": "12:00",
+        "title": "WebRTCはコンタクトセンターを変える",
+        "subtitle": "パネル・ディスカッション",
+        "description": "近年、コンタクトセンター業界でWebRTCが注目されています。しかし、まだ新しい技術の為、採用に不安を感じている業者も多いのではないでしょうか。このパネル・ディスカッションでは、WebRTC導入に興味がある、あるいは、実際に活用されている企業様をパネリストに迎え、WebRTC導入に関する思いや疑問等について思う存分語りつくします。<br>（内容は変更される可能性があります）",
+        "target": "biz",
         "level": 1,
         "hasSlide": false,
         "slideUrl": "",
-        "speakers": [
-          "natsuki_yamanaka",
-          "mzsm"
-        ],
+        "speakers": [],
         "is_intermission": false
       },
       {
         "id": "",
-        "start": "12:15",
-        "end": "12:45",
+        "start": "12:00",
+        "end": "13:00",
         "title": "ランチ",
         "subtitle": "",
         "description": "",
@@ -298,7 +318,7 @@
         "is_intermission": true
       },
       {
-        "id": "session_17",
+        "id": "session_18",
         "start": "13:00",
         "end": "13:45",
         "title": "オンライン学習ビジネスを支えるWebRTC",
@@ -317,7 +337,7 @@
         "is_intermission": false
       },
       {
-        "id": "session_18",
+        "id": "session_19",
         "start": "14:00",
         "end": "14:45",
         "title": "WebController for V-Sido Connect：WebRTCとWebGLで作る人型ロボット遠隔操縦システム",
@@ -348,23 +368,9 @@
         "is_intermission": true
       },
       {
-        "id": "session_19",
+        "id": "session_20",
         "start": "15:15",
         "end": "16:00",
-        "title": "WebRTCはコンタクトセンターを変える",
-        "subtitle": "パネル・ディスカッション",
-        "description": "近年、コンタクトセンター業界でWebRTCが注目されています。しかし、まだ新しい技術の為、採用に不安を感じている業者も多いのではないでしょうか。このパネル・ディスカッションでは、WebRTC導入に興味がある、あるいは、実際に活用されている企業様をパネリストに迎え、WebRTC導入に関する思いや疑問等について思う存分語りつくします。<br>（内容は変更される可能性があります）",
-        "target": "biz",
-        "level": 1,
-        "hasSlide": false,
-        "slideUrl": "",
-        "speakers": [],
-        "is_intermission": false
-      },
-      {
-        "id": "session_20",
-        "start": "16:15",
-        "end": "17:00",
         "title": "WebRTCはビジネス分野でホントに役立つの？ ",
         "subtitle": "",
         "description": "WebRTC技術に支えられたTwilioのAPI群（CLIENT(VoIP)/VIDEO/IP Messaging(Chat)）の事例紹介を通して、ビジネス分野におけるWebRTCの可能性、今後の展望についてお話します。 ",
@@ -375,6 +381,34 @@
         "speakers": [
           "noriyuki_koide"
         ],
+        "is_intermission": false
+      },
+      {
+        "id": "",
+        "start": "16:15",
+        "end": "17:00",
+        "title": "セッションなし",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
+        "is_intermission": false
+      },
+      {
+        "id": "",
+        "start": "17:15",
+        "end": "18:15",
+        "title": "セッションなし",
+        "subtitle": "",
+        "description": "",
+        "target": "",
+        "level": 0,
+        "hasSlide": false,
+        "slideUrl": "",
+        "speakers": [],
         "is_intermission": false
       }
     ]
