@@ -48,7 +48,7 @@
     "image": "kyo_ago.jpg"
   },
   "alan_iida": {
-    "name": "飯田 アレン真人",
+    "name": "飯田 アレン 真人",
     "title": "NTTコミュニケーションズ株式会社 技術開発部 Webコアテクニカルユニット エンジニア",
     "description": "何年もCやJavaを使ってきて初めてJavaScriptを触った時の印象はキモい！今はJSなしで生きていけない身になってしまい、バックエンドもJSで書くようになりました。NTTコミュニケーションズではSkyWayプラットフォームの開発を担当しつつ、SkyWayを利用したWebRTCアプリケーションの開発も行っています。",
     "image": "alan_iida.jpg"
@@ -130,5 +130,29 @@
     "title": "株式会社サブスレッド",
     "description": "1988年、兵庫県生まれ。<br>学生時代から今に至るまでWebアプリ開発が趣味兼仕事。<br>中小SIer勤務を経て、2011年(株)ジェーンに入社。TwitterクライアントJanetterの開発に携わる。<br>13年より現職。主に業務系Webシステムのサーバ側開発を担当。<br>ゲーム「スプラトゥーン」に特化したWebRTCボイスチャットアプリ「イカデンワ」を個人で開発・運営。",
     "image": "transparent_120x120.png"
+  },
+  "kegan_dougal": {
+    "name": "Kegan Dougal",
+    "title": "Senior Software Engineer at matrix.org",
+    "description": "Kegan Dougal is one of the core developers on Matrix.org: an early-stage not-for-profit open source project focused on solving the problem of fragmentation in current Chat, VoIP and IoT technologies. By defining a new lightweight pragmatic open standard for federation/interoperability and releasing open source reference implementations, Matrix is creating a new ecosystem that makes open real-time-communication as universal and interoperable as email. Kegan has worked on the project since its inception in 2014 after having previously been building VoIP/IM solutions within Amdocs. He has a master's degree in Computer Science from the University of East Anglia, UK.",
+    "image": "kegan_dougal.jpg"
+  },
+  "tnatsu": {
+    "name": "夏野剛",
+    "title": "慶應義塾大学 政策・メディア研究科 特別招聘教授",
+    "description": "早稲田大学政治経済学部卒、東京ガス入社。ペンシルバニア大学経営大学院（ウォートンスクール）卒。ベンチャー企業副社長を経て、1997年NTTドコモへ。99年に「iモード」、その後も多くのサービスを立ち上げた。2008年にドコモ退社。現在は慶應大学の特別招聘教授のほか、カドカワ、トランスコスモス、セガサミーホールディングス、ぴあ、グリー、DLE、U-NEXTなどの取締役を兼任。09年から13年までHTMLの標準化機関であるW3C(World Wide Web Consortium)のアドバイザリーボードメンバーを務める。",
+    "image": "tnatsu.jpg"
+  },
+  "takoratta": {
+    "name": "及川卓也",
+    "title": "Increments株式会社 プロダクトマネージャー",
+    "description": "早稲田大学理工学部卒業後、外資系コンピューター企業の研究開発、マイクロソフト株式会社（当時）の日本語版・韓国語版Windowsの開発統括を経て、グーグルでプロダクトマネージャとエンジニアリングマネージャを務める。2015年11月よりIncrementsにてプロダクトマネージャとして従事。",
+    "image": "takoratta.jpg"
+  },
+  "shumpei": {
+    "name": "白石俊平",
+    "title": "株式会社オープンウェブ・テクノロジー代表取締役CEO",
+    "description": "エンジニア、コピーライター。日本最大のWeb技術者コミュニティhtml5jを5年間リードした後スタートアップを創業、テクノロジー分野に特化したキュレーションサービス「TechFeed」(http://techfeed.io)を2015年12月にリリース。日本の開発者の役に立つべく、プロダクトマネージャー兼CEOとして奔走中。「HTML5&API入門」（日経BP）など、著作執筆多数。Web技術者向けメディアHTML5 Experts.jp編集長も務める。",
+    "image": "shiraishi.jpg"
   }
 }
