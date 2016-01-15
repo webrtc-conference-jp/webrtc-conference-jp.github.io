@@ -45,6 +45,10 @@
         "name": "W3C",
         "logo": "/images/sponsor/logo/w3c.png",
         "link": "http://www.w3.org/"
+    },{
+        "name": "TADHack",
+        "logo": "/images/sponsor/logo/tadhack.png",
+        "link": "http://tadhack.com/2016/mini-japan/?lang=ja"
     }],
     "media": [{
         "name": "HTML5 Experts.jp",
@@ -66,9 +70,5 @@
         "name": "TELECOM",
         "logo": "/images/sponsor/logo/telecom.png",
         "link": "http://www.telecomi.biz/"
-    },{
-        "name": "TADHack",
-        "logo": "/images/sponsor/logo/tadhack.png",
-        "link": "http://tadhack.com/2016/mini-japan/?lang=ja"
     }],
 }
