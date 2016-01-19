@@ -4,9 +4,9 @@
       "id": "session_1",
       "start": "10:00",
       "end": "11:00",
-      "title": "Coming Soon",
+      "title": "WebRTC セッション",
       "subtitle": "基調講演",
-      "description": "セッション情報近日公開！",
+      "description": "ビジネスパーソン向けの基調講演を予定しています。<br><br>※セッション情報はまもなく公開！",
       "target": "biz",
       "level": 1,
       "hasSlide": false,
@@ -276,21 +276,21 @@
     ],
     "track2": [
       {
-        "id": "",
+        "id": "session_17",
         "start": "10:00",
-        "end": "11:00",
-        "title": "セッションなし",
+        "end": "10:45",
+        "title": "CafeX Communications セッション",
         "subtitle": "",
-        "description": "",
-        "target": "",
-        "level": 0,
+        "description": "WebRTCコンタクトセンターソリューションを展開する、CafeX Communicationsのセッションです。WebRTCをコンタクトセンターに活用したと考えている方はぜひご覧ください。<br><br>※セッション情報はまもなく公開！",
+        "target": "biz",
+        "level": 1,
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [],
         "is_intermission": false
       },
       {
-        "id": "session_17",
+        "id": "session_18",
         "start": "11:15",
         "end": "12:00",
         "title": "WebRTCはコンタクトセンターを変える",
@@ -307,7 +307,7 @@
         "id": "",
         "start": "12:00",
         "end": "13:00",
-        "title": "休憩",
+        "title": "ランチ",
         "subtitle": "",
         "description": "",
         "target": "",
@@ -318,7 +318,7 @@
         "is_intermission": true
       },
       {
-        "id": "session_18",
+        "id": "session_19",
         "start": "13:00",
         "end": "13:45",
         "title": "オンライン学習ビジネスを支えるWebRTC",
@@ -337,7 +337,7 @@
         "is_intermission": false
       },
       {
-        "id": "session_19",
+        "id": "session_20",
         "start": "14:00",
         "end": "14:45",
         "title": "WebController for V-Sido Connect：WebRTCとWebGLで作る人型ロボット遠隔操縦システム",
@@ -368,7 +368,7 @@
         "is_intermission": true
       },
       {
-        "id": "session_20",
+        "id": "session_21",
         "start": "15:15",
         "end": "16:00",
         "title": "WebRTCはビジネス分野でホントに役立つの？ ",

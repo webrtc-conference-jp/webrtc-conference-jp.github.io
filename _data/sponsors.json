@@ -9,6 +9,11 @@
         "description": "NTTコミュニケーションズは、WebRTCを活用するために開発したプラットフォーム「SkyWay」の無償提供と、ソフトウェア開発支援サービスGitHub上における「SkyWay」のライブラリ・ソースコードの公開を行っています。国内初の公開トライアルを通して、日本でのWebRTCの普及促進を目指しています。",
         "logo": "/images/sponsor/logo/nttcom.png",
         "link": "http://www.ntt.com/"
+    }, {
+        "name": "ニューフォリア",
+        "description": "ニューフォリアは、インターネット・アーキテクチャーをコアにソリューションメニューとコンサルティングメニューを組み合わせることで、クライアント企業様のWeb戦略をサポートしています。特にHTML5を機軸とし、先端のWebテクノロジーを駆使したマルチデバイスの未来に向けた活動を行っております。その中でも標準技術として規定されたWebRTCの受託開発を多く手掛けており、WebRTCを活用したこれからの未来をクライアント企業様ともに推進していきます。",
+        "logo": "/images/sponsor/logo/newphoria.png",
+        "link": "http://www.newphoria.co.jp/"
     }],
     "gold": [],
     "silver": [{
@@ -58,6 +63,10 @@
         "name": "geechs magazine",
         "logo": "/images/sponsor/logo/geechs.png",
         "link": "http://geechs-magazine.com/"
+    },{
+        "name": "CodeIQ MAGAZINE",
+        "logo": "/images/sponsor/logo/codeiq.png",
+        "link": "https://codeiq.jp/magazine/"
     },{
         "name": "LIG Inc.",
         "logo": "/images/sponsor/logo/lig.jpg",
