@@ -3,7 +3,7 @@
     "name": "Niklas Blum",
     "title": "Product Manager WebRTC at Google",
     "description": "Niklas is the Product Manager for WebRTC at Google. His interests range from networking to service layer technologies for Real-time Communications, product & innovation management and anything else that makes RTC greater and better. He has more then 10 years experience working in R&D for innovative communication services and platforms. Niklas holds a Ph.D. in service and software engineering and an MBA.",
-    "image": "transparent_120x120.png"
+    "image": "niklas_blum.jpg"
   },
   "alex_gouaillard": {
     "name": "Dr Alex Gouaillard",
@@ -154,5 +154,11 @@
     "title": "株式会社オープンウェブ・テクノロジー代表取締役CEO",
     "description": "エンジニア、コピーライター。日本最大のWeb技術者コミュニティhtml5jを5年間リードした後スタートアップを創業、テクノロジー分野に特化したキュレーションサービス「TechFeed」(http://techfeed.io)を2015年12月にリリース。日本の開発者の役に立つべく、プロダクトマネージャー兼CEOとして奔走中。「HTML5&API入門」（日経BP）など、著作執筆多数。Web技術者向けメディアHTML5 Experts.jp編集長も務める。",
     "image": "shiraishi.jpg"
+  },
+  "kensaku_komatsu": {
+    "name": "小松健作",
+    "title": "NTTコミュニケーションズ　Webアプリケーションエバンジェリスト／技術開発部　担当課長",
+    "description": "NTTコミュニケーションズにて、Web Programmingを行いつつ管理職業務を行うプレイングマネージャー。2015年末よりシリコンバレーエリア在住。目下の悩みは、高品質なラーメンを食せないこと。<br>2009年よりボランタリーでHTML5コミュニティ（html5j）の立ち上げに関わり、数年後会社の業務となる。プライベートと仕事の境が分からない生活を続けつつ、2011年よりWebRTCの普及活動に尽力。執筆・講演活動や国内初のWebRTC PaaS サービス 「SkyWay」 の立ち上げを果たす。<br>本カンファレンス実行委員長。Google Developer Expert (HTML5)。「徹底解説HTML5APIガイドブックコミュニケーション系API編」（秀和システム）など著書執筆多数。",
+    "image": "kensaku_komatsu.jpg"
   }
 }
