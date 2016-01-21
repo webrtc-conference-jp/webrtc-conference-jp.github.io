@@ -13,7 +13,7 @@
         "name": "Dialogic",
         "description": "DialogicはWebRTC通信の機能をソフトウェア・メディア・サーバー製品であるPowerMedia XMSによって実現します。PowerMedia XMSはWebRTCオーディオ、ビデオ、及びメディア・プレーン技術を実装し、ネットワークサービス開発者や通信事業者が既存の通信系サービスをWebの世界へと拡張することを可能にします。PowerMedia XMSはWeb志向のAPI、及び仮想化環境に対応し、他のWeb系サービスと共に展開されることの多いクラウド環境に最適な製品です。",
         "logo": "/images/sponsor/logo/dialogic.png",
-        "link": "http://www.dialogic.com//"
+        "link": "http://www.dialogic.com/"
     }, {
         "name": "ニューフォリア",
         "description": "ニューフォリアは、インターネット・アーキテクチャーをコアにソリューションメニューとコンサルティングメニューを組み合わせることで、クライアント企業様のWeb戦略をサポートしています。特にHTML5を機軸とし、先端のWebテクノロジーを駆使したマルチデバイスの未来に向けた活動を行っております。その中でも標準技術として規定されたWebRTCの受託開発を多く手掛けており、WebRTCを活用したこれからの未来をクライアント企業様ともに推進していきます。",
@@ -77,10 +77,6 @@
         "logo": "/images/sponsor/logo/codeiq.png",
         "link": "https://codeiq.jp/magazine/"
     },{
-        "name": "LIG Inc.",
-        "logo": "/images/sponsor/logo/lig.jpg",
-        "link": "http://liginc.co.jp/"
-    },{
         "name": "callcenter-japan.com",
         "logo": "/images/sponsor/logo/callcenter.png",
         "link": "http://www.callcenter-japan.com/"
@@ -88,5 +84,13 @@
         "name": "TELECOM",
         "logo": "/images/sponsor/logo/telecom.png",
         "link": "http://www.telecomi.biz/"
+    },{
+        "name": "business network.jp",
+        "logo": "/images/sponsor/logo/businessnetwork.png",
+        "link": "http://businessnetwork.jp/"
+    },{
+        "name": "LIG Inc.",
+        "logo": "/images/sponsor/logo/lig.jpg",
+        "link": "http://liginc.co.jp/"
     }],
 }
