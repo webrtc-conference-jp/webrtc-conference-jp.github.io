@@ -20,7 +20,15 @@
         "logo": "/images/sponsor/logo/newphoria.png",
         "link": "http://www.newphoria.co.jp/"
     }],
-    "gold": [],
+    "gold": [{
+        "name": "インタラクティブ・インテリジェンス",
+        "logo": "/images/sponsor/logo/inin.png",
+        "link": "https://www.inin.com/jp "
+    },{
+        "name": "日本ヒューレット・パッカード",
+        "logo": "/images/sponsor/logo/hpe.png",
+        "link": "https://www.hpe.com/jp/ja/home.html"
+    }],
     "silver": [{
         "name": "伊藤忠テクノソリューションズ",
         "logo": "/images/sponsor/logo/ctc.png",
