@@ -1,7 +1,7 @@
 {% assign session = include.session %}
 
 {% if session.is_intermission != true %}
-<section id="{{session.id}}" class="session_detail_inner">
+<section id="{{session.id}}_modal" class="session_detail_inner">
   <h1>{{session.title}}
     {% if session.subtitle %}
       <span class="sub">{{session.subtitle}}</span>
