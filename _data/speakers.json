@@ -160,5 +160,11 @@
     "title": "NTTコミュニケーションズ　Webアプリケーションエバンジェリスト／技術開発部　担当課長",
     "description": "NTTコミュニケーションズにて、Web Programmingを行いつつ管理職業務を行うプレイングマネージャー。2015年末よりシリコンバレーエリア在住。目下の悩みは、高品質なラーメンを食せないこと。<br>2009年よりボランタリーでHTML5コミュニティ（html5j）の立ち上げに関わり、数年後会社の業務となる。プライベートと仕事の境が分からない生活を続けつつ、2011年よりWebRTCの普及活動に尽力。執筆・講演活動や国内初のWebRTC PaaS サービス 「SkyWay」 の立ち上げを果たす。<br>本カンファレンス実行委員長。Google Developer Expert (HTML5)。「徹底解説HTML5APIガイドブックコミュニケーション系API編」（秀和システム）など著書執筆多数。",
     "image": "kensaku_komatsu.jpg"
+  },
+  "jim_machi": {
+    "name": "Jim Machi",
+    "title": "Senior Vice President, Product Management & Marketing, Dialogic",
+    "description": "Jim Machi is Senior Vice President of Product Management & Marketing for Dialogic, responsible for driving the overall product strategy and roadmap.  Jim has been with Dialogic since 1998 when he joined as Director of Product Management, working to develop the company's IP telephony roadmap and strategy.  Jim was recognized by Internet Telephony Magazine as one of the “Top 100 Voices of IP Communications”  and by WebRTC Expo as a “WebRTC Pioneer”.  Jim holds an MBA degree from New York University’s Stern School of Business and a BS degree in electrical engineering from the University of Pennsylvania.  Jim also writes a weekly blog and tweets at @JMachiDialogic.",
+    "image": "jim_machi.jpg"
   }
 }

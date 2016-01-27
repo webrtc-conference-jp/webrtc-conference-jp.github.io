@@ -4,14 +4,16 @@
       "id": "session_1",
       "start": "10:00",
       "end": "11:00",
-      "title": "WebRTC セッション",
+      "title": "Value Added Services and WebRTC",
       "subtitle": "基調講演",
-      "description": "ビジネスパーソン向けの基調講演を予定しています。<br><br>※セッション情報はまもなく公開！",
+      "description": "WebRTC is a potentially revolutionary technology that fully integrates voice and data.  However, in order for WebRTC to be truly successful value-added services need to be part of the WebRTC ecosystem.  This session will explore Value-Added services and WebRTC, and will also discuss different use cases from around the world.",
       "target": "biz",
       "level": 1,
       "hasSlide": false,
       "slideUrl": "",
-      "speakers": [],
+      "speakers": [
+        "jim_machi"
+      ],
       "is_intermission": false
     },
     {
@@ -22,7 +24,7 @@
       "subtitle": "基調講演",
       "description": "This talk will provide you with an update on the status of Google's WebRTC implementation in Chrome, Android and iOS and an outlook on what is coming up in the next months.",
       "target": "dev",
-      "level": 1,
+      "level": 2,
       "hasSlide": false,
       "slideUrl": "",
       "speakers": [
