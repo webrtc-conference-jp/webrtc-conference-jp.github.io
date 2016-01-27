@@ -83,8 +83,16 @@ var SessionTab = {
 	}
 }
 
+var HeaderSVGWidth = {
+	init: function () {
+		$(".undertop .logos h1 img").attr("width", 400)
+		$(".undertop .logos h2 img").attr("width", 200)
+	}
+}
+
 window.onload = function () {
 	Nav.init();
 	Modal.init();
 	SessionTab.init();
+	HeaderSVGWidth.init();
 }
