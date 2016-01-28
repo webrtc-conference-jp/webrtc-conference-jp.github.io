@@ -45,6 +45,10 @@
         "name": "コムデザイン",
         "logo": "/images/sponsor/logo/comdesign.png",
         "link": "http://www.comdesign.co.jp/"
+    },{
+        "name": "シスコシステムズ",
+        "logo": "/images/sponsor/logo/cisco.png",
+        "link": "http://www.cisco.com/web/JP/"
     }],
     "cooperation": [{
         "name": "イーサイド",
