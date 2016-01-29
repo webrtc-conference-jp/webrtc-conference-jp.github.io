@@ -49,6 +49,10 @@
         "name": "シスコシステムズ",
         "logo": "/images/sponsor/logo/cisco.png",
         "link": "http://www.cisco.com/web/JP/"
+    },{
+        "name": "ブレケケ",
+        "logo": "/images/sponsor/logo/brekeke.png",
+        "link": "http://brekeke.jp/ip-telephony/webrtc.php"
     }],
     "cooperation": [{
         "name": "イーサイド",
