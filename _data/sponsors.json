@@ -46,6 +46,10 @@
         "logo": "/images/sponsor/logo/lpi.png",
         "link": "http://www.lpi.or.jp/"
     },{
+        "name": "KDDIウェブコミュニケーションズ",
+        "logo": "/images/sponsor/logo/twilio.png",
+        "link": "http://twilio.kddi-web.com/"
+    },{
         "name": "コムデザイン",
         "logo": "/images/sponsor/logo/comdesign.png",
         "link": "http://www.comdesign.co.jp/"
