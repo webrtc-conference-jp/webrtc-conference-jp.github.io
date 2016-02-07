@@ -166,5 +166,35 @@
     "title": "Senior Vice President, Product Management & Marketing, Dialogic",
     "description": "Jim Machi is Senior Vice President of Product Management & Marketing for Dialogic, responsible for driving the overall product strategy and roadmap.  Jim has been with Dialogic since 1998 when he joined as Director of Product Management, working to develop the company's IP telephony roadmap and strategy.  Jim was recognized by Internet Telephony Magazine as one of the “Top 100 Voices of IP Communications”  and by WebRTC Expo as a “WebRTC Pioneer”.  Jim holds an MBA degree from New York University’s Stern School of Business and a BS degree in electrical engineering from the University of Pennsylvania.  Jim also writes a weekly blog and tweets at @JMachiDialogic.",
     "image": "jim_machi.jpg"
+  },
+  "toshio_akiyama": {
+    "name": "秋山紀郎",
+    "title": "アビームコンサルティング株式会社　執行役員　プリンシパル、一般社団法人 CRM協議会 理事 ベストプラクティス選考委員/部会長、NPO法人 コンタクトセンターおもてなしコンソーシアム　理事",
+    "description": "カスタマーサービス、オペレーション、マーケティング、システムインテグレーションなどのCRMの専門家として20年以上のコンサルティング経験を持つ。大規模コンタクトセンター統合、オムニチャネル推進、CRMソリューション導入、センターマネージメント改善など幅広くコンサルティング・プロジェクトを実施。WebRTCを含めた次世代のコンタクトセンターを描くリーダーとして、各種研究会、各種講演や雑誌連載なども多数実施。",
+    "image": "toshio_akiyama.jpg"
+  },
+  "toshiyuki_nagakura": {
+    "name": "永倉俊幸",
+    "title": "メットライフ生命保険株式会社　プロデューサー保全･保険金サポートサービス部",
+    "description": "慶應義塾大学法学部卒、レンゴー株式会社入社。その後、国内生保、テレマーケティングエージェンシー、BPOベンダーを経て、２００７年よりアリコジャパン（現メットライフ生命）。金融（生損保、カード、銀行、証券）、メーカー（自動車、家電、消費材、食品）、通信、ITなどあらゆるジャンルのコンタクトセンターの構築、運営に関わる。また、コンタクトセンターにおける組織改善、業務最適化などのプロジェクトにも多数参画。",
+    "image": "toshiyuki_nagakura.jpg"
+  },
+  "youichiro_okamura": {
+    "name": "岡村洋一郎",
+    "title": "株式会社コミュニケーションビジネスアヴェニュー　情報統括責任者",
+    "description": "前職がフリーランスの実務翻訳（英日・日英）であったことに加え、「新しいもの好き」という自身の性格のため、海外の製品動向に詳しい。2008年に国内販売が開始されたFonalityのtrixboxPro（トリックスボックスプロ）については、日本で第一号の技術者に認定され、大手通販、都市銀行、通信キャリア他、数々のコールセンターへの導入に関わった実績を持つ。今ではtrixboxProは、Asteriskベースの製品として国内で最も成功したIP-PBXの一つに数えられるようになった。コール/コンタクトセンター業界での長年の経験を通して、オムニチャネル化の必要性を痛感したことから、米国でいち早くWebRTCを商用化して市場で高い評価を受けているCafeXのLiveAssist（ライブアシスト）に注目。基幹システムとの親和性が高いLiveAssistは、業界標準となる実力を持つと確信している。",
+    "image": "youichiro_okamura.jpg"
+  },
+  "youichiro_sakata": {
+    "name": "坂田陽一郎",
+    "title": "SCSK株式会社　ソリューション事業部門　AMO第一事業本部　フロントサービス部　PrimeTiaas課　シニアマネージャ",
+    "description": "1999年CSK（現SCSK）入社。2004年からコンタクトセンター基盤構築プロジェクトのPMとして活動。2008年から、コンタクトセンター向けクラウドサービス”PrimeTiaas”の企画立案、システム開発に従事。AVAYA認定スペシャリスト、情報処理試験ITストラテジスト、ネットワークスペシャリスト他",
+    "image": "transparent_120x120.png"
+  },
+  "yugo_kawamura": {
+    "name": "川村有吾",
+    "title": "日本アバイア株式会社　カスタマー・エンゲージメント　シニア・ソリューション・スペシャリスト",
+    "description": "７年間外資系金融機関のオペレーション部門にてコンタクトセンターの改善に従事。2012年日本アバイア入社後は、コンタクトセンター製品担当として、ユーザー企業のコンタクトセンターの導入・改善のコンサルティング支援に従事している。",
+    "image": "transparent_120x120.png"
   }
 }
