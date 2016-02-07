@@ -298,12 +298,18 @@
         "end": "12:00",
         "title": "WebRTCはコンタクトセンターを変える",
         "subtitle": "パネル・ディスカッション",
-        "description": "近年、コンタクトセンター業界でWebRTCが注目されています。しかし、まだ新しい技術の為、採用に不安を感じている業者も多いのではないでしょうか。このパネル・ディスカッションでは、WebRTC導入に興味がある、あるいは、実際に活用されている企業様をパネリストに迎え、WebRTC導入に関する思いや疑問等について思う存分語りつくします。<br>（内容は変更される可能性があります）",
+        "description": "近年、コンタクトセンター業界でWebRTCが注目されています。しかし、まだ新しい技術の為、採用に不安を感じている業者も多いのではないでしょうか。このパネル・ディスカッションでは、WebRTC導入に興味がある、あるいは、実際に活用されている企業様をパネリストに迎え、WebRTC導入に関する思いや疑問等について思う存分語りつくします。",
         "target": "biz",
         "level": 1,
         "hasSlide": false,
         "slideUrl": "",
-        "speakers": [],
+        "speakers": [
+          "toshio_akiyama",
+          "toshiyuki_nagakura",
+          "youichiro_okamura",
+          "youichiro_sakata",
+          "yugo_kawamura"
+        ],
         "is_intermission": false
       },
       {
@@ -325,17 +331,17 @@
         "start": "13:00",
         "end": "13:45",
         "title": "オンライン学習ビジネスを支えるWebRTC",
-        "subtitle": "Global Step Academyとレアジョブの２社によるセッション",
-        "description": "【Global Step Academy のWebRTC活用事例】<br>Global Step Academyでは「appear.in」というWebRTCを利用して開発されたWebアプリケーションを用いてオンライン授業を行っています。「appear.in」導入にあたる経緯や、現在使用しているなかで苦労している点などをお話しさせていただきます。<br><br>※レアジョブ英会話様のセッション情報はまもなく公開！",
+        "subtitle": "レアジョブとGlobal Step Academyの２社によるセッション",
+        "description": "【１．WebRTCで実現するオンライン英会話の未来】<br>1レッスン129円～受講できる、Skypeを使ったオンライン英会話サービス。レアジョブではオンライン英会話No.1企業として、英語を話せる人をより増やすため、WebRTCを活用したサービス開発を進めています。効果的な効率的な英語習得のために、何を実現していくか。オンライン英会話の未来についてお話いたします。<br><br>【２．Global Step Academy のWebRTC活用事例】<br>Global Step Academyでは「appear.in」というWebRTCを利用して開発されたWebアプリケーションを用いてオンライン授業を行っています。「appear.in」導入にあたる経緯や、現在使用しているなかで苦労している点などをお話しさせていただきます。",
         "target": "biz",
         "level": 1,
         "hasSlide": false,
         "slideUrl": "",
         "speakers": [
-          "michio_montgomery",
-          "shohei_ameda",
           "shunji_saitou",
-          "susumu_matsuyama"
+          "susumu_matsuyama",
+          "michio_montgomery",
+          "shohei_ameda"
         ],
         "is_intermission": false
       },
