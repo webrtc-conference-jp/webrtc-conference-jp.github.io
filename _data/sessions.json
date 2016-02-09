@@ -22,7 +22,7 @@
       "end": "12:15",
       "title": "Status Update on WebRTC from Google / GoogleにおけるWebRTCのステータス・アップデート",
       "subtitle": "基調講演",
-      "description": "本セッションでは、GoogleのWebRTCステータスの最新情報を提供します。<br>また、Chromeでの実装や、Android、iOSにおけるGoogleのWebRTC対応状況につい て、今後の展望も含めてお話します。<br><br>(英文)<br>This talk will provide you with an update on the status of Google's WebRTC implementation in Chrome, Android and iOS and an outlook on what is coming up in the next months.",
+      "description": "本セッションでは、GoogleのWebRTCステータスの最新情報を提供します。<br>また、Chromeでの実装や、Android、iOSにおけるGoogleのWebRTC対応状況について、今後の展望も含めてお話します。<br><br>(英文)<br>This talk will provide you with an update on the status of Google's WebRTC implementation in Chrome, Android and iOS and an outlook on what is coming up in the next months.",
       "target": "dev",
       "level": 2,
       "hasSlide": false,
@@ -266,10 +266,10 @@
       {
         "id": "session_16",
         "start": "17:15",
-        "end": "18:15",
-        "title": "WebRTCショートセッション３本勝負！",
-        "subtitle": "２名のゲストスピーカーと当カンファレンス実行委員長によるショートセッション",
-        "description": "【スマホチャットアプリにおけるWebRTC通話アプリ開発事例】<br>WebRTCと言えばブラウザというイメージが強いですが、スマホアプリに入れ込むことも可能です。<br>その中で、自社アプリにてWebRTCを使った通話機能をiOS/Androidで実装したノウハウなどの紹介になります。<br><br>【WebRTCアプリを個人で開発・運営してみた話】<br>好きなゲームをもっと楽しく遊ぶためにボイスチャットアプリを作って公開してみたところ、ありがたいことに多くの方に使っていただけるようになりました。<br>WebRTCアプリをひとりで開発・運営してみて感じたことについてお話しします。<br><br>【WebRTC x IoT その現状と可能性を探る】<br>WebRTCはビデオチャットの領域のみならず、監視カメラソリューションやテレプレゼンスロボットなど IoT領域へと、その適用領域を広げつつあります。WebRTC 搭載 IoT デバイスが、他の IoT 機器や SNSなどと連携することで、リアルとバーチャルが融合するより革新的なサービスが登場してくることが期待されています。<br>本セッションでは、WebRTC と IoT との融合サービスついて、現状事例の紹介とそこから導かれる今後の方向性を探ります。<br><br>※講演内容と講演者情報は上からペアになっています。",
+        "end": "18:30",
+        "title": "WebRTCショートセッション４本勝負！",
+        "subtitle": "３名のゲストスピーカーと当カンファレンス実行委員長によるショートセッション",
+        "description": "【スマホチャットアプリにおけるWebRTC通話アプリ開発事例】<br>WebRTCと言えばブラウザというイメージが強いですが、スマホアプリに入れ込むことも可能です。<br>その中で、自社アプリにてWebRTCを使った通話機能をiOS/Androidで実装したノウハウなどの紹介になります。<br><br>【WebRTCアプリを個人で開発・運営してみた話】<br>好きなゲームをもっと楽しく遊ぶためにボイスチャットアプリを作って公開してみたところ、ありがたいことに多くの方に使っていただけるようになりました。<br>WebRTCアプリをひとりで開発・運営してみて感じたことについてお話しします。<br><br>【色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継】<br>カメラを搭載し、スマートフォンに接続できる様々なデバイスが登場しています。一方で、WebブラウザからWebRTCを利用する場合、映像音声として標準以外の映像・音声入出力を使うのが難しい場合があります。WebブラウザからWebRTCを使い、手軽に様々なデバイスからの映像中継を実現する仕組みを作ってみたのでご紹介します。<br><br>【WebRTC x IoT その現状と可能性を探る】<br>WebRTCはビデオチャットの領域のみならず、監視カメラソリューションやテレプレゼンスロボットなど IoT領域へと、その適用領域を広げつつあります。WebRTC 搭載 IoT デバイスが、他の IoT 機器や SNSなどと連携することで、リアルとバーチャルが融合するより革新的なサービスが登場してくることが期待されています。<br>本セッションでは、WebRTC と IoT との融合サービスついて、現状事例の紹介とそこから導かれる今後の方向性を探ります。<br><br>※講演内容と講演者情報は上からペアになっています。",
         "target": "all",
         "level": 1,
         "hasSlide": false,
@@ -277,6 +277,7 @@
         "speakers": [
           "natsuki_yamanaka",
           "mzsm",
+          "takafumi_yamazoe",
           "kensaku_komatsu"
         ],
         "is_intermission": false
@@ -414,7 +415,7 @@
       {
         "id": "",
         "start": "17:15",
-        "end": "18:15",
+        "end": "18:30",
         "title": "セッションなし",
         "subtitle": "",
         "description": "",

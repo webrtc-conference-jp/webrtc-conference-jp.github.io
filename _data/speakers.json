@@ -1,7 +1,7 @@
 {
   "niklas_blum": {
     "name": "Niklas Blum",
-    "title": "Google WebRTC プロダクトマネジャー",
+    "title": "Google WebRTC プロダクトマネージャ",
     "description": "GoogleにおいてWebRTC関連のプロダクトマネージャを担当。<br>関心のある分野は幅広く、RTCをより大きく良くするための、リアルタイムコ ミュニケーションのためのサービスレイヤー技術や製品&イノ ベーション・マネ ジメントなどの範囲。<br>10年以上の経験を、革新的なコミュニケーションサービスやプラットフォームに 対するR&D部門にて保持<br>サービス&ソフトウェア・エンジニアリングの博士号(Ph.D.)及び修士号(MBA)を 取得。<br><br>(英文)<br>Niklas is the Product Manager for WebRTC at Google. His interests range from networking to service layer technologies for Real-time Communications, product & innovation management and anything else that makes RTC greater and better. He has more then 10 years experience working in R&D for innovative communication services and platforms. Niklas holds a Ph.D. in service and software engineering and an MBA.",
     "image": "niklas_blum.jpg"
   },
@@ -219,6 +219,12 @@
     "name": "勝見正",
     "title": "Dialogic Japan Inc.  メジャー・アカウント・マネージャー",
     "description": "通信とアプリケーション両方の業界を行ったり来たりしており、現在の会社ではキャリアのお客様担当の営業担当です。",
-    "image": "transparent_120x120.png"
+    "image": "tadashi_katsumi.jpg"
+  },
+  "takafumi_yamazoe": {
+    "name": "山添隆文",
+    "title": "株式会社ＮＴＴドコモ　サービスイノベーション部　勤務",
+    "description": "スマートフォンやウェアラブルデバイスでのリアルタイム画像認識、機械学習の研究開発、WebAPI提供や開発者支援に従事。現在はIoTの仕組み作りとしてOMA GotAPI標準化、デバイスWebAPIコンソーシアム設立に携わり、その一環でWebRTCを利用した取り組みを行っている。2008年度IPA未踏スーパークリエータ認定。",
+    "image": "takafumi_yamazoe.jpg"
   }
 }
