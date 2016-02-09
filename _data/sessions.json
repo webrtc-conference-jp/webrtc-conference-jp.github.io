@@ -84,12 +84,17 @@
       "end": "16:15",
       "title": "WebRTCライトニングトークス",
       "subtitle": "スポンサーセッション",
-      "description": "本カンファレンスの名物企画が帰ってきた！WebRTC Conferenceの協賛企業陣によるライトニングトーク大会！<br>WebRTCはもはや未来の技術ではありません！既に多くの製品や活用事例が出ています。<br>このセッションを聴けば、WebRTCの今がわかる！かも？<br>セッション情報近日公開！",
+      "description": "本カンファレンスの名物企画が帰ってきた！WebRTC Conferenceの協賛企業陣によるライトニングトーク大会！<br>WebRTCはもはや未来の技術ではありません！既に多くの製品や活用事例が出ています。<br>このセッションを聴けば、WebRTCの今がわかる！かも？<br><br>【インフォコム】<br>インフォコムブースに出展する製品(Web面談システム)や、ちょっと変わった研究開発デモ(センサーとWebRTCの連携、360°カメラ中継映像をHMDでリアル体験)を紹介します。<br><br>【NTTコミュニケーションズ】<br>SkyWayの最先端のユースケースの一例として、慶応大学との共同研究により実現した、WebRTCで動かすテレイグジスタンス・ロボットについて紹介し、実装に際して活用したWebRTCの機能とその性能について概要をご説明します。<br><br>【Dialogic】<br>DialogicのWebRTC Marketに対する貢献についてお話します。<br><br>【ニューフォリア】<br>※近日公開予定",
       "target": "all",
       "level": 1,
       "hasSlide": false,
       "slideUrl": "",
-      "speakers": [],
+      "speakers": [
+        "satoru_takahashi",
+        "ryosuke_otsuya",
+        "toshiya_nakakura",
+        "tadashi_katsumi"
+      ],
       "is_intermission": false
     },
     {
