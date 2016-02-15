@@ -67,7 +67,7 @@
   },
   "ryosuke_nakai": {
     "name": "中居良介",
-    "title": "時雨堂 ファウンダー",
+    "title": "株式会社時雨堂 ファウンダー",
     "description": "MQTT ブローカーや TURN/STUN サーバや WebRTC SFU を Erlang/OTP で開発",
     "image": "transparent_120x120.png"
   },
