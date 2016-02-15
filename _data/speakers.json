@@ -225,6 +225,12 @@
     "name": "山添隆文",
     "title": "株式会社ＮＴＴドコモ　サービスイノベーション部　勤務",
     "description": "スマートフォンやウェアラブルデバイスでのリアルタイム画像認識、機械学習の研究開発、WebAPI提供や開発者支援に従事。現在はIoTの仕組み作りとしてOMA GotAPI標準化、デバイスWebAPIコンソーシアム設立に携わり、その一環でWebRTCを利用した取り組みを行っている。2008年度IPA未踏スーパークリエータ認定。",
-    "image": "takafumi_yamazoe.jpg"
+    "image": "transparent_120x120.png"
+  },
+  "rami_musallam": {
+    "name": "Rami Musallam",
+    "title": "CaféX Communications, Inc. CEO",
+    "description": "2013年〜現在 CaféX Communications, Inc. CEO<br>1996年〜現在 ThruPoint, Inc. チェアマン & CEO<br>1992年〜1995年 モルガン・スタンレー　バイス・プレジデント",
+    "image": "transparent_120x120.png"
   }
 }
