@@ -288,14 +288,16 @@
         "id": "session_17",
         "start": "10:00",
         "end": "10:45",
-        "title": "CafeX Communications セッション",
+        "title": "WebRTCが変えるお客様と企業のコミュニケーション体験",
         "subtitle": "",
-        "description": "WebRTCコンタクトセンターソリューションを展開する、CafeX Communicationsのセッションです。WebRTCをコンタクトセンターに活用したと考えている方はぜひご覧ください。<br><br>※セッション情報はまもなく公開！",
+        "description": "WebRTCコンタクトセンターソリューションを展開する、CafeX Communicationsのセッションです。ケーススタディを交えながらコンタクトセンターにおけるWebRTCの可能性について紹介します。WebRTCをコンタクトセンターに活用したと考えている方は是非ご覧ください。<br><br>※英語スピーカーですが逐次通訳が入ります。",
         "target": "biz",
         "level": 1,
         "hasSlide": false,
         "slideUrl": "",
-        "speakers": [],
+        "speakers": [
+          "rami_musallam"
+        ],
         "is_intermission": false
       },
       {
