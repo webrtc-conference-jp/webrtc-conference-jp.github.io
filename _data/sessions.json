@@ -10,7 +10,7 @@
       "target": "biz",
       "level": 1,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "jim_machi"
       ],
@@ -26,7 +26,7 @@
       "target": "dev",
       "level": 2,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "niklas_blum"
       ],
@@ -42,7 +42,7 @@
       "target": "",
       "level": 0,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [],
       "is_intermission": true
     },
@@ -56,7 +56,7 @@
       "target": "dev",
       "level": 3,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "alex_gouaillard"
       ],
@@ -72,7 +72,7 @@
       "target": "dev",
       "level": 2,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "daginge_aas"
       ],
@@ -88,7 +88,7 @@
       "target": "all",
       "level": 1,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "satoru_takahashi",
         "ryosuke_otsuya",
@@ -107,7 +107,7 @@
       "target": "dev",
       "level": 2,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "kegan_dougal"
       ],
@@ -123,7 +123,7 @@
       "target": "all",
       "level": 1,
       "hasSlide": false,
-      "slideUrl": "",
+      "slideUrl": [],
       "speakers": [
         "tnatsu",
         "takoratta",
@@ -144,7 +144,10 @@
         "target": "dev",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [
+          "http://www.slideshare.net/You_Kinjoh/webrtc-boot-camp-webrtc-conference-japan-2016",
+          "http://www.slideshare.net/mganeko/webrtc-bootcamp-handson"
+        ],
         "speakers": [
           "yu_kinjyo",
           "masashi_ganeko"
@@ -161,7 +164,7 @@
         "target": "dev",
         "level": 2,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "yoshitake_hatada"
         ],
@@ -177,7 +180,7 @@
         "target": "",
         "level": 0,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -191,7 +194,7 @@
         "target": "dev",
         "level": 2,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "masashi_ganeko",
           "takumi_minamoto",
@@ -210,7 +213,7 @@
         "target": "dev",
         "level": 2,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "yoshimasa_iwase",
           "akinori_takigawa"
@@ -227,7 +230,7 @@
         "target": "",
         "level": 0,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -241,7 +244,9 @@
         "target": "dev",
         "level": 3,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [
+          "https://gist.github.com/voluntas/4d2bd3e878965bdd747a"
+        ],
         "speakers": [
           "ryosuke_nakai"
         ],
@@ -257,7 +262,7 @@
         "target": "dev",
         "level": 2,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "yusuke_naka"
         ],
@@ -273,7 +278,7 @@
         "target": "all",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "natsuki_yamanaka",
           "mzsm",
@@ -294,7 +299,7 @@
         "target": "biz",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "rami_musallam"
         ],
@@ -310,7 +315,7 @@
         "target": "biz",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "toshio_akiyama",
           "toshiyuki_nagakura",
@@ -330,7 +335,7 @@
         "target": "",
         "level": 0,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -344,7 +349,7 @@
         "target": "biz",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "shunji_saitou",
           "susumu_matsuyama",
@@ -363,7 +368,7 @@
         "target": "biz",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "aki_kodama",
           "daisuke_imai"
@@ -380,7 +385,7 @@
         "target": "",
         "level": 0,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -394,7 +399,7 @@
         "target": "biz",
         "level": 1,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [
           "noriyuki_koide"
         ],
@@ -410,7 +415,7 @@
         "target": "",
         "level": 0,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [],
         "is_intermission": false
       },
@@ -424,7 +429,7 @@
         "target": "",
         "level": 0,
         "hasSlide": false,
-        "slideUrl": "",
+        "slideUrl": [],
         "speakers": [],
         "is_intermission": false
       }

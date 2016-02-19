@@ -6,14 +6,20 @@
     {% if session.subtitle %}
       <span class="sub">{{session.subtitle}}</span>
     {% endif %}
-    {% if session.hasSlide %}
-      <span class="slide_link"><a target="_blank" href="{{session.slideUrl}}">講演資料</a></span>
-    {% endif %}
   </h1>
+  {% if session.slideUrl.size > 0 %}
+  {% for url in session.slideUrl %}
+  {% if session.slideUrl.size > 1 %}
+    {% capture slide_title %}講演資料はこちら ({{forloop.index }}/{{ session.slideUrl.size }}){% endcapture %}
+  {% else %}
+    {% assign slide_title = '講演資料はこちら' %}
+  {% endif %}
+  <div class="btn slide_link">
+    <a target="_blank" href="{{url}}">{{ slide_title }}</a>
+  </div>
+  {% endfor %}
+  {% endif %}
   <div class="icon_wrap">
-    {% if session.hasSlide %}
-      <p class="slide_exists">講演資料公開中</p>
-    {% endif %}
     <ul class="icon">
       {% case session.target %}
       {% when 'all' %}
