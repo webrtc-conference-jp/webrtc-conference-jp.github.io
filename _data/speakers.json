@@ -37,8 +37,8 @@
   },
   "takumi_minamoto": {
     "name": "源 拓洋",
-    "title": "ソフトバンクモバイル株式会社　情報システム本部　システムサービス事業統括部　コミュニケーションサービス部",
-    "description": "1988年生まれ、2004年にWindowsMobileアプリケーション開発でプログラミングを始め、大学に通いつつ2010年よりAndroidアプリケーション開発業務に従事。業務用アプリケーションの開発を経て、2014年4月ソフトバンクモバイルに入社（新卒）。6月からWebRTC Androidネイティブアプリケーションの開発を担当。",
+    "title": "ソフトバンク株式会社　情報システム本部　システムサービス事業統括部　コミュニケーションサービス部",
+    "description": "1988年生まれ、2004年にWindowsMobileアプリケーション開発でプログラミングを始め、大学に通いつつ2010年よりAndroidアプリケーション開発業務に従事。業務用アプリケーションの開発を経て、2014年4月ソフトバンクモバイル（現・ソフトバンク）に新卒入社。6月からWebRTC Androidネイティブアプリケーションの開発を担当。",
     "image": "takumi_minamoto.jpg"
   },
   "kyo_ago": {
@@ -225,6 +225,12 @@
     "name": "山添隆文",
     "title": "株式会社ＮＴＴドコモ　サービスイノベーション部　勤務",
     "description": "スマートフォンやウェアラブルデバイスでのリアルタイム画像認識、機械学習の研究開発、WebAPI提供や開発者支援に従事。現在はIoTの仕組み作りとしてOMA GotAPI標準化、デバイスWebAPIコンソーシアム設立に携わり、その一環でWebRTCを利用した取り組みを行っている。2008年度IPA未踏スーパークリエータ認定。",
-    "image": "takafumi_yamazoe.jpg"
+    "image": "transparent_120x120.png"
+  },
+  "rami_musallam": {
+    "name": "Rami Musallam",
+    "title": "CaféX Communications, Inc. CEO",
+    "description": "2013年〜現在 CaféX Communications, Inc. CEO<br>1996年〜現在 ThruPoint, Inc. チェアマン & CEO<br>1992年〜1995年 モルガン・スタンレー　バイス・プレジデント",
+    "image": "transparent_120x120.png"
   }
 }
