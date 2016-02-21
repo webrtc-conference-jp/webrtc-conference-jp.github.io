@@ -7,10 +7,10 @@
       <span class="sub">{{session.subtitle}}</span>
     {% endif %}
   </h1>
-  {% if session.slideUrl.size > 0 %}
-  {% for url in session.slideUrl %}
-  {% if session.slideUrl.size > 1 %}
-    {% capture slide_title %}講演資料はこちら ({{forloop.index }}/{{ session.slideUrl.size }}){% endcapture %}
+  {% if session.slideUrls.size > 0 %}
+  {% for url in session.slideUrls %}
+  {% if session.slideUrls.size > 1 %}
+    {% capture slide_title %}講演資料はこちら ({{forloop.index }}/{{ session.slideUrls.size }}){% endcapture %}
   {% else %}
     {% assign slide_title = '講演資料はこちら' %}
   {% endif %}
