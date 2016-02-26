@@ -649,6 +649,10 @@ Desktop for underpages
 			transform: scale(1.01);
 		}
 	}
+	.slide_link {
+		@include cf;
+		float: left;
+	}
 	.icon_wrap {
 		font-size: x-small;
 		margin-bottom: .3em;
@@ -666,7 +670,6 @@ Desktop for underpages
 			margin: 0;
 			display: flex;
 			justify-content: flex-end;
-
 		}
 	}
 	.speakers {
