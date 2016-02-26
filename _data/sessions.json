@@ -9,7 +9,10 @@
       "description": "WebRTCは音声とデータ通信を完全に統合することができる、将来性のある画期的なテクノロジーです。<br>しかしながら、WebRTCを真の付加価値サービスとして成功させるめには、WebRTCを取り巻くエコシステムを構築する必要があります。<br>本セッションでは、付加価値サービスとWebRTCについて説明し、世界各地の様々なユースケースについて議論します。<br><br>(英文)<br>WebRTC is a potentially revolutionary technology that fully integrates voice and data. However, in order for WebRTC to be truly successful value-added services need to be part of the WebRTC ecosystem. This session will explore Value-Added services and WebRTC, and will also discuss different use cases from around the world.",
       "target": "biz",
       "level": 1,
-      "slideUrls": [],
+      "slideUrls": [
+        "http://www.slideshare.net/Dialogic/value-added-services-and-webrtc"
+      ],
+      "slideTitles": [],
       "speakers": [
         "jim_machi"
       ],
@@ -24,7 +27,10 @@
       "description": "本セッションでは、GoogleのWebRTCステータスの最新情報を提供します。<br>また、Chromeでの実装や、Android、iOSにおけるGoogleのWebRTC対応状況について、今後の展望も含めてお話します。<br><br>(英文)<br>This talk will provide you with an update on the status of Google's WebRTC implementation in Chrome, Android and iOS and an outlook on what is coming up in the next months.",
       "target": "dev",
       "level": 2,
-      "slideUrls": [],
+      "slideUrls": [
+        "https://docs.google.com/presentation/d/1lvdu44zkShUdXaepEEdAG0SqoQA0mvt0VBEmVtElhUs/edit#slide=id.g1193d3ae62_2_73"
+      ],
+      "slideTitles": [],
       "speakers": [
         "niklas_blum"
       ],
@@ -40,6 +46,7 @@
       "target": "",
       "level": 0,
       "slideUrls": [],
+      "slideTitles": [],
       "speakers": [],
       "is_intermission": true
     },
@@ -52,7 +59,11 @@
       "description": "WebRTCはエキサイティングな技術であり、過去数年間非常に速く変化して来ました。<br>WeRTCが選ばれていることと、それがもたらす破壊力は疑いの余地がありません。しかし、進化のペースが速く、ブラウザの更新サイクルが短いことで、WebRTCを利用して複雑なソリューションを構築することを難しくしています。<br>2015年後期、WebRTCを策定する様々な標準委員会と対応するワーキンググループ が最終的な合意に至り、全ての彼らの取り組みの収束より安 定した仕様が生ま れました。<br>GoToMeetingおよびその他のソフトウェアの事例を通して、私達はWebRTCを使用した場合に最も良く経験する困難について解説します。次に、ピア・ツー・ ピアのAPIとして始まったWebRTC APIが、P2Pのシンプルさを維持しながらより多くのオプションと制御を必要な人たちに提供するために、どの様にオブジェクトモデルAPIを使用して拡張されたかを説明します。<br>また、新しいオブジェクトモデルAPIとORTC API (Edgeに実装されています)との 類似点に関しても解説します。<br><br>(英文)<br>WebRTC has been an existing technology, and extremely fast moving for the past years. While its adoption and its disruptive power are not challenged anymore, the fast evolution pace, and the fast update cycles of the browsers made it difficult to build complex solutions on top of it which would leverage all that webrtc has to offer. Late 2015, the different standard committees and corresponding working groups that compose webRTC have finally reach a consensus, and from the convergence of all their efforts, stable specifications were born. <br>Through the use of GoToMeeting and other software, we will illustrate first the usual pains that most using webrtc have　experienced, and then show how the webrtc APIs, which had started as a peer-to-peer API, were extended with an object model API to provide more options and more controls to this who need it, while keeping the simplicity of P2P for the others. The similitudes between the new Object Model API, and the ORTC API (implemented in edge) will also be illustrated.",
       "target": "dev",
       "level": 3,
-      "slideUrls": [],
+      "slideUrls": [
+        "http://www.slideshare.net/alexpiwi5/2016-february-webrtc-conference-japan",
+        "http://www.slideshare.net/alexpiwi5/2016-february-webrtc-conference-japan-english"
+      ],
+      "slideTitles": [],
       "speakers": [
         "alex_gouaillard"
       ],
@@ -67,7 +78,10 @@
       "description": "本セッションでは、私達がどの様にしてWebRTCベースのサービスをスタートし、 世界トップクラスのサービスになっていったかについて伝えま す。<br>但し、何故このサービスが最大のWebRTCサービスとなっているのか、という事に は余り意味はありません。<br>私達がこの旅路の中で何を学び、何をし続けているのか、何処を目指しているの かについて話したいと思います。<br>そしてなぜ私達が、ユーザ・エクスペリエンスこそが全てだ、と考えているのかについて話します。<br><br>(英文)<br>I'm going to tell you how it all started, and why we are now one of the biggest WebRTC-based services in the world. And also why being the biggest WebRTC service in itself, is pretty pointless. I will talk about what we've learned on our journey, what we are doing now, and where we are headed in the future. And why we think that user experience is all that matters.",
       "target": "dev",
       "level": 2,
-      "slideUrls": [],
+      "slideUrls": [
+        "http://www.slideshare.net/WebRTCConferenceJapan/user-experience-is-everything"
+      ],
+      "slideTitles": [],
       "speakers": [
         "daginge_aas"
       ],
@@ -82,7 +96,10 @@
       "description": "本カンファレンスの名物企画が帰ってきた！WebRTC Conferenceの協賛企業陣によるライトニングトーク大会！<br>WebRTCはもはや未来の技術ではありません！既に多くの製品や活用事例が出ています。<br>このセッションを聴けば、WebRTCの今がわかる！かも？<br><br>【インフォコム】<br>インフォコムブースに出展する製品(Web面談システム)や、ちょっと変わった研究開発デモ(センサーとWebRTCの連携、360°カメラ中継映像をHMDでリアル体験)を紹介します。<br><br>【NTTコミュニケーションズ】<br>SkyWayの最先端のユースケースの一例として、慶応大学との共同研究により実現した、WebRTCで動かすテレイグジスタンス・ロボットについて紹介し、実装に際して活用したWebRTCの機能とその性能について概要をご説明します。<br><br>【Dialogic】<br>DialogicのWebRTC Marketに対する貢献についてお話します。",
       "target": "all",
       "level": 1,
-      "slideUrls": [],
+      "slideUrls": [
+        "http://www.slideshare.net/td-nttcom/webrtc-58740941"
+      ],
+      "slideTitles": [],
       "speakers": [
         "satoru_takahashi",
         "ryosuke_otsuya",
@@ -101,6 +118,7 @@
       "target": "dev",
       "level": 2,
       "slideUrls": [],
+      "slideTitles": [],
       "speakers": [
         "kegan_dougal"
       ],
@@ -116,6 +134,7 @@
       "target": "all",
       "level": 1,
       "slideUrls": [],
+      "slideTitles": [],
       "speakers": [
         "tnatsu",
         "takoratta",
@@ -139,6 +158,7 @@
           "http://www.slideshare.net/You_Kinjoh/webrtc-boot-camp-webrtc-conference-japan-2016",
           "http://www.slideshare.net/mganeko/webrtc-bootcamp-handson"
         ],
+        "slideTitles": [],
         "speakers": [
           "yu_kinjyo",
           "masashi_ganeko"
@@ -155,6 +175,7 @@
         "target": "dev",
         "level": 2,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [
           "yoshitake_hatada"
         ],
@@ -170,6 +191,7 @@
         "target": "",
         "level": 0,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -182,7 +204,10 @@
         "description": "WebRTCを使って開発を行う上で苦労する点、気を付けるべき点などを、豊富な経験を持つ開発者たちがパネルディスカッション形式で紹介します。開発者のナマのご意見、お聞きください！",
         "target": "dev",
         "level": 2,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/mganeko/webrtc-webrtc"
+        ],
+        "slideTitles": [],
         "speakers": [
           "masashi_ganeko",
           "takumi_minamoto",
@@ -200,7 +225,10 @@
         "description": " WebRTCアプリケーションのテストは、通常のWebアプリケーションのテス卜と異なり、P2P/TURN経由におけるメディアの接続性などを確認する必要があります。本講演では、WebRTCアプリケーションのテストにおいて考慮すべき観点、テストにおける課題、その解決方法（デモ含む）について解説いたします。",
         "target": "dev",
         "level": 2,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/iwashi86/webrtc-58402646"
+        ],
+        "slideTitles": [],
         "speakers": [
           "yoshimasa_iwase",
           "akinori_takigawa"
@@ -217,6 +245,7 @@
         "target": "",
         "level": 0,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -232,6 +261,7 @@
         "slideUrls": [
           "https://gist.github.com/voluntas/4d2bd3e878965bdd747a"
         ],
+        "slideTitles": [],
         "speakers": [
           "ryosuke_nakai"
         ],
@@ -246,7 +276,10 @@
         "description": "Extensible Webという考え方が開発者の支持を集めている今、WebRTCもユースケースを限定しないローレベルなAPIのセットへと、大きく変わろうとしています。本セッションでは、adaptor.jsの実装を例にJavaScript開発がどのように変わっていくのかについて解説いたします。",
         "target": "dev",
         "level": 2,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/yusukenaka52/webrtc-nextversionjavascript-58364506"
+        ],
+        "slideTitles": [],
         "speakers": [
           "yusuke_naka"
         ],
@@ -261,7 +294,14 @@
         "description": "【スマホチャットアプリにおけるWebRTC通話アプリ開発事例】<br>WebRTCと言えばブラウザというイメージが強いですが、スマホアプリに入れ込むことも可能です。<br>その中で、自社アプリにてWebRTCを使った通話機能をiOS/Androidで実装したノウハウなどの紹介になります。<br><br>【WebRTCアプリを個人で開発・運営してみた話】<br>好きなゲームをもっと楽しく遊ぶためにボイスチャットアプリを作って公開してみたところ、ありがたいことに多くの方に使っていただけるようになりました。<br>WebRTCアプリをひとりで開発・運営してみて感じたことについてお話しします。<br><br>【色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継】<br>カメラを搭載し、スマートフォンに接続できる様々なデバイスが登場しています。一方で、WebブラウザからWebRTCを利用する場合、映像音声として標準以外の映像・音声入出力を使うのが難しい場合があります。WebブラウザからWebRTCを使い、手軽に様々なデバイスからの映像中継を実現する仕組みを作ってみたのでご紹介します。<br><br>【WebRTC x IoT その現状と可能性を探る】<br>WebRTCはビデオチャットの領域のみならず、監視カメラソリューションやテレプレゼンスロボットなど IoT領域へと、その適用領域を広げつつあります。WebRTC 搭載 IoT デバイスが、他の IoT 機器や SNSなどと連携することで、リアルとバーチャルが融合するより革新的なサービスが登場してくることが期待されています。<br>本セッションでは、WebRTC と IoT との融合サービスついて、現状事例の紹介とそこから導かれる今後の方向性を探ります。<br><br>※講演内容と講演者情報は上からペアになっています。",
         "target": "all",
         "level": 1,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/mzsm/webrtc-58612386",
+          "http://www.slideshare.net/device-webapi/webwebrtcgotapiwebrtc"
+        ],
+        "slideTitles": [
+          "講演資料（WebRTCアプリを個人で開発・運営してみた話）",
+          "講演資料（色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継）"
+        ],
         "speakers": [
           "natsuki_yamanaka",
           "mzsm",
@@ -282,6 +322,7 @@
         "target": "biz",
         "level": 1,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [
           "rami_musallam"
         ],
@@ -297,6 +338,7 @@
         "target": "biz",
         "level": 1,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [
           "toshio_akiyama",
           "toshiyuki_nagakura",
@@ -316,6 +358,7 @@
         "target": "",
         "level": 0,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -329,6 +372,7 @@
         "target": "biz",
         "level": 1,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [
           "shunji_saitou",
           "susumu_matsuyama",
@@ -347,6 +391,7 @@
         "target": "biz",
         "level": 1,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [
           "aki_kodama",
           "daisuke_imai"
@@ -363,6 +408,7 @@
         "target": "",
         "level": 0,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [],
         "is_intermission": true
       },
@@ -376,6 +422,7 @@
         "target": "biz",
         "level": 1,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [
           "noriyuki_koide"
         ],
@@ -391,6 +438,7 @@
         "target": "",
         "level": 0,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [],
         "is_intermission": false
       },
@@ -404,6 +452,7 @@
         "target": "",
         "level": 0,
         "slideUrls": [],
+        "slideTitles": [],
         "speakers": [],
         "is_intermission": false
       }

@@ -10,9 +10,18 @@
   {% if session.slideUrls.size > 0 %}
   {% for url in session.slideUrls %}
   {% if session.slideUrls.size > 1 %}
-    {% capture slide_title %}講演資料はこちら ({{forloop.index }}/{{ session.slideUrls.size }}){% endcapture %}
+    {% assign titleIndex = forloop.index | minus: 1 %}
+    {%if session.slideTitles.size > titleIndex and session.slideTitles[titleIndex] != '' %}
+      {% capture slide_title %}{{ session.slideTitles[titleIndex]}}{% endcapture %}
+    {% else %}
+      {% capture slide_title %}講演資料はこちら ({{forloop.index }}/{{ session.slideUrls.size }}){% endcapture %}
+    {% endif %}
   {% else %}
-    {% assign slide_title = '講演資料はこちら' %}
+    {%if session.slideTitles.size > 0 and session.slideTitles[0] != '' %}
+      {% capture slide_title %}{{ session.slideTitles[0]}}{% endcapture %}
+    {% else %}
+      {% assign slide_title = '講演資料はこちら' %}
+    {% endif %}
   {% endif %}
   <div class="btn slide_link">
     <a target="_blank" href="{{url}}">{{ slide_title }}</a>
