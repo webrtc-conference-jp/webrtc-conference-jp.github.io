@@ -63,7 +63,10 @@
         "http://www.slideshare.net/alexpiwi5/2016-february-webrtc-conference-japan",
         "http://www.slideshare.net/alexpiwi5/2016-february-webrtc-conference-japan-english"
       ],
-      "slideTitles": [],
+      "slideTitles": [
+        "講演資料はこちら（日本語版）",
+        "講演資料はこちら（英語版）"
+      ],
       "speakers": [
         "alex_gouaillard"
       ],
@@ -97,9 +100,15 @@
       "target": "all",
       "level": 1,
       "slideUrls": [
-        "http://www.slideshare.net/td-nttcom/webrtc-58740941"
+        "http://www.slideshare.net/infocom_labo/5-1-infocomwebrtclt",
+        "http://www.slideshare.net/td-nttcom/webrtc-58740941",
+        "http://www.slideshare.net/WebRTCConferenceJapan/webrtcdialogic"
       ],
-      "slideTitles": [],
+      "slideTitles": [
+        "講演資料はこちら（インフォコム）",
+        "講演資料はこちら（NTTコミュニケーションズ）",
+        "講演資料はこちら（Dialogic）"
+      ],
       "speakers": [
         "satoru_takahashi",
         "ryosuke_otsuya",
@@ -133,7 +142,9 @@
       "description": "WebRTCは、「誰でもリアルタイムコミュニケーションを扱える時代」という破壊的な変化を世界にもたらしました。<br>しかし、その変化のもたらす意味や中長期的な可能性は、深く論じられてきたとは言えません。<br>本セッションでは3人の著名な論客が、「2020年」と「IoT」という2つのキーワードを軸に、「リアルタイムコミュニケーションの民主化」が世界にもたらすインパクトについて縦横無尽に語ります。<br>夏野剛<br>及川卓也<br>モデレーター: 白石俊平",
       "target": "all",
       "level": 1,
-      "slideUrls": [],
+      "slideUrls": [
+        "http://www.slideshare.net/WebRTCConferenceJapan/webrtc2020iot"
+      ],
       "slideTitles": [],
       "speakers": [
         "tnatsu",
@@ -299,8 +310,8 @@
           "http://www.slideshare.net/device-webapi/webwebrtcgotapiwebrtc"
         ],
         "slideTitles": [
-          "講演資料（WebRTCアプリを個人で開発・運営してみた話）",
-          "講演資料（色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継）"
+          "講演資料はこちら（WebRTCアプリを個人で開発・運営してみた話）",
+          "講演資料はこちら（色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継）"
         ],
         "speakers": [
           "natsuki_yamanaka",
@@ -321,7 +332,9 @@
         "description": "WebRTCコンタクトセンターソリューションを展開する、CafeX Communicationsのセッションです。ケーススタディを交えながらコンタクトセンターにおけるWebRTCの可能性について紹介します。WebRTCをコンタクトセンターに活用したと考えている方は是非ご覧ください。<br><br>※英語スピーカーですが逐次通訳が入ります。",
         "target": "biz",
         "level": 1,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-58841151"
+        ],
         "slideTitles": [],
         "speakers": [
           "rami_musallam"
@@ -371,8 +384,14 @@
         "description": "【１．WebRTCで実現するオンライン英会話の未来】<br>1レッスン129円～受講できる、Skypeを使ったオンライン英会話サービス。レアジョブではオンライン英会話No.1企業として、英語を話せる人をより増やすため、WebRTCを活用したサービス開発を進めています。効果的な効率的な英語習得のために、何を実現していくか。オンライン英会話の未来についてお話いたします。<br><br>【２．Global Step Academy のWebRTC活用事例】<br>Global Step Academyでは「appear.in」というWebRTCを利用して開発されたWebアプリケーションを用いてオンライン授業を行っています。「appear.in」導入にあたる経緯や、現在使用しているなかで苦労している点などをお話しさせていただきます。",
         "target": "biz",
         "level": 1,
-        "slideUrls": [],
-        "slideTitles": [],
+        "slideUrls": [
+          "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-58840096",
+          "http://www.slideshare.net/WebRTCConferenceJapan/global-step-academy-webrtc"
+        ],
+        "slideTitles": [
+          "講演資料はこちら（WebRTCで実現するオンライン英会話の未来）",
+          "講演資料はこちら（Global Step Academy のWebRTC活用事例）"
+        ],
         "speakers": [
           "shunji_saitou",
           "susumu_matsuyama",
