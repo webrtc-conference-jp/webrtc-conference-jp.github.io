@@ -167,9 +167,14 @@
         "level": 1,
         "slideUrls": [
           "http://www.slideshare.net/You_Kinjoh/webrtc-boot-camp-webrtc-conference-japan-2016",
-          "http://www.slideshare.net/mganeko/webrtc-bootcamp-handson"
+          "http://www.slideshare.net/mganeko/webrtc-bootcamp-handson",
+          "http://webrtcconference.jp/prepare.html"
         ],
-        "slideTitles": [],
+        "slideTitles": [
+          "講演資料はこちら（WebRTC BootCamp事前公開資料）",
+          "講演資料はこちら（WebRTC BootCampハンズオン）",
+          "事前準備についてはこちら（参加される方は事前にご確認下さい）"
+        ],
         "speakers": [
           "yu_kinjyo",
           "masashi_ganeko"
