@@ -126,7 +126,9 @@
       "description": "オンラインでのチーム・コラボレーション/コミュニケーションツール最近特に 注目されています。<br>独自ソリューションに加え、オープンソースベースのオプションも複数存在します。<br>WebRTCは、こういったツールにおける音声やビデオへのニーズに対する自然な選 択肢です。<br>しかしながら、これらのツールは夫々相互には接続していません。<br>私達は、こうした相互接続性の欠如が、VoIPやIM、IoTといった今日のインター ネット上のサービスにおけるリアルタイム・コミュニケーショ ンの根本的欠陥 となっていると信じてやみません。<br>XMPPやSIP等といった幾つかのイニシアチブでは、これらの問題の解決に取り組 んでいますが、未だもってユビキタスな状況となってはいません。<br>そのため、今もってヒューマン・コミュニケーションのためのWhatsAppや Facebook、Hangoutといった閉鎖的でプロプライエタ リなコミュニケーションに 支配されるといったインターネット上での偏りや、IoTデバイスコミュニケー ションにおけるサイロな無数のベンダーが残 り続けています。<br>本セッションではこれらの問題に対する回答をお伝えし、新しい希望の提供を期 待される、分散コミュニケーションのオープンスタンダードである Matrixを紹 介します。<br>Matrixは、RESTful HTTP APIやオープンソースを利用した分散型の継続的メッ セージの仕組を定義しているオープンスタンダードであり、任意のJSONデータの 交換と存続のため の、Apacheライセンスベースのクライアント/サーバ・インプ リのリファレンスです。<br>通信記録や履歴は、Matrixで最も重視している要素です。そしてEメールと同様に、独自にサーバーを構築して自分自身でコントロールしたり、例えば matrix.orgといったホスティングされたサーバを利用することもできます。<br>Matrixには、中央集権的な管理や、利用必須となるサービスプロバイダは存在しません。通信のコントロールを自分達の手に取り戻すことができます。<br>Matirxは、WebRTCコールのセットアップのために良く求められる実際的な標準 HTTP JSON APIの提供を通じてWebRTCコミュニティには非常に積極的に受け入れ られており、WebRTC Expo 2014でのオーディエンス・アワード及びWebRTC World 2015でのベスト・ショウを獲得しました。<br><br>(英文)<br>Online team collaboration and communication tools are getting an incredible amount attention lately. In addition to proprietary solutions, there are several open source options as well. WebRTC is the natural choice for the voice and video needs of these tools. However, these collaboration tools do not interoperate with each other.<br>We believe that this lack of interoperability leaves real-time communication fundamentally broken on today's internet - be it for VoIP, IM or IoT services. Some initiatives like XMPP and SIP have tried to solve this but they have not become ubiquitous. This leaves the internet dominated by closed proprietary islands of communication like WhatsApp, Facebook and Hangouts for human communication, and a myriad different vendor silos for IoT device communication. <br>This talk provides a general review of ways of fixing this problem and introduces Matrix: an open standard for decentralised communication - which may provide a new hope.<br>Matrix is an open standard defining a distributed persistent messaging fabric using RESTful HTTP APIs and open source, Apache-licensed reference client and server implementations for exchanging and persisting arbitrary JSON data. Communication history is a first class citizen in Matrix, and just like email, you can either run your own Matrix homeserver - which means you own and control your own communications and history - or you can use one hosted by someone else (e.g. matrix.org). There is no single point of control or mandatory service provider in Matrix: you get the control of your communications back.  <br>Matrix has been received very positively by the WebRTC community by providing a much-needed pragmatic standardized HTTP JSON API for WebRTC call setup - winning the Audience Award at WebRTC Expo 2014 and Best of Show at WebRTC World 2015! ",
       "target": "dev",
       "level": 2,
-      "slideUrls": [],
+      "slideUrls": [
+        "http://www.slideshare.net/WebRTCConferenceJapan/the-missing-signalling-layer-for-webrtc"
+      ],
       "slideTitles": [],
       "speakers": [
         "kegan_dougal"
@@ -311,12 +313,16 @@
         "target": "all",
         "level": 1,
         "slideUrls": [
+          "http://www.slideshare.net/TriFortInc/web-rtc-conference",
           "http://www.slideshare.net/mzsm/webrtc-58612386",
-          "http://www.slideshare.net/device-webapi/webwebrtcgotapiwebrtc"
+          "http://www.slideshare.net/device-webapi/webwebrtcgotapiwebrtc",
+          "http://www.slideshare.net/KensakuKOMATSU/02172016-web-rtcconfkomasshu"
         ],
         "slideTitles": [
+          "講演資料はこちら（スマホチャットアプリにおけるWebRTC通話アプリ開発事例）",
           "講演資料はこちら（WebRTCアプリを個人で開発・運営してみた話）",
-          "講演資料はこちら（色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継）"
+          "講演資料はこちら（色々なデバイスの映像を使ったWebブラウザでのWebRTC映像中継）",
+          "講演資料はこちら（WebRTC x IoT その現状と可能性を探る）"
         ],
         "speakers": [
           "natsuki_yamanaka",
@@ -445,7 +451,9 @@
         "description": "WebRTC技術に支えられたTwilioのAPI群（CLIENT(VoIP)/VIDEO/IP Messaging(Chat)）の事例紹介を通して、ビジネス分野におけるWebRTCの可能性、今後の展望についてお話します。 ",
         "target": "biz",
         "level": 1,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/noriyukikoide/webrtc-conference-japan-2016"
+        ],
         "slideTitles": [],
         "speakers": [
           "noriyuki_koide"
