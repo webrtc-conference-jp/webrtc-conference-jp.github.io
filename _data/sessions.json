@@ -192,7 +192,9 @@
         "description": "WebRTCを iOS/Android のネイティブアプリから活用する作例紹介と、その際のコツをお話ししてみたいと考えております。",
         "target": "dev",
         "level": 2,
-        "slideUrls": [],
+        "slideUrls": [
+          "http://www.slideshare.net/WebRTCConferenceJapan/webrtc-on-native-app"
+        ],
         "slideTitles": [],
         "speakers": [
           "yoshitake_hatada"
