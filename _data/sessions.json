@@ -422,8 +422,14 @@
         "description": "ソフトバンクグループのアスラテック株式会社は、二足歩行やIKによる姿勢制御などの高度な運動制御機能を提供するロボットの運動制御OS「V-Sido」の開発と提供を行っている。本プロジェクトにおいては、ロボットのサーボに接続することでV-Sidoを用いた制御を可能にするマイコン「V-Sido CONNECT」および一般的なAndroidスマートフォンを経由してインターネット上のWebアプリからWebRTCを用いて遠隔／リアルタイムに制御することを実現した。本セッションでは、WebControllerの実装にあたって通信プロトコルとしてWebRTCを選んだ背景、他技術との比較、実装上のポイント、また通信環境に応じた接続性や遅延などの性能評価の結果等について報告するとともに、ロボットとリアルタイムウェブが拓く未来の可能性を探ります。",
         "target": "biz",
         "level": 1,
-        "slideUrls": [],
-        "slideTitles": [],
+        "slideUrls": [
+          "http://www.slideshare.net/WebRTCConferenceJapan/webcontroller-for-vsido-connectwebrtcwebgl1",
+          "http://www.slideshare.net/WebRTCConferenceJapan/webcontroller-for-vsido-connectwebrtcwebgl2-59239866"
+        ],
+        "slideTitles": [
+          "講演資料(1)はこちら",
+          "講演資料(2)はこちら"
+        ],
         "speakers": [
           "aki_kodama",
           "daisuke_imai"
